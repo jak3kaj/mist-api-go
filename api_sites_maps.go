@@ -12,12 +12,13 @@ package mist
 
 import (
 	"context"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"strings"
-	"fmt"
 	"os"
+	"strings"
+
 	"github.com/antihax/optional"
 )
 
@@ -1075,20 +1076,7 @@ func (a *SitesMapsApiService) ImportSiteMaps(ctx context.Context, siteId string,
 		localVarFileName = localVarFile.Name()
 		localVarFile.Close()
 	}
-    var localVarFile *os.File
-	if localVarOptionals != nil && localVarOptionals.File.IsSet() {
-		localVarFileOk := false
-		localVarFile, localVarFileOk = localVarOptionals.File.Value().(*os.File)
-		if !localVarFileOk {
-				return localVarReturnValue, nil, reportError("file should be *os.File")
-		}
-	}
-	if localVarFile != nil {
-		fbs, _ := ioutil.ReadAll(localVarFile)
-		localVarFileBytes = fbs
-		localVarFileName = localVarFile.Name()
-		localVarFile.Close()
-	}
+
 	if localVarOptionals != nil && localVarOptionals.Json.IsSet() {
 		localVarFormParams.Add("json", parameterToString(localVarOptionals.Json.Value(), ""))
 	}

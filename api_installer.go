@@ -102,20 +102,7 @@ func (a *InstallerApiService) AddInstallerDeviceImage(ctx context.Context, orgId
 		localVarFileName = localVarFile.Name()
 		localVarFile.Close()
 	}
-    var localVarFile *os.File
-	if localVarOptionals != nil && localVarOptionals.File.IsSet() {
-		localVarFileOk := false
-		localVarFile, localVarFileOk = localVarOptionals.File.Value().(*os.File)
-		if !localVarFileOk {
-				return nil, reportError("file should be *os.File")
-		}
-	}
-	if localVarFile != nil {
-		fbs, _ := ioutil.ReadAll(localVarFile)
-		localVarFileBytes = fbs
-		localVarFileName = localVarFile.Name()
-		localVarFile.Close()
-	}
+
 	if localVarOptionals != nil && localVarOptionals.Json.IsSet() {
 		localVarFormParams.Add("json", parameterToString(localVarOptionals.Json.Value(), ""))
 	}
@@ -1441,20 +1428,7 @@ func (a *InstallerApiService) ImportInstallerMap(ctx context.Context, orgId stri
 		localVarFileName = localVarFile.Name()
 		localVarFile.Close()
 	}
-    var localVarFile *os.File
-	if localVarOptionals != nil && localVarOptionals.File.IsSet() {
-		localVarFileOk := false
-		localVarFile, localVarFileOk = localVarOptionals.File.Value().(*os.File)
-		if !localVarFileOk {
-				return localVarReturnValue, nil, reportError("file should be *os.File")
-		}
-	}
-	if localVarFile != nil {
-		fbs, _ := ioutil.ReadAll(localVarFile)
-		localVarFileBytes = fbs
-		localVarFileName = localVarFile.Name()
-		localVarFile.Close()
-	}
+
 	if localVarOptionals != nil && localVarOptionals.Json.IsSet() {
 		localVarFormParams.Add("json", parameterToString(localVarOptionals.Json.Value(), ""))
 	}

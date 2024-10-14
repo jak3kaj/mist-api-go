@@ -17,6 +17,7 @@ sed -E -i '' 's/([a-zA-Z0-9]*)__([a-zA-Z0-9]+)/\2_\1/' *.go
 sed -i '' '/const (/,/)/d' swagger/model_*.go
 sed -i '' 's/\*Object/*any/' swagger/model_*
 sed -i '' 's/\]Object/]any/' swagger/model*
+sed -i '' 's/^package swagger/package mist/' *.go
 
 # modified:
 # api_constants_definitions.go
@@ -40,7 +41,9 @@ sed -i '' 's/\]Object/]any/' swagger/model*
 # model_ble_config_beacon_rate_mode.go
 # model_capture_radiotap_band.go
 # model_capture_radiotapwired_band.go
-# model_capture_scan_aps_band.go swagger/model_capture_scan_band.go swagger/model_capture_wireless_band.go
+# model_capture_scan_aps_band.go
+# model_capture_scan_band.go
+# model_capture_wireless_band.go
 # model_dot11_band.go
 # model_dot11_bandwidth.go
 # model_dot11_bandwidth24.go
@@ -57,4 +60,18 @@ sed -i '' 's/\]Object/]any/' swagger/model*
 # model_stats_devices.go
 # model_stats_device.go
 # response.go
+
+# Missing "os" package import
+# api_msps_sso.go
+# api_orgs_crl.go
+# api_orgs_maps.go
+# api_orgs_sdk_invites.go
+# api_orgs_sso.go
+# api_sites_maps.go
+# api_sites_rfdiags.go
+
+# Duplicated code blocks `var localVarFile *os.File`
+# api_installer.go
+# api_orgs_maps.go
+# api_sites_maps.go
 ```

@@ -12,11 +12,12 @@ package mist
 
 import (
 	"context"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
-	"fmt"
 )
 
 // Linger please

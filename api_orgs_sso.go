@@ -12,11 +12,13 @@ package mist
 
 import (
 	"context"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
-	"fmt"
+
 	"github.com/antihax/optional"
 )
 
