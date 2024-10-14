@@ -1,0 +1,10 @@
+# SnmpVacmSecurityToGroupContentItem
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Group** | **string** | refer to group_name under access | [optional] [default to null]
+**SecurityName** | **string** |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

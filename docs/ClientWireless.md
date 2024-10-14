@@ -1,0 +1,48 @@
+# ClientWireless
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Ap** | **[]string** | List of AP MAC Addresses the client was connected to | [optional] [default to null]
+**AppVersion** | **[]string** | only when client has the Marvis Client app running. List of the versions of the Marvis Client | [optional] [default to null]
+**Band** | **string** | Wi-Fi Radio band | [optional] [default to null]
+**Device** | **[]string** | only when client has the Marvis Client app running. List of the type of device type detected | [optional] [default to null]
+**Ftc** | **bool** |  | [optional] [default to null]
+**Hardware** | **string** | only when client has the Marvis Client app running. Type of Wi-Fi adapter | [optional] [default to null]
+**Hostname** | **[]string** | list of hostname detected for this client | [optional] [default to null]
+**Ip** | **[]string** | list if the ip addresses detected for this client | [optional] [default to null]
+**LastAp** | **string** | latest AP where the client is/was connected to | [optional] [default to null]
+**LastDevuce** | **string** | latest type of device we identified (e.g. iPhone, Mac, …) | [optional] [default to null]
+**LastFirmware** | **string** | only when client has the Marvis Client app running. Same as \&quot;firmware\&quot; | [optional] [default to null]
+**LastHostname** | **string** | lastest hostname we detected for the the client | [optional] [default to null]
+**LastIp** | **string** | lastest ip address we detected for the client | [optional] [default to null]
+**LastModel** | **string** | only when client has the Marvis Client app running. lastest client hardware model we detected for the client | [optional] [default to null]
+**LastOs** | **string** | only when client has the Marvis Client app running. Latest version of OS Type we detected for the client | [optional] [default to null]
+**LastOsVersion** | **string** | only when client has the Marvis Client app running. Latest version of OS Version we detected for the client | [optional] [default to null]
+**LastPskId** | **string** | only for PPSK authentication. Latest PPSK ID used by the client | [optional] [default to null]
+**LastPskName** | **string** | only for PPSK authentication. Latest PPSK Name used by the client | [optional] [default to null]
+**LastSsid** | **string** | only for PPSK authentication. Latest PPSK Name used by the client | [optional] [default to null]
+**LastUsername** | **string** | only for 802.1X authentifcation. Latest username used by the client | [optional] [default to null]
+**LastVlan** | **int32** | latest VLAN ID assigned to the client | [optional] [default to null]
+**LastWlanId** | **string** | ID of the latest SSID (WLAN) the client is/was connected to | [optional] [default to null]
+**Mac** | **string** | Client MAC Address | [optional] [default to null]
+**Mfg** | **string** | manufacturer of the client hardware (MAC OUI based) | [optional] [default to null]
+**Model** | **string** | only when client has the Marvis Client app running. Client hardware model | [optional] [default to null]
+**OrgId** | **string** | Mist Org ID | [optional] [default to null]
+**Os** | **[]string** | only when client is having the Marvis Client app running. List of OS detected for the client | [optional] [default to null]
+**OsVersion** | **[]string** | only when client is having the Marvis Client app running. List of OS version detected for the client | [optional] [default to null]
+**Protocol** | **string** | 802.11 amendmant | [optional] [default to null]
+**PskId** | **[]string** | list of IDs of the PPSK used by the client | [optional] [default to null]
+**PskName** | **[]string** | list of names of the PPSK used by the client | [optional] [default to null]
+**RandomMac** | **bool** | whether the client is using randomized MAC Address or not | [optional] [default to null]
+**SdkVersion** | **[]string** | only when client has the Marvis Client app running. List of Marvis Client SDK version detected for the client | [optional] [default to null]
+**SiteId** | **string** | Mist Site ID where the client is connected | [optional] [default to null]
+**SiteIds** | **[]string** | list of Mist Site IDs where the client was connected | [optional] [default to null]
+**Ssid** | **[]string** | list of the WLAN names the client was connected to | [optional] [default to null]
+**Timestamp** | **float64** | when the data has been updated | [optional] [default to null]
+**Username** | **[]string** | only for 802.1X authentifcation. List of usernames used by the client | [optional] [default to null]
+**Vlan** | **[]int32** | list of vlans that have been assigned to the client | [optional] [default to null]
+**WlanId** | **[]string** | list of IDs of WLANs the client was connected to | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,10 @@
+# PcapBucketVerify
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Bucket** | **string** |  | [default to null]
+**VerifyToken** | **string** |  | [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

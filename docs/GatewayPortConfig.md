@@ -1,0 +1,48 @@
+# GatewayPortConfig
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**AeDisableLacp** | **bool** | if &#x60;aggregated&#x60;&#x3D;&#x3D;&#x60;true&#x60;. To disable LCP support for the AE interface | [optional] [default to false]
+**AeIdx** | **string** | if &#x60;aggregated&#x60;&#x3D;&#x3D;&#x60;true&#x60;. Users could force to use the designated AE name (must be an integer between 0 and 127) | [optional] [default to null]
+**AeLacpForceUp** | **bool** | For SRX Only, if &#x60;aggregated&#x60;&#x3D;&#x3D;&#x60;true&#x60;.Sets the state of the interface as UP when the peer has limited LACP capability.\\n Use case: When a device connected to this AE port is ZTPing for the first time, it will not have LACP configured on the other end\\n Note: Turning this on will enable force-up on one of the interfaces in the bundle only | [optional] [default to false]
+**Aggregated** | **bool** |  | [optional] [default to false]
+**Critical** | **bool** | if want to generate port up/down alarm, set it to true | [optional] [default to false]
+**Description** | **string** |  | [optional] [default to null]
+**DisableAutoneg** | **bool** |  | [optional] [default to false]
+**Disabled** | **bool** | port admin up (true) / down (false) | [optional] [default to false]
+**DslType** | [***AllOfgatewayPortConfigDslType**](AllOfgatewayPortConfigDslType.md) |  | [optional] [default to null]
+**DslVci** | **int32** | if &#x60;wan_type&#x60;&#x3D;&#x3D;&#x60;dsl&#x60; 16 bit int | [optional] [default to 35]
+**DslVpi** | **int32** | if &#x60;wan_type&#x60;&#x3D;&#x3D;&#x60;dsl&#x60; 8 bit int | [optional] [default to 0]
+**Duplex** | [***AllOfgatewayPortConfigDuplex**](AllOfgatewayPortConfigDuplex.md) |  | [optional] [default to null]
+**IpConfig** | [***AllOfgatewayPortConfigIpConfig**](AllOfgatewayPortConfigIpConfig.md) |  | [optional] [default to null]
+**LteApn** | **string** | if &#x60;wan_type&#x60;&#x3D;&#x3D;&#x60;lte&#x60; | [optional] [default to null]
+**LteAuth** | [***AllOfgatewayPortConfigLteAuth**](AllOfgatewayPortConfigLteAuth.md) |  | [optional] [default to null]
+**LteBackup** | **bool** |  | [optional] [default to null]
+**LtePassword** | **string** | if &#x60;wan_type&#x60;&#x3D;&#x3D;&#x60;lte&#x60; | [optional] [default to null]
+**LteUsername** | **string** | if &#x60;wan_type&#x60;&#x3D;&#x3D;&#x60;lte&#x60; | [optional] [default to null]
+**Mtu** | **int32** |  | [optional] [default to null]
+**Name** | **string** | name that we&#x27;ll use to derive config | [optional] [default to null]
+**Networks** | **[]string** | if &#x60;usage&#x60;&#x3D;&#x3D;&#x60;lan&#x60; | [optional] [default to null]
+**OuterVlanId** | **int32** | for Q-in-Q | [optional] [default to null]
+**PoeDisabled** | **bool** |  | [optional] [default to false]
+**PortNetwork** | **string** | if &#x60;usage&#x60;&#x3D;&#x3D;&#x60;lan&#x60; | [optional] [default to null]
+**PreserveDscp** | **bool** | whether to preserve dscp when sending traffic over VPN (SSR-only) | [optional] [default to true]
+**Redundant** | **bool** | if HA mode | [optional] [default to null]
+**RethIdx** | **int32** | if HA mode | [optional] [default to null]
+**RethNode** | **string** | if HA mode | [optional] [default to null]
+**RethNodes** | **[]string** | SSR only - supporting vlan-based redundancy (matching the size of &#x60;networks&#x60;) | [optional] [default to null]
+**Speed** | **string** |  | [optional] [default to auto]
+**SsrNoVirtualMac** | **bool** | when SSR is running as VM, this is required on certain hosting platforms | [optional] [default to false]
+**SvrPortRange** | **string** | for SSR only | [optional] [default to none]
+**TrafficShaping** | [***GatewayTrafficShaping**](gateway_traffic_shaping.md) |  | [optional] [default to null]
+**Usage** | [***AllOfgatewayPortConfigUsage**](AllOfgatewayPortConfigUsage.md) |  | [default to null]
+**VlanId** | **int32** | if WAN interface is on a VLAN | [optional] [default to null]
+**VpnPaths** | [**map[string]GatewayPortVpnPath**](gateway_port_vpn_path.md) |  | [optional] [default to null]
+**WanArpPolicer** | [***AllOfgatewayPortConfigWanArpPolicer**](AllOfgatewayPortConfigWanArpPolicer.md) |  | [optional] [default to null]
+**WanExtIp** | **string** | optional, if spoke should reach this port by a different IP | [optional] [default to null]
+**WanSourceNat** | [***AllOfgatewayPortConfigWanSourceNat**](AllOfgatewayPortConfigWanSourceNat.md) |  | [optional] [default to null]
+**WanType** | [***AllOfgatewayPortConfigWanType**](AllOfgatewayPortConfigWanType.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
