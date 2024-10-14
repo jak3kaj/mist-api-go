@@ -12,8 +12,3 @@ package swagger
 type GatewayWanType string
 
 // List of gateway_wan_type
-const (
-	DHCP_GatewayWanType GatewayWanType = "dhcp"
-	PPPOE_GatewayWanType GatewayWanType = "pppoe"
-	STATIC_GatewayWanType GatewayWanType = "static"
-)

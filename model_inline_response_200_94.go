@@ -23,7 +23,7 @@ type InlineResponse20094 struct {
 	Cloudshark *OrgSettingCloudshark `json:"cloudshark,omitempty"`
 	Cradlepoint *OrgSettingCradlepoint `json:"cradlepoint,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
-	DeviceCert *Object `json:"device_cert,omitempty"`
+	DeviceCert *any `json:"device_cert,omitempty"`
 	// enable threshold-based device down delivery via   * device-updowns webhooks topic,    * Mist Alert Framework; e.g. send AP/SW/GW down event only if AP/SW/GW Up is not seen within the threshold in minutes; 0 - 240, default is 0 (trigger immediate)
 	DeviceUpdownThreshold int32 `json:"device_updown_threshold,omitempty"`
 	// whether to disallow Mist to analyze pcap files (this is required for marvis pcap)
@@ -38,19 +38,19 @@ type InlineResponse20094 struct {
 	Installer *OrgSettingInstaller `json:"installer,omitempty"`
 	Jcloud *OrgSettingJcloud `json:"jcloud,omitempty"`
 	Juniper *AccountJuniperInfo `json:"juniper,omitempty"`
-	Mgmt *Object `json:"mgmt,omitempty"`
+	Mgmt *any `json:"mgmt,omitempty"`
 	MistNac *OrgSettingMistNac `json:"mist_nac,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	MspId string `json:"msp_id,omitempty"`
 	MxedgeFipsEnabled bool `json:"mxedge_fips_enabled,omitempty"`
 	MxedgeMgmt *MxedgeMgmt `json:"mxedge_mgmt,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	PasswordPolicy *Object `json:"password_policy,omitempty"`
+	PasswordPolicy *any `json:"password_policy,omitempty"`
 	Pcap *OrgSettingPcap `json:"pcap,omitempty"`
 	PcapBucketVerified bool `json:"pcap_bucket_verified,omitempty"`
 	PortChannelization *map[string]string `json:"port_channelization,omitempty"`
 	Security *OrgSettingSecurity `json:"security,omitempty"`
-	SimpleAlert *Object `json:"simple_alert,omitempty"`
+	SimpleAlert *any `json:"simple_alert,omitempty"`
 	SwitchMgmt *OrgSettingSwitchMgmt `json:"switch_mgmt,omitempty"`
 	// enable threshold-based device down delivery for Switch devices only. When configured it takes effect for SW devices and `device_updown_threshold` is ignored.
 	SwitchUpdownThreshold int32 `json:"switch_updown_threshold,omitempty"`

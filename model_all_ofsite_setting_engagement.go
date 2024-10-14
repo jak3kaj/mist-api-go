@@ -11,8 +11,8 @@ package swagger
 
 type AllOfsiteSettingEngagement struct {
 	DwellTagNames *SiteEngagementDwellTagNames `json:"dwell_tag_names,omitempty"`
-	DwellTags *Object `json:"dwell_tags,omitempty"`
-	Hours *Object `json:"hours,omitempty"`
+	DwellTags *any `json:"dwell_tags,omitempty"`
+	Hours *any `json:"hours,omitempty"`
 	// max time, default is 43200(12h), max is 68400 (18h)
 	MaxDwell int32 `json:"max_dwell,omitempty"`
 	// min time

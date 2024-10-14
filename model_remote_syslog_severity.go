@@ -12,13 +12,3 @@ package swagger
 type RemoteSyslogSeverity string
 
 // List of remote_syslog_severity
-const (
-	ALERT_RemoteSyslogSeverity RemoteSyslogSeverity = "alert"
-	ANY_RemoteSyslogSeverity RemoteSyslogSeverity = "any"
-	CRITICAL_RemoteSyslogSeverity RemoteSyslogSeverity = "critical"
-	EMERGENCY_RemoteSyslogSeverity RemoteSyslogSeverity = "emergency"
-	ERROR__RemoteSyslogSeverity RemoteSyslogSeverity = "error"
-	INFO_RemoteSyslogSeverity RemoteSyslogSeverity = "info"
-	NOTICE_RemoteSyslogSeverity RemoteSyslogSeverity = "notice"
-	WARNING_RemoteSyslogSeverity RemoteSyslogSeverity = "warning"
-)

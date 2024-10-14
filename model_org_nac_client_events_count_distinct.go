@@ -12,15 +12,3 @@ package swagger
 type OrgNacClientEventsCountDistinct string
 
 // List of org_nac_client_events_count_distinct
-const (
-	AP_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "ap"
-	AUTH_TYPE_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "auth_type"
-	DRYRUN_NACRULE_ID_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "dryrun_nacrule_id"
-	MAC_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "mac"
-	NACRULE_ID_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "nacrule_id"
-	NAS_VENDOR_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "nas_vendor"
-	SSID_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "ssid"
-	TYPE__OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "type"
-	USERNAME_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "username"
-	VLAN_OrgNacClientEventsCountDistinct OrgNacClientEventsCountDistinct = "vlan"
-)

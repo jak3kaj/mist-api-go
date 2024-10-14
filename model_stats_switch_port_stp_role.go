@@ -12,10 +12,3 @@ package swagger
 type StatsSwitchPortStpRole string
 
 // List of stats_switch_port_stp_role
-const (
-	ALTERNATE_StatsSwitchPortStpRole StatsSwitchPortStpRole = "alternate"
-	BACKUP_StatsSwitchPortStpRole StatsSwitchPortStpRole = "backup"
-	DESIGNATED_StatsSwitchPortStpRole StatsSwitchPortStpRole = "designated"
-	ROOT_StatsSwitchPortStpRole StatsSwitchPortStpRole = "root"
-	ROOT_PREVENTED_StatsSwitchPortStpRole StatsSwitchPortStpRole = "root-prevented"
-)

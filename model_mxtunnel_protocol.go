@@ -12,7 +12,3 @@ package swagger
 type MxtunnelProtocol string
 
 // List of mxtunnel_protocol
-const (
-	IP_MxtunnelProtocol MxtunnelProtocol = "ip"
-	UDP_MxtunnelProtocol MxtunnelProtocol = "udp"
-)

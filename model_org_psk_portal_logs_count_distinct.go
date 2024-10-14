@@ -12,11 +12,3 @@ package swagger
 type OrgPskPortalLogsCountDistinct string
 
 // List of org_psk_portal_logs_count_distinct
-const (
-	ADMIN_ID_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "admin_id"
-	ADMIN_NAME_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "admin_name"
-	PSK_ID_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "psk_id"
-	PSK_NAME_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "psk_name"
-	PSKPORTAL_ID_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "pskportal_id"
-	USER_ID_OrgPskPortalLogsCountDistinct OrgPskPortalLogsCountDistinct = "user_id"
-)

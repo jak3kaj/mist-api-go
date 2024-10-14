@@ -11,7 +11,7 @@ package swagger
 
 type InlineResponse20028 struct {
 	CreatedTime float64 `json:"created_time,omitempty"`
-	Delivery *Object `json:"delivery"`
+	Delivery *any `json:"delivery"`
 	Id string `json:"id,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	// Some string to name the alarm template

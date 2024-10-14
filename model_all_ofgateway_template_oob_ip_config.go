@@ -16,8 +16,8 @@ type AllOfgatewayTemplateOobIpConfig struct {
 	Ip string `json:"ip,omitempty"`
 	// if `type`==`static`
 	Netmask string `json:"netmask,omitempty"`
-	Node1 *Object `json:"node1,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Node1 *any `json:"node1,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// if supported on the platform. If enabled, DNS will be using this routing-instance, too
 	UseMgmtVrf bool `json:"use_mgmt_vrf,omitempty"`
 	// for host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired

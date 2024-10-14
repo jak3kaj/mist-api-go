@@ -12,15 +12,3 @@ package swagger
 type SwitchPortUsageDynamicRuleSrc string
 
 // List of switch_port_usage_dynamic_rule_src
-const (
-	LINK_PEERMAC_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "link_peermac"
-	LLDP_CHASSIS_ID_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_chassis_id"
-	LLDP_HARDWARE_REVISION_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_hardware_revision"
-	LLDP_MANUFACTURER_NAME_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_manufacturer_name"
-	LLDP_OUI_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_oui"
-	LLDP_SERIAL_NUMBER_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_serial_number"
-	LLDP_SYSTEM_NAME_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "lldp_system_name"
-	RADIUS_DYNAMICFILTER_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "radius_dynamicfilter"
-	RADIUS_USERMAC_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "radius_usermac"
-	RADIUS_USERNAME_SwitchPortUsageDynamicRuleSrc SwitchPortUsageDynamicRuleSrc = "radius_username"
-)

@@ -10,7 +10,7 @@
 package swagger
 
 type OrgIdNacrulesBody struct {
-	Action *Object `json:"action"`
+	Action *any `json:"action"`
 	// all optional, this goes into Access-Accept
 	ApplyTags []string `json:"apply_tags,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`

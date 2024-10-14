@@ -13,7 +13,7 @@ type AllOfsiteSettingMxtunnels struct {
 	AdditionalMxtunnels map[string]SiteMxtunnelAdditionalMxtunnel `json:"additional_mxtunnels,omitempty"`
 	// list of subnets where we allow AP to establish Mist Tunnels from
 	ApSubnets []string `json:"ap_subnets,omitempty"`
-	AutoPreemption *Object `json:"auto_preemption,omitempty"`
+	AutoPreemption *any `json:"auto_preemption,omitempty"`
 	// for AP, how to connect to tunterm or radsecproxy
 	Clusters []SiteMxtunnelCluster `json:"clusters,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
@@ -29,7 +29,7 @@ type AllOfsiteSettingMxtunnels struct {
 	// 0 to enable PMTU, 552-1500 to start PMTU with a lower MTU
 	Mtu int32 `json:"mtu,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	Protocol *Object `json:"protocol,omitempty"`
+	Protocol *any `json:"protocol,omitempty"`
 	Radsec *SiteMxtunnelRadsec `json:"radsec,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	// list of vlan_ids that will be used

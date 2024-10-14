@@ -12,8 +12,3 @@ package swagger
 type SiteGuestsCountDistinct string
 
 // List of site_guests_count_distinct
-const (
-	AUTH_METHOD_SiteGuestsCountDistinct SiteGuestsCountDistinct = "auth_method"
-	COMPANY_SiteGuestsCountDistinct SiteGuestsCountDistinct = "company"
-	SSID_SiteGuestsCountDistinct SiteGuestsCountDistinct = "ssid"
-)

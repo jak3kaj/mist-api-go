@@ -12,8 +12,3 @@ package swagger
 type JseInventoryItemType string
 
 // List of jse_inventory_item_type
-const (
-	AP_JseInventoryItemType JseInventoryItemType = "ap"
-	GATEWAY_JseInventoryItemType JseInventoryItemType = "gateway"
-	SWITCH__JseInventoryItemType JseInventoryItemType = "switch"
-)

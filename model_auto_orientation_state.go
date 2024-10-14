@@ -12,8 +12,3 @@ package swagger
 type AutoOrientationState string
 
 // List of auto_orientation_state
-const (
-	ENQUEUED_AutoOrientationState AutoOrientationState = "Enqueued"
-	NOT_STARTED_AutoOrientationState AutoOrientationState = "Not Started"
-	ORIENTED_AutoOrientationState AutoOrientationState = "Oriented"
-)

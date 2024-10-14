@@ -12,7 +12,3 @@ package swagger
 type GatewayPortVpnPathBfdProfile string
 
 // List of gateway_port_vpn_path_bfd_profile
-const (
-	BROADBAND_GatewayPortVpnPathBfdProfile GatewayPortVpnPathBfdProfile = "broadband"
-	LTE_GatewayPortVpnPathBfdProfile GatewayPortVpnPathBfdProfile = "lte"
-)

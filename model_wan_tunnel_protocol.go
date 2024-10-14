@@ -12,7 +12,3 @@ package swagger
 type WanTunnelProtocol string
 
 // List of wan_tunnel_protocol
-const (
-	GRE_WanTunnelProtocol WanTunnelProtocol = "gre"
-	IPSEC_WanTunnelProtocol WanTunnelProtocol = "ipsec"
-)

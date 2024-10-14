@@ -19,7 +19,7 @@ type ConstDeviceAp struct {
 	CiscoPace bool `json:"cisco_pace,omitempty"`
 	Description string `json:"description,omitempty"`
 	// Property key is a list of country codes (e.g. \"GB, DE\")
-	DisallowedChannels map[string]Object `json:"disallowed_channels,omitempty"`
+	DisallowedChannels map[string]any `json:"disallowed_channels,omitempty"`
 	Display string `json:"display,omitempty"`
 	// Property key is the GPIO port name (e.g. \"D0\", \"A1\")
 	Extio map[string]ConstDeviceApExtios `json:"extio,omitempty"`

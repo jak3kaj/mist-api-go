@@ -17,7 +17,7 @@ type InlineResponse200192 struct {
 	Duration int32 `json:"duration,omitempty"`
 	// List of APs where configuration attempt failed
 	Failed []string `json:"failed,omitempty"`
-	Format *Object `json:"format,omitempty"`
+	Format *any `json:"format,omitempty"`
 	// Information on gateways to capture packets on if a gateway capture type is specified
 	Gateways []string `json:"gateways,omitempty"`
 	// unique id for the capture
@@ -41,7 +41,7 @@ type InlineResponse200192 struct {
 	Switches []string `json:"switches,omitempty"`
 	// tcpdump expression provided by the user (common)
 	TcpdumpExpression string `json:"tcpdump_expression,omitempty"`
-	Type_ *Object `json:"type"`
+	Type_ *any `json:"type"`
 	// Required if `format`==`tzsp`. Remote host accessible to mxedges over the network for receiving the captured packets.
 	TzspHost string `json:"tzsp_host,omitempty"`
 	// if `format`==`tzsp`. Port on remote host for receiving the captured packets

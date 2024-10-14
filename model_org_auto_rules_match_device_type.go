@@ -12,9 +12,3 @@ package swagger
 type OrgAutoRulesMatchDeviceType string
 
 // List of org_auto_rules_match_device_type
-const (
-	AP_OrgAutoRulesMatchDeviceType OrgAutoRulesMatchDeviceType = "ap"
-	GATEWAY_OrgAutoRulesMatchDeviceType OrgAutoRulesMatchDeviceType = "gateway"
-	OTHER_OrgAutoRulesMatchDeviceType OrgAutoRulesMatchDeviceType = "other"
-	SWITCH__OrgAutoRulesMatchDeviceType OrgAutoRulesMatchDeviceType = "switch"
-)

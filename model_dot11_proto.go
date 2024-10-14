@@ -12,11 +12,3 @@ package swagger
 type Dot11Proto string
 
 // List of dot11_proto
-const (
-	A_Dot11Proto Dot11Proto = "a"
-	AC_Dot11Proto Dot11Proto = "ac"
-	AX_Dot11Proto Dot11Proto = "ax"
-	B_Dot11Proto Dot11Proto = "b"
-	G_Dot11Proto Dot11Proto = "g"
-	N_Dot11Proto Dot11Proto = "n"
-)

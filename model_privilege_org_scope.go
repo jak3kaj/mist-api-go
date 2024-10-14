@@ -12,8 +12,3 @@ package swagger
 type PrivilegeOrgScope string
 
 // List of privilege_org_scope
-const (
-	ORG_PrivilegeOrgScope PrivilegeOrgScope = "org"
-	SITE_PrivilegeOrgScope PrivilegeOrgScope = "site"
-	SITEGROUP_PrivilegeOrgScope PrivilegeOrgScope = "sitegroup"
-)

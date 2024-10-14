@@ -12,9 +12,3 @@ package swagger
 type SiteRogueEventsCountDistinct string
 
 // List of site_rogue_events_count_distinct
-const (
-	AP_SiteRogueEventsCountDistinct SiteRogueEventsCountDistinct = "ap"
-	BSSID_SiteRogueEventsCountDistinct SiteRogueEventsCountDistinct = "bssid"
-	SSID_SiteRogueEventsCountDistinct SiteRogueEventsCountDistinct = "ssid"
-	TYPE__SiteRogueEventsCountDistinct SiteRogueEventsCountDistinct = "type"
-)

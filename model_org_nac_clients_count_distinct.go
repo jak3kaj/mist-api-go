@@ -12,17 +12,3 @@ package swagger
 type OrgNacClientsCountDistinct string
 
 // List of org_nac_clients_count_distinct
-const (
-	AUTH_TYPE_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "auth_type"
-	LAST_AP_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_ap"
-	LAST_NACRULE_ID_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_nacrule_id"
-	LAST_NAS_VENDOR_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_nas_vendor"
-	LAST_SSID_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_ssid"
-	LAST_STATUS_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_status"
-	LAST_USERNAME_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_username"
-	LAST_VLAN_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "last_vlan"
-	MAC_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "mac"
-	MDM_COMPLIANCE_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "mdm_compliance"
-	MDM_PROVIDER_OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "mdm_provider"
-	TYPE__OrgNacClientsCountDistinct OrgNacClientsCountDistinct = "type"
-)

@@ -12,9 +12,3 @@ package swagger
 type CaptureWirelessBand string
 
 // List of capture_wireless_band
-const (
-	24__CaptureWirelessBand CaptureWirelessBand = "24"
-	2456__CaptureWirelessBand CaptureWirelessBand = "24,5,6"
-	5__CaptureWirelessBand CaptureWirelessBand = "5"
-	6__CaptureWirelessBand CaptureWirelessBand = "6"
-)

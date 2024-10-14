@@ -12,9 +12,3 @@ package swagger
 type PskPortalSsoIdpSignAlgo string
 
 // List of psk_portal_sso_idp_sign_algo
-const (
-	SHA1_PskPortalSsoIdpSignAlgo PskPortalSsoIdpSignAlgo = "sha1"
-	SHA256_PskPortalSsoIdpSignAlgo PskPortalSsoIdpSignAlgo = "sha256"
-	SHA384_PskPortalSsoIdpSignAlgo PskPortalSsoIdpSignAlgo = "sha384"
-	SHA512_PskPortalSsoIdpSignAlgo PskPortalSsoIdpSignAlgo = "sha512"
-)

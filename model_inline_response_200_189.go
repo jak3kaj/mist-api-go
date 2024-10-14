@@ -12,6 +12,6 @@ package swagger
 type InlineResponse200189 struct {
 	// the internal status id
 	StatusId string `json:"status_id,omitempty"`
-	Staus *Object `json:"staus,omitempty"`
+	Staus *any `json:"staus,omitempty"`
 	Timestamp float64 `json:"timestamp,omitempty"`
 }

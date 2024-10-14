@@ -12,6 +12,3 @@ package swagger
 type CaptureSwitchType string
 
 // List of capture_switch_type
-const (
-	SWITCH__CaptureSwitchType CaptureSwitchType = "switch"
-)

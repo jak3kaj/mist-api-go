@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdUpgradeBody1 struct {
-	Channel *Object `json:"channel,omitempty"`
+	Channel *any `json:"channel,omitempty"`
 	// eboot start time in epoch seconds, default is start_time, -1 disables reboot
 	RebootAt int32 `json:"reboot_at,omitempty"`
 	// 128T firmware download start time in epoch seconds, default is now, -1 disables download

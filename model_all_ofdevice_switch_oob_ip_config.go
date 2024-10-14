@@ -16,7 +16,7 @@ type AllOfdeviceSwitchOobIpConfig struct {
 	Netmask string `json:"netmask,omitempty"`
 	// optional, the network to be used for mgmt
 	Network string `json:"network,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// f supported on the platform. If enabled, DNS will be using this routing-instance, too
 	UseMgmtVrf bool `json:"use_mgmt_vrf,omitempty"`
 	// for host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired

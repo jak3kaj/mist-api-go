@@ -12,9 +12,3 @@ package swagger
 type IpType6 string
 
 // List of ip_type6
-const (
-	AUTOCONF_IpType6 IpType6 = "autoconf"
-	DHCP_IpType6 IpType6 = "dhcp"
-	DISABLED_IpType6 IpType6 = "disabled"
-	STATIC_IpType6 IpType6 = "static"
-)

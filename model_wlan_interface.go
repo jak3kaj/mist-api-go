@@ -12,13 +12,3 @@ package swagger
 type WlanInterface string
 
 // List of wlan_interface
-const (
-	ALL_WlanInterface WlanInterface = "all"
-	ETH0_WlanInterface WlanInterface = "eth0"
-	ETH1_WlanInterface WlanInterface = "eth1"
-	ETH2_WlanInterface WlanInterface = "eth2"
-	ETH3_WlanInterface WlanInterface = "eth3"
-	MXTUNNEL_WlanInterface WlanInterface = "mxtunnel"
-	SITE_MXEDGE_WlanInterface WlanInterface = "site_mxedge"
-	WXTUNNEL_WlanInterface WlanInterface = "wxtunnel"
-)

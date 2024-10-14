@@ -12,7 +12,3 @@ package swagger
 type WebhookZoneEventTrigger string
 
 // List of webhook_zone_event_trigger
-const (
-	ENTER_WebhookZoneEventTrigger WebhookZoneEventTrigger = "enter"
-	EXIT_WebhookZoneEventTrigger WebhookZoneEventTrigger = "exit"
-)

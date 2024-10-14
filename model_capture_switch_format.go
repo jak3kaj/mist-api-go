@@ -12,6 +12,3 @@ package swagger
 type CaptureSwitchFormat string
 
 // List of capture_switch_format
-const (
-	STREAM_CaptureSwitchFormat CaptureSwitchFormat = "stream"
-)

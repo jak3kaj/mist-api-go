@@ -12,7 +12,3 @@ package swagger
 type ScanDataItemBand string
 
 // List of scan_data_item_band
-const (
-	24__ScanDataItemBand ScanDataItemBand = "2.4"
-	5__ScanDataItemBand ScanDataItemBand = "5"
-)

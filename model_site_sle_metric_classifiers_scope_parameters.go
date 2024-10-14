@@ -12,10 +12,3 @@ package swagger
 type SiteSleMetricClassifiersScopeParameters string
 
 // List of site_sle_metric_classifiers_scope_parameters
-const (
-	AP_SiteSleMetricClassifiersScopeParameters SiteSleMetricClassifiersScopeParameters = "ap"
-	CLIENT_SiteSleMetricClassifiersScopeParameters SiteSleMetricClassifiersScopeParameters = "client"
-	GATEWAY_SiteSleMetricClassifiersScopeParameters SiteSleMetricClassifiersScopeParameters = "gateway"
-	SITE_SiteSleMetricClassifiersScopeParameters SiteSleMetricClassifiersScopeParameters = "site"
-	SWITCH__SiteSleMetricClassifiersScopeParameters SiteSleMetricClassifiersScopeParameters = "switch"
-)

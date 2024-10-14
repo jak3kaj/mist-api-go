@@ -12,7 +12,3 @@ package swagger
 type GatewayPortVpnPathRole string
 
 // List of gateway_port_vpn_path_role
-const (
-	HUB_GatewayPortVpnPathRole GatewayPortVpnPathRole = "hub"
-	SPOKE_GatewayPortVpnPathRole GatewayPortVpnPathRole = "spoke"
-)

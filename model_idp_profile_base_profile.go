@@ -12,8 +12,3 @@ package swagger
 type IdpProfileBaseProfile string
 
 // List of idp_profile_base_profile
-const (
-	CRITICAL_IdpProfileBaseProfile IdpProfileBaseProfile = "critical"
-	STANDARD_IdpProfileBaseProfile IdpProfileBaseProfile = "standard"
-	STRICT_IdpProfileBaseProfile IdpProfileBaseProfile = "strict"
-)

@@ -12,9 +12,3 @@ package swagger
 type OspfAreaNetworkInterfaceType string
 
 // List of ospf_area_network_interface_type
-const (
-	BROADCAST_OspfAreaNetworkInterfaceType OspfAreaNetworkInterfaceType = "broadcast"
-	NBMA_OspfAreaNetworkInterfaceType OspfAreaNetworkInterfaceType = "nbma"
-	P2MP_OspfAreaNetworkInterfaceType OspfAreaNetworkInterfaceType = "p2mp"
-	P2P_OspfAreaNetworkInterfaceType OspfAreaNetworkInterfaceType = "p2p"
-)

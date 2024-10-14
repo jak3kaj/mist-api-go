@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateProbeType string
 
 // List of gateway_template_probe_type
-const (
-	HTTP_GatewayTemplateProbeType GatewayTemplateProbeType = "http"
-	ICMP_GatewayTemplateProbeType GatewayTemplateProbeType = "icmp"
-)

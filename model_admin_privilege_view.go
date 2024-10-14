@@ -12,13 +12,3 @@ package swagger
 type AdminPrivilegeView string
 
 // List of admin_privilege_view
-const (
-	LOBBY_ADMIN_AdminPrivilegeView AdminPrivilegeView = "lobby_admin"
-	LOCATION_AdminPrivilegeView AdminPrivilegeView = "location"
-	MARKETING_AdminPrivilegeView AdminPrivilegeView = "marketing"
-	MXEDGE_ADMIN_AdminPrivilegeView AdminPrivilegeView = "mxedge_admin"
-	REPORTING_AdminPrivilegeView AdminPrivilegeView = "reporting"
-	SECURITY_AdminPrivilegeView AdminPrivilegeView = "security"
-	SUPER_OBSERVER_AdminPrivilegeView AdminPrivilegeView = "super_observer"
-	SWITCH_ADMIN_AdminPrivilegeView AdminPrivilegeView = "switch_admin"
-)

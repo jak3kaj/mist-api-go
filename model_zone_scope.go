@@ -12,9 +12,3 @@ package swagger
 type ZoneScope string
 
 // List of zone_scope
-const (
-	MAP__ZoneScope ZoneScope = "map"
-	RSSIZONE_ZoneScope ZoneScope = "rssizone"
-	SITE_ZoneScope ZoneScope = "site"
-	ZONE_ZoneScope ZoneScope = "zone"
-)

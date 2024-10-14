@@ -10,7 +10,7 @@
 package swagger
 
 type InlineResponse200199 struct {
-	Status *Object `json:"status"`
+	Status *any `json:"status"`
 	// timestamp
 	Timestamp float64 `json:"timestamp"`
 }

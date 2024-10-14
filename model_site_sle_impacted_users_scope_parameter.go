@@ -12,7 +12,3 @@ package swagger
 type SiteSleImpactedUsersScopeParameter string
 
 // List of site_sle_impacted_users_scope_parameter
-const (
-	AP_SiteSleImpactedUsersScopeParameter SiteSleImpactedUsersScopeParameter = "ap"
-	SITE_SiteSleImpactedUsersScopeParameter SiteSleImpactedUsersScopeParameter = "site"
-)

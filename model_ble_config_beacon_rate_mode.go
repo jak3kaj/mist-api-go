@@ -12,7 +12,3 @@ package swagger
 type BleConfigBeaconRateMode string
 
 // List of ble_config_beacon_rate_mode
-const (
-	CUSTOM_BleConfigBeaconRateMode BleConfigBeaconRateMode = "custom"
-	DEFAULT__BleConfigBeaconRateMode BleConfigBeaconRateMode = "default"
-)

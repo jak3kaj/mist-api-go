@@ -12,7 +12,3 @@ package swagger
 type CaptureWirelessFormat string
 
 // List of capture_wireless_format
-const (
-	PCAP_CaptureWirelessFormat CaptureWirelessFormat = "pcap"
-	STREAM_CaptureWirelessFormat CaptureWirelessFormat = "stream"
-)

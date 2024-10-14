@@ -12,8 +12,3 @@ package swagger
 type SnmpConfigTrapVerion string
 
 // List of snmp_config_trap_verion
-const (
-	ALL_SnmpConfigTrapVerion SnmpConfigTrapVerion = "all"
-	V1_SnmpConfigTrapVerion SnmpConfigTrapVerion = "v1"
-	V2_SnmpConfigTrapVerion SnmpConfigTrapVerion = "v2"
-)

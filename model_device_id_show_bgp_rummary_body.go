@@ -10,5 +10,5 @@
 package swagger
 
 type DeviceIdShowBgpRummaryBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 }

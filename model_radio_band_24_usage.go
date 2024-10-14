@@ -12,9 +12,3 @@ package swagger
 type RadioBand24Usage string
 
 // List of radio_band_24_usage
-const (
-	24__RadioBand24Usage RadioBand24Usage = "24"
-	5__RadioBand24Usage RadioBand24Usage = "5"
-	6__RadioBand24Usage RadioBand24Usage = "6"
-	AUTO_RadioBand24Usage RadioBand24Usage = "auto"
-)

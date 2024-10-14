@@ -12,7 +12,3 @@ package swagger
 type PskPortalType string
 
 // List of psk_portal_type
-const (
-	ADMIN_PskPortalType PskPortalType = "admin"
-	BYOD_PskPortalType PskPortalType = "byod"
-)

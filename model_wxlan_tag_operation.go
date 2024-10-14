@@ -12,7 +12,3 @@ package swagger
 type WxlanTagOperation string
 
 // List of wxlan_tag_operation
-const (
-	IN_WxlanTagOperation WxlanTagOperation = "in"
-	NOT_IN_WxlanTagOperation WxlanTagOperation = "not_in"
-)

@@ -12,10 +12,3 @@ package swagger
 type NacTagUsernameAttrEnum string
 
 // List of nac_tag_username_attr_enum
-const (
-	AUTOMATIC_NacTagUsernameAttrEnum NacTagUsernameAttrEnum = "automatic"
-	CN_NacTagUsernameAttrEnum NacTagUsernameAttrEnum = "cn"
-	DNS_NacTagUsernameAttrEnum NacTagUsernameAttrEnum = "dns"
-	EMAIL_NacTagUsernameAttrEnum NacTagUsernameAttrEnum = "email"
-	UPN_NacTagUsernameAttrEnum NacTagUsernameAttrEnum = "upn"
-)

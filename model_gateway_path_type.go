@@ -12,9 +12,3 @@ package swagger
 type GatewayPathType string
 
 // List of gateway_path_type
-const (
-	LOCAL_GatewayPathType GatewayPathType = "local"
-	TUNNEL_GatewayPathType GatewayPathType = "tunnel"
-	VPN_GatewayPathType GatewayPathType = "vpn"
-	WAN_GatewayPathType GatewayPathType = "wan"
-)

@@ -12,7 +12,3 @@ package swagger
 type SiteMxtunnelProtocol string
 
 // List of site_mxtunnel_protocol
-const (
-	IP_SiteMxtunnelProtocol SiteMxtunnelProtocol = "ip"
-	UDP_SiteMxtunnelProtocol SiteMxtunnelProtocol = "udp"
-)

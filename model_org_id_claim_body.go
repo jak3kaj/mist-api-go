@@ -12,6 +12,6 @@ package swagger
 type OrgIdClaimBody struct {
 	// activation code
 	Code string `json:"code"`
-	DeviceType *Object `json:"device_type,omitempty"`
-	Type_ *Object `json:"type"`
+	DeviceType *any `json:"device_type,omitempty"`
+	Type_ *any `json:"type"`
 }

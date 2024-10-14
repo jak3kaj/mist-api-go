@@ -12,9 +12,3 @@ package swagger
 type CountPortsAuthState string
 
 // List of count_ports_auth_state
-const (
-	AUTHENTICATED_CountPortsAuthState CountPortsAuthState = "authenticated"
-	AUTHENTICATING_CountPortsAuthState CountPortsAuthState = "authenticating"
-	HELD_CountPortsAuthState CountPortsAuthState = "held"
-	INIT_CountPortsAuthState CountPortsAuthState = "init"
-)

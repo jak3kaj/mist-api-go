@@ -12,7 +12,3 @@ package swagger
 type NacPortalTypeEnum string
 
 // List of nac_portal_type_enum
-const (
-	GUEST_NacPortalTypeEnum NacPortalTypeEnum = "guest"
-	MARVIS_CLIENT_NacPortalTypeEnum NacPortalTypeEnum = "marvis_client"
-)

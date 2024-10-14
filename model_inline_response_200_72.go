@@ -18,7 +18,7 @@ type InlineResponse20072 struct {
 	// if `type`==`gbp_tag`
 	GbpTag int32 `json:"gbp_tag,omitempty"`
 	Id string `json:"id,omitempty"`
-	Match *Object `json:"match,omitempty"`
+	Match *any `json:"match,omitempty"`
 	// This field is applicable only when `type`==`match`   * `false`: means it is sufficient to match any of the values (i.e., match-any behavior)   * `true`: means all values should be matched (i.e., match-all behavior)   Currently it makes sense to set this field to `true` only if the `match`==`idp_role` or `match`==`usermac_label`
 	MatchAll bool `json:"match_all,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
@@ -32,8 +32,8 @@ type InlineResponse20072 struct {
 	RadiusVendorAttrs []string `json:"radius_vendor_attrs,omitempty"`
 	// if `type`==`session_timeout, in seconds
 	SessionTimeout int32 `json:"session_timeout,omitempty"`
-	Type_ *Object `json:"type"`
-	UsernameAttr *Object `json:"username_attr,omitempty"`
+	Type_ *any `json:"type"`
+	UsernameAttr *any `json:"username_attr,omitempty"`
 	// if `type`==`match`
 	Values []string `json:"values,omitempty"`
 	// if `type`==`vlan`

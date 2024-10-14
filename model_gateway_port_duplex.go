@@ -12,8 +12,3 @@ package swagger
 type GatewayPortDuplex string
 
 // List of gateway_port_duplex
-const (
-	AUTO_GatewayPortDuplex GatewayPortDuplex = "auto"
-	FULL_GatewayPortDuplex GatewayPortDuplex = "full"
-	HALF_GatewayPortDuplex GatewayPortDuplex = "half"
-)

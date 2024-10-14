@@ -12,8 +12,3 @@ package swagger
 type ApIotPullup string
 
 // List of ap_iot_pullup
-const (
-	EXTERNAL_ApIotPullup ApIotPullup = "external"
-	INTERNAL_ApIotPullup ApIotPullup = "internal"
-	NONE_ApIotPullup ApIotPullup = "none"
-)

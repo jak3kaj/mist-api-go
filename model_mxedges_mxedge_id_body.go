@@ -23,23 +23,23 @@ type MxedgesMxedgeIdBody struct {
 	Name string `json:"name"`
 	Note string `json:"note,omitempty"`
 	NtpServers []string `json:"ntp_servers,omitempty"`
-	OobIpConfig *Object `json:"oob_ip_config,omitempty"`
+	OobIpConfig *any `json:"oob_ip_config,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	Proxy *Object `json:"proxy,omitempty"`
+	Proxy *any `json:"proxy,omitempty"`
 	// list of services to run, tunterm only for now
 	Services []string `json:"services,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
-	TuntermDhcpdConfig *Object `json:"tunterm_dhcpd_config,omitempty"`
+	TuntermDhcpdConfig *any `json:"tunterm_dhcpd_config,omitempty"`
 	// Property key is a CIDR
 	TuntermExtraRoutes map[string]MxedgeTuntermExtraRoute `json:"tunterm_extra_routes,omitempty"`
 	TuntermIgmpSnoopingConfig *MxedgeTuntermIgmpSnoopingConfig `json:"tunterm_igmp_snooping_config,omitempty"`
-	TuntermIpConfig *Object `json:"tunterm_ip_config,omitempty"`
+	TuntermIpConfig *any `json:"tunterm_ip_config,omitempty"`
 	TuntermMonitoring [][]TuntermMonitoringItem `json:"tunterm_monitoring,omitempty"`
 	TuntermMulticastConfig *MxedgeTuntermMulticastConfig `json:"tunterm_multicast_config,omitempty"`
 	// ip configs by VLAN ID. Property key is the VLAN ID
 	TuntermOtherIpConfigs map[string]MxedgeTuntermOtherIpConfig `json:"tunterm_other_ip_configs,omitempty"`
-	TuntermPortConfig *Object `json:"tunterm_port_config,omitempty"`
+	TuntermPortConfig *any `json:"tunterm_port_config,omitempty"`
 	TuntermRegistered bool `json:"tunterm_registered,omitempty"`
-	TuntermSwitchConfig *Object `json:"tunterm_switch_config,omitempty"`
-	Versions *Object `json:"versions,omitempty"`
+	TuntermSwitchConfig *any `json:"tunterm_switch_config,omitempty"`
+	Versions *any `json:"versions,omitempty"`
 }

@@ -12,12 +12,3 @@ package swagger
 type MxclusterNacClientVendor string
 
 // List of mxcluster_nac_client_vendor
-const (
-	ARUBA_MxclusterNacClientVendor MxclusterNacClientVendor = "aruba"
-	CISCO_AIRONET_MxclusterNacClientVendor MxclusterNacClientVendor = "cisco-aironet"
-	CISCO_IOS_MxclusterNacClientVendor MxclusterNacClientVendor = "cisco-ios"
-	CISCO_MERAKI_MxclusterNacClientVendor MxclusterNacClientVendor = "cisco-meraki"
-	GENERIC_MxclusterNacClientVendor MxclusterNacClientVendor = "generic"
-	JUNIPER_MxclusterNacClientVendor MxclusterNacClientVendor = "juniper"
-	PALOALTO_MxclusterNacClientVendor MxclusterNacClientVendor = "paloalto"
-)

@@ -14,7 +14,7 @@ type DeviceIdReleaseDhcpLeasesBody struct {
 	Mac []string `json:"mac,omitempty"`
 	// The network for the leases IPs to be released
 	Network string `json:"network,omitempty"`
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// The nework interface on which to release the current DHCP release
 	PortId string `json:"port_id"`
 }

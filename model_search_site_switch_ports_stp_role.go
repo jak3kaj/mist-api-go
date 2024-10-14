@@ -12,10 +12,3 @@ package swagger
 type SearchSiteSwitchPortsStpRole string
 
 // List of search_site_switch_ports_stp_role
-const (
-	ALTERNATE_SearchSiteSwitchPortsStpRole SearchSiteSwitchPortsStpRole = "alternate"
-	BACKUP_SearchSiteSwitchPortsStpRole SearchSiteSwitchPortsStpRole = "backup"
-	DESIGNATED_SearchSiteSwitchPortsStpRole SearchSiteSwitchPortsStpRole = "designated"
-	ROOT_SearchSiteSwitchPortsStpRole SearchSiteSwitchPortsStpRole = "root"
-	ROOT_PREVENTED_SearchSiteSwitchPortsStpRole SearchSiteSwitchPortsStpRole = "root-prevented"
-)

@@ -12,7 +12,3 @@ package swagger
 type OrgTunnelTypeCount string
 
 // List of org_tunnel_type_count
-const (
-	WAN_OrgTunnelTypeCount OrgTunnelTypeCount = "wan"
-	WXTUNNEL_OrgTunnelTypeCount OrgTunnelTypeCount = "wxtunnel"
-)

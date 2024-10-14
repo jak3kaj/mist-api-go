@@ -12,9 +12,3 @@ package swagger
 type MspLogsCountDistinct string
 
 // List of msp_logs_count_distinct
-const (
-	ADMIN_ID_MspLogsCountDistinct MspLogsCountDistinct = "admin_id"
-	ADMIN_NAME_MspLogsCountDistinct MspLogsCountDistinct = "admin_name"
-	MESSAGE_MspLogsCountDistinct MspLogsCountDistinct = "message"
-	ORG_ID_MspLogsCountDistinct MspLogsCountDistinct = "org_id"
-)

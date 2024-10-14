@@ -12,9 +12,3 @@ package swagger
 type AutoPlacementInfoStatus string
 
 // List of auto_placement_info_status
-const (
-	DONE_AutoPlacementInfoStatus AutoPlacementInfoStatus = "done"
-	ERROR__AutoPlacementInfoStatus AutoPlacementInfoStatus = "error"
-	INPROGRESS_AutoPlacementInfoStatus AutoPlacementInfoStatus = "inprogress"
-	PENDING_AutoPlacementInfoStatus AutoPlacementInfoStatus = "pending"
-)

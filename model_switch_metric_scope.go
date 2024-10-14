@@ -12,7 +12,3 @@ package swagger
 type SwitchMetricScope string
 
 // List of switch_metric_scope
-const (
-	SITE_SwitchMetricScope SwitchMetricScope = "site"
-	SWITCH__SwitchMetricScope SwitchMetricScope = "switch"
-)

@@ -12,6 +12,3 @@ package swagger
 type MspSearchType string
 
 // List of msp_search_type
-const (
-	ORGS_MspSearchType MspSearchType = "orgs"
-)

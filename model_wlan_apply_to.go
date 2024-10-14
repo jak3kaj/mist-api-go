@@ -12,8 +12,3 @@ package swagger
 type WlanApplyTo string
 
 // List of wlan_apply_to
-const (
-	APS_WlanApplyTo WlanApplyTo = "aps"
-	SITE_WlanApplyTo WlanApplyTo = "site"
-	WXTAGS_WlanApplyTo WlanApplyTo = "wxtags"
-)

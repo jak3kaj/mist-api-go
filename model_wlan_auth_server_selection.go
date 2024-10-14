@@ -12,7 +12,3 @@ package swagger
 type WlanAuthServerSelection string
 
 // List of wlan_auth_server_selection
-const (
-	ORDERED_WlanAuthServerSelection WlanAuthServerSelection = "ordered"
-	UNORDERED_WlanAuthServerSelection WlanAuthServerSelection = "unordered"
-)

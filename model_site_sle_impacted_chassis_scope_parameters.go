@@ -12,8 +12,3 @@ package swagger
 type SiteSleImpactedChassisScopeParameters string
 
 // List of site_sle_impacted_chassis_scope_parameters
-const (
-	GATEWAY_SiteSleImpactedChassisScopeParameters SiteSleImpactedChassisScopeParameters = "gateway"
-	SITE_SiteSleImpactedChassisScopeParameters SiteSleImpactedChassisScopeParameters = "site"
-	SWITCH__SiteSleImpactedChassisScopeParameters SiteSleImpactedChassisScopeParameters = "switch"
-)

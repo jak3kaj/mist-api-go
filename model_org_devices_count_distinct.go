@@ -12,17 +12,3 @@ package swagger
 type OrgDevicesCountDistinct string
 
 // List of org_devices_count_distinct
-const (
-	HOSTNAME_OrgDevicesCountDistinct OrgDevicesCountDistinct = "hostname"
-	IP_OrgDevicesCountDistinct OrgDevicesCountDistinct = "ip"
-	LLDP_MGMT_ADDR_OrgDevicesCountDistinct OrgDevicesCountDistinct = "lldp_mgmt_addr"
-	LLDP_PORT_ID_OrgDevicesCountDistinct OrgDevicesCountDistinct = "lldp_port_id"
-	LLDP_SYSTEM_DESC_OrgDevicesCountDistinct OrgDevicesCountDistinct = "lldp_system_desc"
-	LLDP_SYSTEM_NAME_OrgDevicesCountDistinct OrgDevicesCountDistinct = "lldp_system_name"
-	MAC_OrgDevicesCountDistinct OrgDevicesCountDistinct = "mac"
-	MODEL_OrgDevicesCountDistinct OrgDevicesCountDistinct = "model"
-	MXEDGE_ID_OrgDevicesCountDistinct OrgDevicesCountDistinct = "mxedge_id"
-	MXTUNNEL_STATUS_OrgDevicesCountDistinct OrgDevicesCountDistinct = "mxtunnel_status"
-	SITE_ID_OrgDevicesCountDistinct OrgDevicesCountDistinct = "site_id"
-	VERSION_OrgDevicesCountDistinct OrgDevicesCountDistinct = "version"
-)

@@ -22,7 +22,7 @@ type DeviceIdLocalPortConfigBody struct {
 	Description string `json:"description,omitempty"`
 	// if `speed` and `duplex` are specified, whether to disable autonegotiation
 	DisableAutoneg bool `json:"disable_autoneg,omitempty"`
-	Duplex *Object `json:"duplex,omitempty"`
+	Duplex *any `json:"duplex,omitempty"`
 	// Enable dynamic usage for this port. Set to `dynamic` to enable.
 	DynamicUsage string `json:"dynamic_usage,omitempty"`
 	Esilag bool `json:"esilag,omitempty"`
@@ -31,7 +31,7 @@ type DeviceIdLocalPortConfigBody struct {
 	// prevent helpdesk to override the port config
 	NoLocalOverwrite bool `json:"no_local_overwrite,omitempty"`
 	PoeDisabled bool `json:"poe_disabled,omitempty"`
-	Speed *Object `json:"speed,omitempty"`
+	Speed *any `json:"speed,omitempty"`
 	// port usage name.   If EVPN is used, use `evpn_uplink`or `evpn_downlink`
 	Usage string `json:"usage"`
 }

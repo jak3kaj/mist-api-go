@@ -12,22 +12,3 @@ package swagger
 type LicenseType string
 
 // List of license_type
-const (
-	AST_LicenseType LicenseType = "SUB-AST"
-	DATA_LicenseType LicenseType = "SUB-DATA"
-	ENG_LicenseType LicenseType = "SUB-ENG"
-	EX12_LicenseType LicenseType = "SUB-EX12"
-	EX24_LicenseType LicenseType = "SUB-EX24"
-	EX48_LicenseType LicenseType = "SUB-EX48"
-	MAN_LicenseType LicenseType = "SUB-MAN"
-	ME_LicenseType LicenseType = "SUB-ME"
-	PMA_LicenseType LicenseType = "SUB-PMA"
-	SRX1_LicenseType LicenseType = "SUB-SRX1"
-	SRX2_LicenseType LicenseType = "SUB-SRX2"
-	SVNA_LicenseType LicenseType = "SUB-SVNA"
-	VNA_LicenseType LicenseType = "SUB-VNA"
-	WAN1_LicenseType LicenseType = "SUB-WAN1"
-	WAN2_LicenseType LicenseType = "SUB-WAN2"
-	WVNA1_LicenseType LicenseType = "SUB-WVNA1"
-	WVNA2_LicenseType LicenseType = "SUB-WVNA2"
-)

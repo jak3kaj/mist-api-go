@@ -12,8 +12,3 @@ package swagger
 type DhcpdConfigType string
 
 // List of dhcpd_config_type
-const (
-	LOCAL_DhcpdConfigType DhcpdConfigType = "local"
-	NONE_DhcpdConfigType DhcpdConfigType = "none"
-	RELAY_DhcpdConfigType DhcpdConfigType = "relay"
-)

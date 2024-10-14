@@ -12,9 +12,3 @@ package swagger
 type WebhookDeliveryDistinct string
 
 // List of webhook_delivery_distinct
-const (
-	STATUS_WebhookDeliveryDistinct WebhookDeliveryDistinct = "status"
-	STATUS_CODE_WebhookDeliveryDistinct WebhookDeliveryDistinct = "status_code"
-	TOPIC_WebhookDeliveryDistinct WebhookDeliveryDistinct = "topic"
-	WEBHOOK_ID_WebhookDeliveryDistinct WebhookDeliveryDistinct = "webhook_id"
-)

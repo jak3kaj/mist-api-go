@@ -11,5 +11,5 @@ package swagger
 
 type VcVcPortBody struct {
 	Members []ConfigVcPortMember `json:"members"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 }

@@ -12,11 +12,3 @@ package swagger
 type WxlanTagType string
 
 // List of wxlan_tag_type
-const (
-	CLIENT_WxlanTagType WxlanTagType = "client"
-	MATCH_WxlanTagType WxlanTagType = "match"
-	RESOURCE_WxlanTagType WxlanTagType = "resource"
-	SPEC_WxlanTagType WxlanTagType = "spec"
-	SUBNET_WxlanTagType WxlanTagType = "subnet"
-	VLAN_WxlanTagType WxlanTagType = "vlan"
-)

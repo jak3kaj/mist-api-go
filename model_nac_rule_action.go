@@ -12,7 +12,3 @@ package swagger
 type NacRuleAction string
 
 // List of nac_rule_action
-const (
-	ALLOW_NacRuleAction NacRuleAction = "allow"
-	BLOCK_NacRuleAction NacRuleAction = "block"
-)

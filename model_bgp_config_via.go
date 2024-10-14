@@ -12,9 +12,3 @@ package swagger
 type BgpConfigVia string
 
 // List of bgp_config_via
-const (
-	LAN_BgpConfigVia BgpConfigVia = "lan"
-	TUNNEL_BgpConfigVia BgpConfigVia = "tunnel"
-	VPN_BgpConfigVia BgpConfigVia = "vpn"
-	WAN_BgpConfigVia BgpConfigVia = "wan"
-)

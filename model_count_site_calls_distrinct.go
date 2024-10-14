@@ -12,6 +12,3 @@ package swagger
 type CountSiteCallsDistrinct string
 
 // List of count_site_calls_distrinct
-const (
-	MAC_CountSiteCallsDistrinct CountSiteCallsDistrinct = "mac"
-)

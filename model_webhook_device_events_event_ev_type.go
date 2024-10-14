@@ -12,7 +12,3 @@ package swagger
 type WebhookDeviceEventsEventEvType string
 
 // List of webhook_device_events_event_ev_type
-const (
-	NOTICE_WebhookDeviceEventsEventEvType WebhookDeviceEventsEventEvType = "notice"
-	WARN_WebhookDeviceEventsEventEvType WebhookDeviceEventsEventEvType = "warn"
-)

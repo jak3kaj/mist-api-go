@@ -12,8 +12,3 @@ package swagger
 type WlanRoamMode string
 
 // List of wlan_roam_mode
-const (
-	11R__WlanRoamMode WlanRoamMode = "11r"
-	NONE_WlanRoamMode WlanRoamMode = "NONE"
-	OKC_WlanRoamMode WlanRoamMode = "OKC"
-)

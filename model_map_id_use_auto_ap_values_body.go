@@ -12,7 +12,7 @@ package swagger
 type MapIdUseAutoApValuesBody struct {
 	// If accept is true, accepts placement for devices in list otherwise. If false, reject for devices in list.
 	Accept bool `json:"accept,omitempty"`
-	For_ *Object `json:"for,omitempty"`
+	For_ *any `json:"for,omitempty"`
 	// A list of macs to accept/reject. If a list is not provided the API will accept/reject for the full map.
 	Macs []string `json:"macs,omitempty"`
 }

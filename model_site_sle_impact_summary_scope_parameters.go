@@ -12,10 +12,3 @@ package swagger
 type SiteSleImpactSummaryScopeParameters string
 
 // List of site_sle_impact_summary_scope_parameters
-const (
-	AP_SiteSleImpactSummaryScopeParameters SiteSleImpactSummaryScopeParameters = "ap"
-	CLIENT_SiteSleImpactSummaryScopeParameters SiteSleImpactSummaryScopeParameters = "client"
-	GATEWAY_SiteSleImpactSummaryScopeParameters SiteSleImpactSummaryScopeParameters = "gateway"
-	SITE_SiteSleImpactSummaryScopeParameters SiteSleImpactSummaryScopeParameters = "site"
-	SWITCH__SiteSleImpactSummaryScopeParameters SiteSleImpactSummaryScopeParameters = "switch"
-)

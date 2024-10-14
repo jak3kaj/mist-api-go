@@ -12,15 +12,3 @@ package swagger
 type SiteAppsCountDistinct string
 
 // List of site_apps_count_distinct
-const (
-	AP_SiteAppsCountDistinct SiteAppsCountDistinct = "ap"
-	APP_SiteAppsCountDistinct SiteAppsCountDistinct = "app"
-	CATEGORY_SiteAppsCountDistinct SiteAppsCountDistinct = "category"
-	DEVICE_MAC_SiteAppsCountDistinct SiteAppsCountDistinct = "device_mac"
-	PORT_ID_SiteAppsCountDistinct SiteAppsCountDistinct = "port_id"
-	SERVICE_SiteAppsCountDistinct SiteAppsCountDistinct = "service"
-	SRC_IP_SiteAppsCountDistinct SiteAppsCountDistinct = "src_ip"
-	SSID_SiteAppsCountDistinct SiteAppsCountDistinct = "ssid"
-	WCID_SiteAppsCountDistinct SiteAppsCountDistinct = "wcid"
-	WLAN_ID_APP_SiteAppsCountDistinct SiteAppsCountDistinct = "wlan_id app"
-)

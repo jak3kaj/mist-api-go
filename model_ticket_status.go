@@ -12,9 +12,3 @@ package swagger
 type TicketStatus string
 
 // List of ticket_status
-const (
-	CLOSED_TicketStatus TicketStatus = "closed"
-	OPEN_TicketStatus TicketStatus = "open"
-	PENDING_TicketStatus TicketStatus = "pending"
-	SOLVED_TicketStatus TicketStatus = "solved"
-)

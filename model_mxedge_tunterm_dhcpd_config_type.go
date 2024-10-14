@@ -12,6 +12,3 @@ package swagger
 type MxedgeTuntermDhcpdConfigType string
 
 // List of mxedge_tunterm_dhcpd_config_type
-const (
-	RELAY_MxedgeTuntermDhcpdConfigType MxedgeTuntermDhcpdConfigType = "relay"
-)

@@ -12,19 +12,3 @@ package swagger
 type WlanHotspot20OperatorsItem string
 
 // List of wlan_hotspot20_operators_item
-const (
-	AMERIBAND_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "ameriband"
-	ATT_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "att"
-	BOINGO_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "boingo"
-	CHARTER_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "charter"
-	EDUROAM_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "eduroam"
-	GLOBAL_REACH_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "global_reach"
-	GOOGLE_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "google"
-	HUGHES_SYSTIQUE_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "hughes_systique"
-	OPENROAMING_LEGACY_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "openroaming_legacy"
-	OPENROAMING_SETTLED_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "openroaming_settled"
-	OPENROAMING_SETTLEMENT_FREE_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "openroaming_settlement_free"
-	SINGLE_DIGITS_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "single_digits"
-	TMOBILE_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "tmobile"
-	VERIZON_WlanHotspot20OperatorsItem WlanHotspot20OperatorsItem = "verizon"
-)

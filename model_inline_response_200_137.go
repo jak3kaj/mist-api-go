@@ -19,10 +19,10 @@ type InlineResponse200137 struct {
 	// proposal on band 6G, key is ap_id, value is the proposal
 	Band6 map[string]RrmBand `json:"band_6,omitempty"`
 	Band6Metric *RrmBandMetric `json:"band_6_metric,omitempty"`
-	Rftemplate *Object `json:"rftemplate"`
+	Rftemplate *any `json:"rftemplate"`
 	RftemplateId string `json:"rftemplate_id"`
 	RftemplateName string `json:"rftemplate_name"`
-	Status *Object `json:"status"`
+	Status *any `json:"status"`
 	// time where the status was updated
 	Timestamp float64 `json:"timestamp"`
 }

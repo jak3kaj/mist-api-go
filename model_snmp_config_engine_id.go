@@ -12,9 +12,3 @@ package swagger
 type SnmpConfigEngineId string
 
 // List of snmp_config_engine_id
-const (
-	ENGINE_ID_SUFFIX_SnmpConfigEngineId SnmpConfigEngineId = "engine-id-suffix"
-	LOCAL_SnmpConfigEngineId SnmpConfigEngineId = "local"
-	USE_DEFAULT_IP_ADDRESS_SnmpConfigEngineId SnmpConfigEngineId = "use-default-ip-address"
-	USE_MAC_ADDRESS_SnmpConfigEngineId SnmpConfigEngineId = "use_mac-address"
-)

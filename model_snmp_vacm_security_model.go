@@ -12,8 +12,3 @@ package swagger
 type SnmpVacmSecurityModel string
 
 // List of snmp_vacm_security_model
-const (
-	USM_SnmpVacmSecurityModel SnmpVacmSecurityModel = "usm"
-	V1_SnmpVacmSecurityModel SnmpVacmSecurityModel = "v1"
-	V2C_SnmpVacmSecurityModel SnmpVacmSecurityModel = "v2c"
-)

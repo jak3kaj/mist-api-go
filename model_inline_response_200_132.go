@@ -16,5 +16,5 @@ type InlineResponse200132 struct {
 	EstTimeLeft float64 `json:"est_time_left,omitempty"`
 	// time when autoplacement process was last queued for this map
 	StartTime float64 `json:"start_time,omitempty"`
-	Status *Object `json:"status,omitempty"`
+	Status *any `json:"status,omitempty"`
 }

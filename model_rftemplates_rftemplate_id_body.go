@@ -13,11 +13,11 @@ type RftemplatesRftemplateIdBody struct {
 	AntGain24 int32 `json:"ant_gain_24,omitempty"`
 	AntGain5 int32 `json:"ant_gain_5,omitempty"`
 	AntGain6 int32 `json:"ant_gain_6,omitempty"`
-	Band24 *Object `json:"band_24,omitempty"`
-	Band24Usage *Object `json:"band_24_usage,omitempty"`
-	Band5 *Object `json:"band_5,omitempty"`
-	Band5On24Radio *Object `json:"band_5_on_24_radio,omitempty"`
-	Band6 *Object `json:"band_6,omitempty"`
+	Band24 *any `json:"band_24,omitempty"`
+	Band24Usage *any `json:"band_24_usage,omitempty"`
+	Band5 *any `json:"band_5,omitempty"`
+	Band5On24Radio *any `json:"band_5_on_24_radio,omitempty"`
+	Band6 *any `json:"band_6,omitempty"`
 	// optional, country code to use. If specified, this gets applied to all sites using the RF Template
 	CountryCode string `json:"country_code,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`

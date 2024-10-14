@@ -23,7 +23,7 @@ type AllOfsiteSettingEvpnOptions struct {
 	Overlay *EvpnOptionsOverlay `json:"overlay,omitempty"`
 	// by default, JUNOS uses 00-00-5e-00-01-01 as the virtual-gateway-address's v4_mac if enabled, 00-00-5e-00-XX-YY will be used (where XX=vlan_id/256, YY=vlan_id%256)
 	PerVlanVgaV4Mac bool `json:"per_vlan_vga_v4_mac,omitempty"`
-	RoutedAt *Object `json:"routed_at,omitempty"`
+	RoutedAt *any `json:"routed_at,omitempty"`
 	Underlay *EvpnOptionsUnderlay `json:"underlay,omitempty"`
 	// optional, for EX9200 only to seggregate virtual-switches
 	VsInstances map[string]EvpnOptionsVsInstance `json:"vs_instances,omitempty"`

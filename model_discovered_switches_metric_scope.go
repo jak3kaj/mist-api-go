@@ -12,7 +12,3 @@ package swagger
 type DiscoveredSwitchesMetricScope string
 
 // List of discovered_switches_metric_scope
-const (
-	SITE_DiscoveredSwitchesMetricScope DiscoveredSwitchesMetricScope = "site"
-	SWITCH__DiscoveredSwitchesMetricScope DiscoveredSwitchesMetricScope = "switch"
-)

@@ -12,8 +12,3 @@ package swagger
 type SslProxyCiphersCatagoryEnum string
 
 // List of ssl_proxy_ciphers_catagory_enum
-const (
-	MEDIUM_SslProxyCiphersCatagoryEnum SslProxyCiphersCatagoryEnum = "medium"
-	STRONG_SslProxyCiphersCatagoryEnum SslProxyCiphersCatagoryEnum = "strong"
-	WEAK_SslProxyCiphersCatagoryEnum SslProxyCiphersCatagoryEnum = "weak"
-)

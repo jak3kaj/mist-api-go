@@ -12,6 +12,3 @@ package swagger
 type SiteSleImpactedGatewaysScopeParameters string
 
 // List of site_sle_impacted_gateways_scope_parameters
-const (
-	SITE_SiteSleImpactedGatewaysScopeParameters SiteSleImpactedGatewaysScopeParameters = "site"
-)

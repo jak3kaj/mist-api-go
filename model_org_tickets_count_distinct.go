@@ -12,7 +12,3 @@ package swagger
 type OrgTicketsCountDistinct string
 
 // List of org_tickets_count_distinct
-const (
-	STATUS_OrgTicketsCountDistinct OrgTicketsCountDistinct = "status"
-	TYPE__OrgTicketsCountDistinct OrgTicketsCountDistinct = "type"
-)

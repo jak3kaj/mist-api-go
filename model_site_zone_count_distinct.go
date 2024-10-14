@@ -12,9 +12,3 @@ package swagger
 type SiteZoneCountDistinct string
 
 // List of site_zone_count_distinct
-const (
-	SCOPE_SiteZoneCountDistinct SiteZoneCountDistinct = "scope"
-	SCOPE_ID_SiteZoneCountDistinct SiteZoneCountDistinct = "scope_id"
-	USER_SiteZoneCountDistinct SiteZoneCountDistinct = "user"
-	USER_TYPE_SiteZoneCountDistinct SiteZoneCountDistinct = "user_type"
-)

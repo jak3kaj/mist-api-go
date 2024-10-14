@@ -12,10 +12,3 @@ package swagger
 type PrivilegeOrgRole string
 
 // List of privilege_org_role
-const (
-	ADMIN_PrivilegeOrgRole PrivilegeOrgRole = "admin"
-	HELPDESK_PrivilegeOrgRole PrivilegeOrgRole = "helpdesk"
-	INSTALLER_PrivilegeOrgRole PrivilegeOrgRole = "installer"
-	READ_PrivilegeOrgRole PrivilegeOrgRole = "read"
-	WRITE_PrivilegeOrgRole PrivilegeOrgRole = "write"
-)

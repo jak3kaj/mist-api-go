@@ -20,7 +20,7 @@ type AllOfdeviceApUsbConfig struct {
 	Host string `json:"host,omitempty"`
 	// only if `type`==`imagotag`
 	Port int32 `json:"port,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// only if `type`==`imagotag`, whether to turn on SSL verification
 	VerifyCert bool `json:"verify_cert,omitempty"`
 	// only if `type`==`solum` or `type`==`hanshow`

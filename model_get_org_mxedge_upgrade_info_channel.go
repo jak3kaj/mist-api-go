@@ -12,8 +12,3 @@ package swagger
 type GetOrgMxedgeUpgradeInfoChannel string
 
 // List of get_org_mxedge_upgrade_info_channel
-const (
-	ALPHA_GetOrgMxedgeUpgradeInfoChannel GetOrgMxedgeUpgradeInfoChannel = "alpha"
-	BETA_GetOrgMxedgeUpgradeInfoChannel GetOrgMxedgeUpgradeInfoChannel = "beta"
-	STABLE_GetOrgMxedgeUpgradeInfoChannel GetOrgMxedgeUpgradeInfoChannel = "stable"
-)

@@ -12,12 +12,3 @@ package swagger
 type DeviceUpgradeStatus string
 
 // List of device_upgrade_status
-const (
-	CANCELLED_DeviceUpgradeStatus DeviceUpgradeStatus = "cancelled"
-	COMPLETED_DeviceUpgradeStatus DeviceUpgradeStatus = "completed"
-	CREATED_DeviceUpgradeStatus DeviceUpgradeStatus = "created"
-	DOWNLOADED_DeviceUpgradeStatus DeviceUpgradeStatus = "downloaded"
-	DOWNLOADING_DeviceUpgradeStatus DeviceUpgradeStatus = "downloading"
-	FAILED_DeviceUpgradeStatus DeviceUpgradeStatus = "failed"
-	UPGRADING_DeviceUpgradeStatus DeviceUpgradeStatus = "upgrading"
-)

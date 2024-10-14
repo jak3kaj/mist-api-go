@@ -12,10 +12,3 @@ package swagger
 type SiteSleThresholdScopeParameter string
 
 // List of site_sle_threshold_scope_parameter
-const (
-	AP_SiteSleThresholdScopeParameter SiteSleThresholdScopeParameter = "ap"
-	CLIENT_SiteSleThresholdScopeParameter SiteSleThresholdScopeParameter = "client"
-	GATEWAY_SiteSleThresholdScopeParameter SiteSleThresholdScopeParameter = "gateway"
-	SITE_SiteSleThresholdScopeParameter SiteSleThresholdScopeParameter = "site"
-	SWITCH__SiteSleThresholdScopeParameter SiteSleThresholdScopeParameter = "switch"
-)

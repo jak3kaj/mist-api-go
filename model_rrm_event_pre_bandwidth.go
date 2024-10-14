@@ -12,10 +12,3 @@ package swagger
 type RrmEventPreBandwidth int32
 
 // List of rrm_event_pre_bandwidth
-const (
-	0__RrmEventPreBandwidth RrmEventPreBandwidth = "0"
-	20__RrmEventPreBandwidth RrmEventPreBandwidth = "20"
-	40__RrmEventPreBandwidth RrmEventPreBandwidth = "40"
-	80__RrmEventPreBandwidth RrmEventPreBandwidth = "80"
-	160__RrmEventPreBandwidth RrmEventPreBandwidth = "160"
-)

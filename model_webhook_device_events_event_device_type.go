@@ -12,8 +12,3 @@ package swagger
 type WebhookDeviceEventsEventDeviceType string
 
 // List of webhook_device_events_event_device_type
-const (
-	AP_WebhookDeviceEventsEventDeviceType WebhookDeviceEventsEventDeviceType = "ap"
-	GATEWAY_WebhookDeviceEventsEventDeviceType WebhookDeviceEventsEventDeviceType = "gateway"
-	SWITCH__WebhookDeviceEventsEventDeviceType WebhookDeviceEventsEventDeviceType = "switch"
-)

@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateType string
 
 // List of gateway_template_type
-const (
-	SPOKE_GatewayTemplateType GatewayTemplateType = "spoke"
-	STANDALONE_GatewayTemplateType GatewayTemplateType = "standalone"
-)

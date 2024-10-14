@@ -14,10 +14,10 @@ type DeviceIdTracerouteBody struct {
 	Host string `json:"host,omitempty"`
 	// for SSR, optional, the source to initiate traceroute from
 	Network string `json:"network,omitempty"`
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// when `protocol`==`udp`, not supported in SSR. The udp port to use
 	Port int32 `json:"port,omitempty"`
-	Protocol *Object `json:"protocol,omitempty"`
+	Protocol *any `json:"protocol,omitempty"`
 	// not supported in SSR. Maximum time in seconds to wait for the response
 	Timeout int32 `json:"timeout,omitempty"`
 	// for SRX, optional, the source to initiate traceroute from. by default, master VRF/RI is assumed

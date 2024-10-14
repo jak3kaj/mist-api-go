@@ -12,9 +12,3 @@ package swagger
 type SiteDeviceEventsCountDistinct string
 
 // List of site_device_events_count_distinct
-const (
-	MAC_SiteDeviceEventsCountDistinct SiteDeviceEventsCountDistinct = "mac"
-	MODEL_SiteDeviceEventsCountDistinct SiteDeviceEventsCountDistinct = "model"
-	TYPE__SiteDeviceEventsCountDistinct SiteDeviceEventsCountDistinct = "type"
-	TYPE_CODE_SiteDeviceEventsCountDistinct SiteDeviceEventsCountDistinct = "type_code"
-)

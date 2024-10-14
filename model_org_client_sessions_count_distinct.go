@@ -12,13 +12,3 @@ package swagger
 type OrgClientSessionsCountDistinct string
 
 // List of org_client_sessions_count_distinct
-const (
-	AP_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "ap"
-	DEVICE_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "device"
-	HOSTNAME_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "hostname"
-	IP_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "ip"
-	MODEL_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "model"
-	OS_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "os"
-	SSID_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "ssid"
-	VLAN_OrgClientSessionsCountDistinct OrgClientSessionsCountDistinct = "vlan"
-)

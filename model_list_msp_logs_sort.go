@@ -12,9 +12,3 @@ package swagger
 type ListMspLogsSort string
 
 // List of list_msp_logs_sort
-const (
-	TIMESTAMP_ListMspLogsSort ListMspLogsSort = "-timestamp"
-	ADMIN_ID_ListMspLogsSort ListMspLogsSort = "admin_id"
-	SITE_ID_ListMspLogsSort ListMspLogsSort = "site_id"
-	TIMESTAMP_ListMspLogsSort ListMspLogsSort = "timestamp"
-)

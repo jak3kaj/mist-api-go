@@ -12,9 +12,3 @@ package swagger
 type AlarmCountDisctinct string
 
 // List of alarm_count_disctinct
-const (
-	ACKED_AlarmCountDisctinct AlarmCountDisctinct = "acked"
-	GROUP_AlarmCountDisctinct AlarmCountDisctinct = "group"
-	SEVERITY_AlarmCountDisctinct AlarmCountDisctinct = "severity"
-	TYPE__AlarmCountDisctinct AlarmCountDisctinct = "type"
-)

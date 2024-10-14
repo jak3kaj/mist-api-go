@@ -12,7 +12,3 @@ package swagger
 type ProtectReAllowedService string
 
 // List of protect_re_allowed_service
-const (
-	ICMP_ProtectReAllowedService ProtectReAllowedService = "icmp"
-	SSH_ProtectReAllowedService ProtectReAllowedService = "ssh"
-)

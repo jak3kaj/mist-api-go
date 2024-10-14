@@ -12,13 +12,3 @@ package swagger
 type SiteServiceEventsCountDistinct string
 
 // List of site_service_events_count_distinct
-const (
-	MAC_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "mac"
-	MODEL_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "model"
-	POLICY_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "policy"
-	PORT_ID_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "port_id"
-	SITE_ID_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "site_id"
-	TYPE__SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "type"
-	VPN_NAME_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "vpn_name"
-	VPN_PATH_SiteServiceEventsCountDistinct SiteServiceEventsCountDistinct = "vpn_path"
-)

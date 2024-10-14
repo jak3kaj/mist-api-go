@@ -12,8 +12,3 @@ package swagger
 type GatewayPortWanType string
 
 // List of gateway_port_wan_type
-const (
-	BROADBAND_GatewayPortWanType GatewayPortWanType = "broadband"
-	DSL_GatewayPortWanType GatewayPortWanType = "dsl"
-	LTE_GatewayPortWanType GatewayPortWanType = "lte"
-)

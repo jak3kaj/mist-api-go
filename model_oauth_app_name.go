@@ -12,11 +12,3 @@ package swagger
 type OauthAppName string
 
 // List of oauth_app_name
-const (
-	INTUNE_OauthAppName OauthAppName = "intune"
-	JAMF_OauthAppName OauthAppName = "jamf"
-	MOBICONTROL_OauthAppName OauthAppName = "mobicontrol"
-	TEAMS_OauthAppName OauthAppName = "teams"
-	VMWARE_OauthAppName OauthAppName = "vmware"
-	ZOOM_OauthAppName OauthAppName = "zoom"
-)

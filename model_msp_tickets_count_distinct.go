@@ -12,8 +12,3 @@ package swagger
 type MspTicketsCountDistinct string
 
 // List of msp_tickets_count_distinct
-const (
-	ORG_ID_MspTicketsCountDistinct MspTicketsCountDistinct = "org_id"
-	STATUS_MspTicketsCountDistinct MspTicketsCountDistinct = "status"
-	TYPE__MspTicketsCountDistinct MspTicketsCountDistinct = "type"
-)

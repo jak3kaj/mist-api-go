@@ -12,7 +12,3 @@ package swagger
 type TunnelType string
 
 // List of tunnel_type
-const (
-	WAN_TunnelType TunnelType = "wan"
-	WXTUNNEL_TunnelType TunnelType = "wxtunnel"
-)

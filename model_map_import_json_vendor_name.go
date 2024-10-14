@@ -12,7 +12,3 @@ package swagger
 type MapImportJsonVendorName string
 
 // List of map_import_json_vendor_name
-const (
-	EKAHAU_MapImportJsonVendorName MapImportJsonVendorName = "ekahau"
-	IBWAVE_MapImportJsonVendorName MapImportJsonVendorName = "ibwave"
-)

@@ -12,7 +12,3 @@ package swagger
 type BleConfigPowerMode string
 
 // List of ble_config_power_mode
-const (
-	CUSTOM_BleConfigPowerMode BleConfigPowerMode = "custom"
-	DEFAULT__BleConfigPowerMode BleConfigPowerMode = "default"
-)

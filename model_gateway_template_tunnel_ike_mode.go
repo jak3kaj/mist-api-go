@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateTunnelIkeMode string
 
 // List of gateway_template_tunnel_ike_mode
-const (
-	AGGRESSIVE_GatewayTemplateTunnelIkeMode GatewayTemplateTunnelIkeMode = "aggressive"
-	MAIN_GatewayTemplateTunnelIkeMode GatewayTemplateTunnelIkeMode = "main"
-)

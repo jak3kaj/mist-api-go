@@ -12,7 +12,3 @@ package swagger
 type VrrpGroupAuthType string
 
 // List of vrrp_group_auth_type
-const (
-	MD5_VrrpGroupAuthType VrrpGroupAuthType = "md5"
-	SIMPLE_VrrpGroupAuthType VrrpGroupAuthType = "simple"
-)

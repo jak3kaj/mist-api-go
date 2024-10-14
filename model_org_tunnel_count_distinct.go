@@ -12,26 +12,3 @@ package swagger
 type OrgTunnelCountDistinct string
 
 // List of org_tunnel_count_distinct
-const (
-	AP_OrgTunnelCountDistinct OrgTunnelCountDistinct = "ap"
-	AUTH_ALGO_OrgTunnelCountDistinct OrgTunnelCountDistinct = "auth_algo"
-	ENCRYPT_ALGO_OrgTunnelCountDistinct OrgTunnelCountDistinct = "encrypt_algo"
-	IKE_VERSION_OrgTunnelCountDistinct OrgTunnelCountDistinct = "ike_version"
-	IP_OrgTunnelCountDistinct OrgTunnelCountDistinct = "ip"
-	LAST_EVENT_OrgTunnelCountDistinct OrgTunnelCountDistinct = "last_event"
-	MAC_OrgTunnelCountDistinct OrgTunnelCountDistinct = "mac"
-	MXCLUSTER_ID_OrgTunnelCountDistinct OrgTunnelCountDistinct = "mxcluster_id"
-	MXEDGE_ID_OrgTunnelCountDistinct OrgTunnelCountDistinct = "mxedge_id"
-	NODE_OrgTunnelCountDistinct OrgTunnelCountDistinct = "node"
-	PEER_HOST_OrgTunnelCountDistinct OrgTunnelCountDistinct = "peer_host"
-	PEER_IP_OrgTunnelCountDistinct OrgTunnelCountDistinct = "peer_ip"
-	PEER_MXEDGE_ID_OrgTunnelCountDistinct OrgTunnelCountDistinct = "peer_mxedge_id"
-	PROTOCOL_OrgTunnelCountDistinct OrgTunnelCountDistinct = "protocol"
-	REMOTE_IP_OrgTunnelCountDistinct OrgTunnelCountDistinct = "remote_ip"
-	REMOTE_PORT_OrgTunnelCountDistinct OrgTunnelCountDistinct = "remote_port"
-	SITE_ID_OrgTunnelCountDistinct OrgTunnelCountDistinct = "site_id"
-	STATE_OrgTunnelCountDistinct OrgTunnelCountDistinct = "state"
-	TUNNEL_NAME_OrgTunnelCountDistinct OrgTunnelCountDistinct = "tunnel_name"
-	UP_OrgTunnelCountDistinct OrgTunnelCountDistinct = "up"
-	WXTUNNEL_ID_OrgTunnelCountDistinct OrgTunnelCountDistinct = "wxtunnel_id"
-)

@@ -12,13 +12,3 @@ package swagger
 type DayOfWeek string
 
 // List of day_of_week
-const (
-	ANY_DayOfWeek DayOfWeek = "any"
-	FRI_DayOfWeek DayOfWeek = "fri"
-	MON_DayOfWeek DayOfWeek = "mon"
-	SAT_DayOfWeek DayOfWeek = "sat"
-	SUN_DayOfWeek DayOfWeek = "sun"
-	THU_DayOfWeek DayOfWeek = "thu"
-	TUE_DayOfWeek DayOfWeek = "tue"
-	WED_DayOfWeek DayOfWeek = "wed"
-)

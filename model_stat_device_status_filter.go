@@ -12,8 +12,3 @@ package swagger
 type StatDeviceStatusFilter string
 
 // List of stat_device_status_filter
-const (
-	ALL_StatDeviceStatusFilter StatDeviceStatusFilter = "all"
-	CONNECTED_StatDeviceStatusFilter StatDeviceStatusFilter = "connected"
-	DISCONNECTED_StatDeviceStatusFilter StatDeviceStatusFilter = "disconnected"
-)

@@ -12,10 +12,3 @@ package swagger
 type CountPortsStpRole string
 
 // List of count_ports_stp_role
-const (
-	ALTERNATE_CountPortsStpRole CountPortsStpRole = "alternate"
-	BACKUP_CountPortsStpRole CountPortsStpRole = "backup"
-	DESIGNATED_CountPortsStpRole CountPortsStpRole = "designated"
-	ROOT_CountPortsStpRole CountPortsStpRole = "root"
-	ROOT_PREVENTED_CountPortsStpRole CountPortsStpRole = "root-prevented"
-)

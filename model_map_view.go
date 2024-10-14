@@ -12,9 +12,3 @@ package swagger
 type MapView string
 
 // List of map_view
-const (
-	HYBRID_MapView MapView = "hybrid"
-	ROADMAP_MapView MapView = "roadmap"
-	SATELLITE_MapView MapView = "satellite"
-	TERRAIN_MapView MapView = "terrain"
-)

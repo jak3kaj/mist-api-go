@@ -13,26 +13,26 @@ type OrgIdMxclustersBody struct {
 	CreatedTime float64 `json:"created_time,omitempty"`
 	ForSite bool `json:"for_site,omitempty"`
 	Id string `json:"id,omitempty"`
-	MistDas *Object `json:"mist_das,omitempty"`
+	MistDas *any `json:"mist_das,omitempty"`
 	MistNac *MxclusterNac `json:"mist_nac,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	MxedgeMgmt *MxedgeMgmt `json:"mxedge_mgmt,omitempty"`
 	Name string `json:"name,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	Proxy *Object `json:"proxy,omitempty"`
-	Radsec *Object `json:"radsec,omitempty"`
+	Proxy *any `json:"proxy,omitempty"`
+	Radsec *any `json:"radsec,omitempty"`
 	RadsecTls *MxclusterRadsecTls `json:"radsec_tls,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	// list of subnets where we allow AP to establish Mist Tunnels from
 	TuntermApSubnets []string `json:"tunterm_ap_subnets,omitempty"`
-	TuntermDhcpdConfig *Object `json:"tunterm_dhcpd_config,omitempty"`
+	TuntermDhcpdConfig *any `json:"tunterm_dhcpd_config,omitempty"`
 	// extra routes for Mist Tunneled VLANs. Property key is a CIDR
 	TuntermExtraRoutes map[string]MxclusterTuntermExtraRoute `json:"tunterm_extra_routes,omitempty"`
 	// hostnames or IPs where a Mist Tunnel will use as the Peer (i.e. they are reachable from AP)
 	TuntermHosts []string `json:"tunterm_hosts,omitempty"`
 	// list of index of tunterm_hosts
 	TuntermHostsOrder []int32 `json:"tunterm_hosts_order,omitempty"`
-	TuntermHostsSelection *Object `json:"tunterm_hosts_selection,omitempty"`
+	TuntermHostsSelection *any `json:"tunterm_hosts_selection,omitempty"`
 	TuntermMonitoring [][]TuntermMonitoringItem `json:"tunterm_monitoring,omitempty"`
 	TuntermMonitoringDisabled bool `json:"tunterm_monitoring_disabled,omitempty"`
 }

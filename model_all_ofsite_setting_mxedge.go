@@ -10,8 +10,8 @@
 package swagger
 
 type AllOfsiteSettingMxedge struct {
-	MistDas *Object `json:"mist_das,omitempty"`
+	MistDas *any `json:"mist_das,omitempty"`
 	MistNac *MxclusterNac `json:"mist_nac,omitempty"`
 	MistNacedge *MistNacedge `json:"mist_nacedge,omitempty"`
-	Radsec *Object `json:"radsec,omitempty"`
+	Radsec *any `json:"radsec,omitempty"`
 }

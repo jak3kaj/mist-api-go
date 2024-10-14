@@ -12,13 +12,13 @@ package swagger
 type ResponseDeviceRadioChannels struct {
 	Band2440mhzAllowed bool `json:"band24_40mhz_allowed"`
 	// Property key is the channel width
-	Band24Channels map[string]Object `json:"band24_channels"`
+	Band24Channels map[string]any `json:"band24_channels"`
 	Band24Enabled bool `json:"band24_enabled"`
 	// Property key is the channel width
-	Band5Channels map[string]Object `json:"band5_channels"`
+	Band5Channels map[string]any `json:"band5_channels"`
 	Band5Enabled bool `json:"band5_enabled"`
 	// Property key is the channel width
-	Band6Channels map[string]Object `json:"band6_channels,omitempty"`
+	Band6Channels map[string]any `json:"band6_channels,omitempty"`
 	Band6Enabled bool `json:"band6_enabled,omitempty"`
 	Certified bool `json:"certified"`
 	Code int32 `json:"code"`

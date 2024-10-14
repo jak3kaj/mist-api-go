@@ -12,9 +12,3 @@ package swagger
 type ListOrgLogsSort string
 
 // List of list_org_logs_sort
-const (
-	TIMESTAMP_ListOrgLogsSort ListOrgLogsSort = "-timestamp"
-	ADMIN_ID_ListOrgLogsSort ListOrgLogsSort = "admin_id"
-	SITE_ID_ListOrgLogsSort ListOrgLogsSort = "site_id"
-	TIMESTAMP_ListOrgLogsSort ListOrgLogsSort = "timestamp"
-)

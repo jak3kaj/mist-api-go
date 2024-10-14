@@ -12,6 +12,3 @@ package swagger
 type TuntermDhcpdType string
 
 // List of tunterm_dhcpd_type
-const (
-	RELAY_TuntermDhcpdType TuntermDhcpdType = "relay"
-)

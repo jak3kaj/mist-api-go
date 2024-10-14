@@ -10,9 +10,9 @@
 package swagger
 
 type OrgIdServicepoliciesBody struct {
-	Action *Object `json:"action,omitempty"`
-	Antivirus *Object `json:"antivirus,omitempty"`
-	Appqoe *Object `json:"appqoe,omitempty"`
+	Action *any `json:"action,omitempty"`
+	Antivirus *any `json:"antivirus,omitempty"`
+	Appqoe *any `json:"appqoe,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	Ewf []ServicePolicyEwfRule `json:"ewf,omitempty"`
 	Id string `json:"id,omitempty"`
@@ -24,8 +24,8 @@ type OrgIdServicepoliciesBody struct {
 	OrgId string `json:"org_id,omitempty"`
 	// by default, we derive all paths available and use them optionally, you can customize by using `path_preference`
 	PathPreference string `json:"path_preference,omitempty"`
-	Secintel *Object `json:"secintel,omitempty"`
+	Secintel *any `json:"secintel,omitempty"`
 	Services []string `json:"services,omitempty"`
-	SslProxy *Object `json:"ssl_proxy,omitempty"`
+	SslProxy *any `json:"ssl_proxy,omitempty"`
 	Tenants []string `json:"tenants,omitempty"`
 }

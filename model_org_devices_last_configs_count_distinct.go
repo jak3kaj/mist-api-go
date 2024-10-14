@@ -12,9 +12,3 @@ package swagger
 type OrgDevicesLastConfigsCountDistinct string
 
 // List of org_devices_last_configs_count_distinct
-const (
-	MAC_OrgDevicesLastConfigsCountDistinct OrgDevicesLastConfigsCountDistinct = "mac"
-	NAME_OrgDevicesLastConfigsCountDistinct OrgDevicesLastConfigsCountDistinct = "name"
-	SITE_ID_OrgDevicesLastConfigsCountDistinct OrgDevicesLastConfigsCountDistinct = "site_id"
-	VERSION_OrgDevicesLastConfigsCountDistinct OrgDevicesLastConfigsCountDistinct = "version"
-)

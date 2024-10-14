@@ -27,7 +27,7 @@ type V1RegisterBody struct {
 	Password string `json:"password"`
 	// reCAPTCHA , see https://www.google.com/recaptcha/
 	Recaptcha string `json:"recaptcha"`
-	RecaptchaFlavor *Object `json:"recaptcha_flavor,omitempty"`
+	RecaptchaFlavor *any `json:"recaptcha_flavor,omitempty"`
 	// the invite token to apply after account creation
 	RefererInviteToken string `json:"referer_invite_token,omitempty"`
 	// the url the user should be redirected back to

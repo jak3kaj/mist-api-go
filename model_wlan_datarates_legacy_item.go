@@ -12,29 +12,3 @@ package swagger
 type WlanDataratesLegacyItem string
 
 // List of wlan_datarates_legacy_item
-const (
-	1__WlanDataratesLegacyItem WlanDataratesLegacyItem = "1"
-	11__WlanDataratesLegacyItem WlanDataratesLegacyItem = "11"
-	11B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "11b"
-	12__WlanDataratesLegacyItem WlanDataratesLegacyItem = "12"
-	12B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "12b"
-	18__WlanDataratesLegacyItem WlanDataratesLegacyItem = "18"
-	18B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "18b"
-	1B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "1b"
-	2__WlanDataratesLegacyItem WlanDataratesLegacyItem = "2"
-	24__WlanDataratesLegacyItem WlanDataratesLegacyItem = "24"
-	24B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "24b"
-	2B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "2b"
-	36__WlanDataratesLegacyItem WlanDataratesLegacyItem = "36"
-	36B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "36b"
-	48__WlanDataratesLegacyItem WlanDataratesLegacyItem = "48"
-	48B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "48b"
-	55__WlanDataratesLegacyItem WlanDataratesLegacyItem = "5.5"
-	55B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "5.5b"
-	54__WlanDataratesLegacyItem WlanDataratesLegacyItem = "54"
-	54B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "54b"
-	6__WlanDataratesLegacyItem WlanDataratesLegacyItem = "6"
-	6B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "6b"
-	9__WlanDataratesLegacyItem WlanDataratesLegacyItem = "9"
-	9B__WlanDataratesLegacyItem WlanDataratesLegacyItem = "9b"
-)

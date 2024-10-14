@@ -12,7 +12,3 @@ package swagger
 type AvprofileFallbackActionEnum string
 
 // List of avprofile_fallback_action_enum
-const (
-	BLOCK_AvprofileFallbackActionEnum AvprofileFallbackActionEnum = "block"
-	PERMIT_AvprofileFallbackActionEnum AvprofileFallbackActionEnum = "permit"
-)

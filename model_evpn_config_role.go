@@ -12,8 +12,3 @@ package swagger
 type EvpnConfigRole string
 
 // List of evpn_config_role
-const (
-	ACCESS_EvpnConfigRole EvpnConfigRole = "access"
-	CORE_EvpnConfigRole EvpnConfigRole = "core"
-	DISTRIBUTION_EvpnConfigRole EvpnConfigRole = "distribution"
-)

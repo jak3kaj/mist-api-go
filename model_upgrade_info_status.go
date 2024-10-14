@@ -12,10 +12,3 @@ package swagger
 type UpgradeInfoStatus string
 
 // List of upgrade_info_status
-const (
-	ERROR__UpgradeInfoStatus UpgradeInfoStatus = "error"
-	INPROGRESS_UpgradeInfoStatus UpgradeInfoStatus = "inprogress"
-	SCHEDULED_UpgradeInfoStatus UpgradeInfoStatus = "scheduled"
-	STARTING_UpgradeInfoStatus UpgradeInfoStatus = "starting"
-	SUCCESS_UpgradeInfoStatus UpgradeInfoStatus = "success"
-)

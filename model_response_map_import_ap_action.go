@@ -12,10 +12,3 @@ package swagger
 type ResponseMapImportApAction string
 
 // List of response_map_import_ap_action
-const (
-	ASSIGNED_NAMED_PLACED_ResponseMapImportApAction ResponseMapImportApAction = "assigned-named-placed"
-	ASSIGNED_PLACED_ResponseMapImportApAction ResponseMapImportApAction = "assigned-placed"
-	IGNORED_ResponseMapImportApAction ResponseMapImportApAction = "ignored"
-	NAMED_PLACED_ResponseMapImportApAction ResponseMapImportApAction = "named-placed"
-	PLACED_ResponseMapImportApAction ResponseMapImportApAction = "placed"
-)

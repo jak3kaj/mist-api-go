@@ -12,7 +12,3 @@ package swagger
 type SnmpUsmEngineType string
 
 // List of snmp_usm_engine_type
-const (
-	LOCAL_ENGINE_SnmpUsmEngineType SnmpUsmEngineType = "local_engine"
-	REMOTE_ENGINE_SnmpUsmEngineType SnmpUsmEngineType = "remote_engine"
-)

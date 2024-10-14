@@ -12,8 +12,3 @@ package swagger
 type Dot11Band string
 
 // List of dot11_band
-const (
-	24__Dot11Band Dot11Band = "24"
-	5__Dot11Band Dot11Band = "5"
-	6__Dot11Band Dot11Band = "6"
-)

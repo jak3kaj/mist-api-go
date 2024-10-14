@@ -12,6 +12,3 @@ package swagger
 type MapJibestreamVendorName string
 
 // List of map_jibestream_vendor_name
-const (
-	JIBESTREAM_MapJibestreamVendorName MapJibestreamVendorName = "jibestream"
-)

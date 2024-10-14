@@ -12,7 +12,3 @@ package swagger
 type MapType string
 
 // List of map_type
-const (
-	GOOGLE_MapType MapType = "google"
-	IMAGE_MapType MapType = "image"
-)

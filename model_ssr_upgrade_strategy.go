@@ -12,7 +12,3 @@ package swagger
 type SsrUpgradeStrategy string
 
 // List of ssr_upgrade_strategy
-const (
-	BIG_BANG_SsrUpgradeStrategy SsrUpgradeStrategy = "big_bang"
-	SERIAL_SsrUpgradeStrategy SsrUpgradeStrategy = "serial"
-)

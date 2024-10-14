@@ -12,7 +12,3 @@ package swagger
 type ApPortConfigPortAuth string
 
 // List of ap_port_config_port_auth
-const (
-	DOT1X_ApPortConfigPortAuth ApPortConfigPortAuth = "dot1x"
-	NONE_ApPortConfigPortAuth ApPortConfigPortAuth = "none"
-)

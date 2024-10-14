@@ -12,6 +12,3 @@ package swagger
 type CaptureWiredType string
 
 // List of capture_wired_type
-const (
-	WIRED_CaptureWiredType CaptureWiredType = "wired"
-)

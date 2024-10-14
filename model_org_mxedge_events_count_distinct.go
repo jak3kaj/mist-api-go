@@ -12,9 +12,3 @@ package swagger
 type OrgMxedgeEventsCountDistinct string
 
 // List of org_mxedge_events_count_distinct
-const (
-	MXCLUSTER_ID_OrgMxedgeEventsCountDistinct OrgMxedgeEventsCountDistinct = "mxcluster_id"
-	MXEDGE_ID_OrgMxedgeEventsCountDistinct OrgMxedgeEventsCountDistinct = "mxedge_id"
-	PACKAGE__OrgMxedgeEventsCountDistinct OrgMxedgeEventsCountDistinct = "package"
-	TYPE__OrgMxedgeEventsCountDistinct OrgMxedgeEventsCountDistinct = "type"
-)

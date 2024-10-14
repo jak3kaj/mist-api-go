@@ -12,9 +12,3 @@ package swagger
 type DeviceUpgradeStrategy string
 
 // List of device_upgrade_strategy
-const (
-	BIG_BANG_DeviceUpgradeStrategy DeviceUpgradeStrategy = "big_bang"
-	CANARY_DeviceUpgradeStrategy DeviceUpgradeStrategy = "canary"
-	RRM_DeviceUpgradeStrategy DeviceUpgradeStrategy = "rrm"
-	SERIAL_DeviceUpgradeStrategy DeviceUpgradeStrategy = "serial"
-)

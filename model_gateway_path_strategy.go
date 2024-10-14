@@ -12,8 +12,3 @@ package swagger
 type GatewayPathStrategy string
 
 // List of gateway_path_strategy
-const (
-	ECMP_GatewayPathStrategy GatewayPathStrategy = "ecmp"
-	ORDERED_GatewayPathStrategy GatewayPathStrategy = "ordered"
-	WEIGHTED_GatewayPathStrategy GatewayPathStrategy = "weighted"
-)

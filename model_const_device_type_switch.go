@@ -12,6 +12,3 @@ package swagger
 type ConstDeviceTypeSwitch string
 
 // List of const_device_type_switch
-const (
-	SWITCH__ConstDeviceTypeSwitch ConstDeviceTypeSwitch = "switch"
-)

@@ -12,9 +12,3 @@ package swagger
 type SsoIdpSignAlgo string
 
 // List of sso_idp_sign_algo
-const (
-	SHA1_SsoIdpSignAlgo SsoIdpSignAlgo = "sha1"
-	SHA256_SsoIdpSignAlgo SsoIdpSignAlgo = "sha256"
-	SHA384_SsoIdpSignAlgo SsoIdpSignAlgo = "sha384"
-	SHA512_SsoIdpSignAlgo SsoIdpSignAlgo = "sha512"
-)

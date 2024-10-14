@@ -11,7 +11,7 @@ package swagger
 
 type InlineResponse200117 struct {
 	CreatedTime float64 `json:"created_time,omitempty"`
-	Dmvpn *Object `json:"dmvpn,omitempty"`
+	Dmvpn *any `json:"dmvpn,omitempty"`
 	// determined during creation time and cannot be toggled. A management tunnel cannot be used by wxlan rule or by wlan
 	ForMgmt bool `json:"for_mgmt,omitempty"`
 	ForSite bool `json:"for_site,omitempty"`
@@ -21,7 +21,7 @@ type InlineResponse200117 struct {
 	// optional, overwrite the hostname in SCCRQ control message, default is \\u201C\\u201D or null, %H and %M can be used, which will be replace with corresponding values:   * %H: name of the ap if provided (and will be stripped so it can be used for hostname) and fallbacks to MAC   * %M: MAC (e.g. 5c5b350e0060)
 	Hostname string `json:"hostname,omitempty"`
 	Id string `json:"id,omitempty"`
-	Ipsec *Object `json:"ipsec,omitempty"`
+	Ipsec *any `json:"ipsec,omitempty"`
 	// whether it’s static/unmanaged (i.e. no control session). As the session configurations are not compatible, cannot be toggled.
 	IsStatic bool `json:"is_static,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`

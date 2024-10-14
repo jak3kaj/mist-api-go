@@ -12,8 +12,3 @@ package swagger
 type OspfAreaNetworkAuthType string
 
 // List of ospf_area_network_auth_type
-const (
-	MD5_OspfAreaNetworkAuthType OspfAreaNetworkAuthType = "md5"
-	NONE_OspfAreaNetworkAuthType OspfAreaNetworkAuthType = "none"
-	PASSWORD_OspfAreaNetworkAuthType OspfAreaNetworkAuthType = "password"
-)

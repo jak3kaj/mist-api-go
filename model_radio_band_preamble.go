@@ -12,8 +12,3 @@ package swagger
 type RadioBandPreamble string
 
 // List of radio_band_preamble
-const (
-	AUTO_RadioBandPreamble RadioBandPreamble = "auto"
-	LONG_RadioBandPreamble RadioBandPreamble = "long"
-	SHORT_RadioBandPreamble RadioBandPreamble = "short"
-)

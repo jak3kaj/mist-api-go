@@ -15,5 +15,5 @@ type Fpc0MacVcBody struct {
 	Members []VirtualChassisMemberUpdate `json:"members,omitempty"`
 	// Only if `op`==`renumber`
 	NewMember int32 `json:"new-member,omitempty"`
-	Op *Object `json:"op,omitempty"`
+	Op *any `json:"op,omitempty"`
 }

@@ -16,7 +16,7 @@ type AllOfapIotA4 struct {
 	Name string `json:"name,omitempty"`
 	// whether the pin is configured as an output. DO and A1-A4 can be repurposed by changing
 	Output bool `json:"output,omitempty"`
-	Pullup *Object `json:"pullup,omitempty"`
+	Pullup *any `json:"pullup,omitempty"`
 	// output pin signal level, default 0
 	Value int32 `json:"value,omitempty"`
 }

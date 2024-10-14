@@ -11,5 +11,5 @@ package swagger
 
 type WebhookExampleClientInfoBody struct {
 	Events []WebhookClientInfoEvent `json:"events,omitempty"`
-	Topic *Object `json:"topic,omitempty"`
+	Topic *any `json:"topic,omitempty"`
 }

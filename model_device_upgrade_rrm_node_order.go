@@ -12,7 +12,3 @@ package swagger
 type DeviceUpgradeRrmNodeOrder string
 
 // List of device_upgrade_rrm_node_order
-const (
-	CENTER_TO_FRINGE_DeviceUpgradeRrmNodeOrder DeviceUpgradeRrmNodeOrder = "center_to_fringe"
-	FRINGE_TO_CENTER_DeviceUpgradeRrmNodeOrder DeviceUpgradeRrmNodeOrder = "fringe_to_center"
-)

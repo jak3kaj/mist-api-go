@@ -12,8 +12,3 @@ package swagger
 type IdpProfileAction string
 
 // List of idp_profile_action
-const (
-	ALERT_IdpProfileAction IdpProfileAction = "alert"
-	CLOSE_IdpProfileAction IdpProfileAction = "close"
-	DROP_IdpProfileAction IdpProfileAction = "drop"
-)

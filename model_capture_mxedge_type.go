@@ -12,6 +12,3 @@ package swagger
 type CaptureMxedgeType string
 
 // List of capture_mxedge_type
-const (
-	MXEDGE_CaptureMxedgeType CaptureMxedgeType = "mxedge"
-)

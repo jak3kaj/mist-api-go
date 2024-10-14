@@ -10,7 +10,7 @@
 package swagger
 
 type InlineResponse200 struct {
-	Flavor *Object `json:"flavor,omitempty"`
+	Flavor *any `json:"flavor,omitempty"`
 	Required bool `json:"required,omitempty"`
 	Sitekey string `json:"sitekey,omitempty"`
 }

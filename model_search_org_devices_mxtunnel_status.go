@@ -12,7 +12,3 @@ package swagger
 type SearchOrgDevicesMxtunnelStatus string
 
 // List of search_org_devices_mxtunnel_status
-const (
-	DOWN_SearchOrgDevicesMxtunnelStatus SearchOrgDevicesMxtunnelStatus = "down"
-	UP_SearchOrgDevicesMxtunnelStatus SearchOrgDevicesMxtunnelStatus = "up"
-)

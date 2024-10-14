@@ -12,10 +12,3 @@ package swagger
 type PrivilegeMspRole string
 
 // List of privilege_msp_role
-const (
-	ADMIN_PrivilegeMspRole PrivilegeMspRole = "admin"
-	HELPDESK_PrivilegeMspRole PrivilegeMspRole = "helpdesk"
-	INSTALLER_PrivilegeMspRole PrivilegeMspRole = "installer"
-	READ_PrivilegeMspRole PrivilegeMspRole = "read"
-	WRITE_PrivilegeMspRole PrivilegeMspRole = "write"
-)

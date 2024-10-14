@@ -12,7 +12,3 @@ package swagger
 type IpType string
 
 // List of ip_type
-const (
-	DHCP_IpType IpType = "dhcp"
-	STATIC_IpType IpType = "static"
-)

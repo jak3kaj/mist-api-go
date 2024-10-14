@@ -11,7 +11,7 @@ package swagger
 
 type AllOfwlanPortalTemplatePortalTemplate struct {
 	AccessCodeAlternateEmail string `json:"accessCodeAlternateEmail,omitempty"`
-	Alignment *Object `json:"alignment,omitempty"`
+	Alignment *any `json:"alignment,omitempty"`
 	Ar *WlanPortalTemplateSettingLocale `json:"ar,omitempty"`
 	// label for Amazon auth button
 	AuthButtonAmazon string `json:"authButtonAmazon,omitempty"`

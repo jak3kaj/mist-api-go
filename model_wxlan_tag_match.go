@@ -12,20 +12,3 @@ package swagger
 type WxlanTagMatch string
 
 // List of wxlan_tag_match
-const (
-	AP_ID_WxlanTagMatch WxlanTagMatch = "ap_id"
-	APP_WxlanTagMatch WxlanTagMatch = "app"
-	ASSET_MAC_WxlanTagMatch WxlanTagMatch = "asset_mac"
-	CLIENT_MAC_WxlanTagMatch WxlanTagMatch = "client_mac"
-	HOSTNAME_WxlanTagMatch WxlanTagMatch = "hostname"
-	IP_RANGE_SUBNET_WxlanTagMatch WxlanTagMatch = "ip_range_subnet"
-	PORT_WxlanTagMatch WxlanTagMatch = "port"
-	PSK_NAME_WxlanTagMatch WxlanTagMatch = "psk_name"
-	PSK_ROLE_WxlanTagMatch WxlanTagMatch = "psk_role"
-	RADIUS_ATTR_WxlanTagMatch WxlanTagMatch = "radius_attr"
-	RADIUS_CLASS_WxlanTagMatch WxlanTagMatch = "radius_class"
-	RADIUS_GROUP_WxlanTagMatch WxlanTagMatch = "radius_group"
-	RADIUS_USERNAME_WxlanTagMatch WxlanTagMatch = "radius_username"
-	SDKCLIENT_UUID_WxlanTagMatch WxlanTagMatch = "sdkclient_uuid"
-	WLAN_ID_WxlanTagMatch WxlanTagMatch = "wlan_id"
-)

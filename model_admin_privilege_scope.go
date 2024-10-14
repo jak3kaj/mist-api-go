@@ -12,10 +12,3 @@ package swagger
 type AdminPrivilegeScope string
 
 // List of admin_privilege_scope
-const (
-	MSP_AdminPrivilegeScope AdminPrivilegeScope = "msp"
-	ORG_AdminPrivilegeScope AdminPrivilegeScope = "org"
-	ORGGROUP_AdminPrivilegeScope AdminPrivilegeScope = "orggroup"
-	SITE_AdminPrivilegeScope AdminPrivilegeScope = "site"
-	SITEGROUP_AdminPrivilegeScope AdminPrivilegeScope = "sitegroup"
-)

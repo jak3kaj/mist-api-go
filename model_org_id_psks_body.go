@@ -42,6 +42,6 @@ type OrgIdPsksBody struct {
 	SiteId string `json:"site_id,omitempty"`
 	// SSID this PSK should be applicable to
 	Ssid string `json:"ssid"`
-	Usage *Object `json:"usage,omitempty"`
-	VlanId *Object `json:"vlan_id,omitempty"`
+	Usage *any `json:"usage,omitempty"`
+	VlanId *any `json:"vlan_id,omitempty"`
 }

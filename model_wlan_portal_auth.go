@@ -12,8 +12,3 @@ package swagger
 type WlanPortalAuth string
 
 // List of wlan_portal_auth
-const (
-	EXTERNAL_WlanPortalAuth WlanPortalAuth = "external"
-	NONE_WlanPortalAuth WlanPortalAuth = "none"
-	SSO_WlanPortalAuth WlanPortalAuth = "sso"
-)

@@ -12,7 +12,3 @@ package swagger
 type WebhookOauth2GrantType string
 
 // List of webhook_oauth2_grant_type
-const (
-	CLIENT_CREDENTIALS_WebhookOauth2GrantType WebhookOauth2GrantType = "client_credentials"
-	PASSWORD_WebhookOauth2GrantType WebhookOauth2GrantType = "password"
-)

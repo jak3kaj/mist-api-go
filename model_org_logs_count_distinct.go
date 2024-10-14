@@ -12,9 +12,3 @@ package swagger
 type OrgLogsCountDistinct string
 
 // List of org_logs_count_distinct
-const (
-	ADMIN_ID_OrgLogsCountDistinct OrgLogsCountDistinct = "admin_id"
-	ADMIN_NAME_OrgLogsCountDistinct OrgLogsCountDistinct = "admin_name"
-	MESSAGE_OrgLogsCountDistinct OrgLogsCountDistinct = "message"
-	SITE_ID_OrgLogsCountDistinct OrgLogsCountDistinct = "site_id"
-)

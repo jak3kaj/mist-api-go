@@ -12,11 +12,3 @@ package swagger
 type BgpStatsState string
 
 // List of bgp_stats_state
-const (
-	ACTIVE_BgpStatsState BgpStatsState = "active"
-	CONNECT_BgpStatsState BgpStatsState = "connect"
-	ESTABLISHED_BgpStatsState BgpStatsState = "established"
-	IDLE_BgpStatsState BgpStatsState = "idle"
-	OPEN_CONFIG_BgpStatsState BgpStatsState = "open_config"
-	OPEN_SENT_BgpStatsState BgpStatsState = "open_sent"
-)

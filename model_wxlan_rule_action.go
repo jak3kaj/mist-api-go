@@ -12,7 +12,3 @@ package swagger
 type WxlanRuleAction string
 
 // List of wxlan_rule_action
-const (
-	ALLOW_WxlanRuleAction WxlanRuleAction = "allow"
-	BLOCK_WxlanRuleAction WxlanRuleAction = "block"
-)

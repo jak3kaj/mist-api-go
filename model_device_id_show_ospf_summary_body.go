@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdShowOspfSummaryBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// VRF name
 	Vrf string `json:"vrf,omitempty"`
 }

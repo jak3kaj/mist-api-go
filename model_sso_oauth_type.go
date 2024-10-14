@@ -12,9 +12,3 @@ package swagger
 type SsoOauthType string
 
 // List of sso_oauth_type
-const (
-	AZURE_SsoOauthType SsoOauthType = "azure"
-	AZURE_GOV_SsoOauthType SsoOauthType = "azure-gov"
-	OKTA_SsoOauthType SsoOauthType = "okta"
-	PING_IDENTITY_SsoOauthType SsoOauthType = "ping_identity"
-)

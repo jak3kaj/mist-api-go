@@ -12,9 +12,3 @@ package swagger
 type VirtualChassisUpdateOp string
 
 // List of virtual_chassis_update_op
-const (
-	ADD_VirtualChassisUpdateOp VirtualChassisUpdateOp = "add"
-	PREPROVISION_VirtualChassisUpdateOp VirtualChassisUpdateOp = "preprovision"
-	REMOVE_VirtualChassisUpdateOp VirtualChassisUpdateOp = "remove"
-	RENUMBER_VirtualChassisUpdateOp VirtualChassisUpdateOp = "renumber"
-)

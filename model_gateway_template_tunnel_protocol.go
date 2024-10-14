@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateTunnelProtocol string
 
 // List of gateway_template_tunnel_protocol
-const (
-	GRE_GatewayTemplateTunnelProtocol GatewayTemplateTunnelProtocol = "gre"
-	IPSEC_GatewayTemplateTunnelProtocol GatewayTemplateTunnelProtocol = "ipsec"
-)

@@ -12,9 +12,3 @@ package swagger
 type RogueType string
 
 // List of rogue_type
-const (
-	HONEYPOT_RogueType RogueType = "honeypot"
-	LAN_RogueType RogueType = "lan"
-	OTHERS_RogueType RogueType = "others"
-	SPOOF_RogueType RogueType = "spoof"
-)

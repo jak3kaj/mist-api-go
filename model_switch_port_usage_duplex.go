@@ -12,8 +12,3 @@ package swagger
 type SwitchPortUsageDuplex string
 
 // List of switch_port_usage_duplex
-const (
-	AUTO_SwitchPortUsageDuplex SwitchPortUsageDuplex = "auto"
-	FULL_SwitchPortUsageDuplex SwitchPortUsageDuplex = "full"
-	HALF_SwitchPortUsageDuplex SwitchPortUsageDuplex = "half"
-)

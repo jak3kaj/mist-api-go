@@ -34,7 +34,7 @@ type StatsSite struct {
 	NumSwitchConnected int32 `json:"num_switch_connected"`
 	OrgId string `json:"org_id"`
 	RftemplateId string `json:"rftemplate_id"`
-	SecpolicyId *Object `json:"secpolicy_id,omitempty"`
+	SecpolicyId *any `json:"secpolicy_id,omitempty"`
 	SitegroupIds []string `json:"sitegroup_ids"`
 	Timezone string `json:"timezone"`
 	Tzoffset int32 `json:"tzoffset"`

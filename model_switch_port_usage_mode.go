@@ -12,9 +12,3 @@ package swagger
 type SwitchPortUsageMode string
 
 // List of switch_port_usage_mode
-const (
-	ACCESS_SwitchPortUsageMode SwitchPortUsageMode = "access"
-	DYNAMIC_SwitchPortUsageMode SwitchPortUsageMode = "dynamic"
-	INET_SwitchPortUsageMode SwitchPortUsageMode = "inet"
-	TRUNK_SwitchPortUsageMode SwitchPortUsageMode = "trunk"
-)

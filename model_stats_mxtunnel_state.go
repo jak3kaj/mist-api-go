@@ -12,10 +12,3 @@ package swagger
 type StatsMxtunnelState string
 
 // List of stats_mxtunnel_state
-const (
-	ESTABLISHED_StatsMxtunnelState StatsMxtunnelState = "established"
-	ESTABLISHED_WITH_SESSION_StatsMxtunnelState StatsMxtunnelState = "established_with_session"
-	IDLE_StatsMxtunnelState StatsMxtunnelState = "idle"
-	WAIT_CTRL_CONN_StatsMxtunnelState StatsMxtunnelState = "wait-ctrl-conn"
-	WAIT_CTRL_REPLY_StatsMxtunnelState StatsMxtunnelState = "wait-ctrl-reply"
-)

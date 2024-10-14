@@ -12,12 +12,3 @@ package swagger
 type WanUsagesCountDisctinct string
 
 // List of wan_usages_count_disctinct
-const (
-	MAC_WanUsagesCountDisctinct WanUsagesCountDisctinct = "mac"
-	PATH_TYPE_WanUsagesCountDisctinct WanUsagesCountDisctinct = "path_type"
-	PEER_MAC_WanUsagesCountDisctinct WanUsagesCountDisctinct = "peer_mac"
-	PEER_PORT_ID_WanUsagesCountDisctinct WanUsagesCountDisctinct = "peer_port_id"
-	POLICY_WanUsagesCountDisctinct WanUsagesCountDisctinct = "policy"
-	PORT_ID_WanUsagesCountDisctinct WanUsagesCountDisctinct = "port_id"
-	TENANT_WanUsagesCountDisctinct WanUsagesCountDisctinct = "tenant"
-)

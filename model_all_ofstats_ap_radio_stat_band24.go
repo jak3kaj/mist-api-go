@@ -10,7 +10,7 @@
 package swagger
 
 type AllOfstatsApRadioStatBand24 struct {
-	Bandwidth *Object `json:"bandwidth,omitempty"`
+	Bandwidth *any `json:"bandwidth,omitempty"`
 	// current channel the radio is running on
 	Channel int32 `json:"channel,omitempty"`
 	// Use dynamic chaining for downlink

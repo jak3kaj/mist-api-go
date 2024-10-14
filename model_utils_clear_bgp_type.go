@@ -12,9 +12,3 @@ package swagger
 type UtilsClearBgpType string
 
 // List of utils_clear_bgp_type
-const (
-	HARD_UtilsClearBgpType UtilsClearBgpType = "hard"
-	IN_UtilsClearBgpType UtilsClearBgpType = "in"
-	OUT_UtilsClearBgpType UtilsClearBgpType = "out"
-	SOFT_UtilsClearBgpType UtilsClearBgpType = "soft"
-)

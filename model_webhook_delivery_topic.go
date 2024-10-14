@@ -12,10 +12,3 @@ package swagger
 type WebhookDeliveryTopic string
 
 // List of webhook_delivery_topic
-const (
-	ALARMS_WebhookDeliveryTopic WebhookDeliveryTopic = "alarms"
-	AUDITS_WebhookDeliveryTopic WebhookDeliveryTopic = "audits"
-	DEVICE_UPDOWNS_WebhookDeliveryTopic WebhookDeliveryTopic = "device-updowns"
-	OCCUPANCY_ALERTS_WebhookDeliveryTopic WebhookDeliveryTopic = "occupancy-alerts"
-	PING_WebhookDeliveryTopic WebhookDeliveryTopic = "ping"
-)

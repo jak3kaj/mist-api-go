@@ -12,16 +12,3 @@ package swagger
 type SiteAssetsCountDistinct string
 
 // List of site_assets_count_distinct
-const (
-	BY_SiteAssetsCountDistinct SiteAssetsCountDistinct = "by"
-	DEVICE_NAME_SiteAssetsCountDistinct SiteAssetsCountDistinct = "device_name"
-	EDDYSTONE_UID_INSTANCE_SiteAssetsCountDistinct SiteAssetsCountDistinct = "eddystone_uid_instance"
-	EDDYSTONE_UID_NAMESPACE_SiteAssetsCountDistinct SiteAssetsCountDistinct = "eddystone_uid_namespace"
-	EDDYSTONE_URL_SiteAssetsCountDistinct SiteAssetsCountDistinct = "eddystone_url"
-	IBEACON_MAJOR_SiteAssetsCountDistinct SiteAssetsCountDistinct = "ibeacon_major"
-	IBEACON_MINOR_SiteAssetsCountDistinct SiteAssetsCountDistinct = "ibeacon_minor"
-	IBEACON_UUID_SiteAssetsCountDistinct SiteAssetsCountDistinct = "ibeacon_uuid"
-	MAC_SiteAssetsCountDistinct SiteAssetsCountDistinct = "mac"
-	MAP_ID_SiteAssetsCountDistinct SiteAssetsCountDistinct = "map_id"
-	NAME_SiteAssetsCountDistinct SiteAssetsCountDistinct = "name"
-)

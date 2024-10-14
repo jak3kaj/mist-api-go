@@ -12,7 +12,3 @@ package swagger
 type NacRuleMatchingPortType string
 
 // List of nac_rule_matching_port_type
-const (
-	WIRED_NacRuleMatchingPortType NacRuleMatchingPortType = "wired"
-	WIRELESS_NacRuleMatchingPortType NacRuleMatchingPortType = "wireless"
-)

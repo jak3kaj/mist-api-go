@@ -12,8 +12,3 @@ package swagger
 type CaptureScanBand string
 
 // List of capture_scan_band
-const (
-	24__CaptureScanBand CaptureScanBand = "24"
-	5__CaptureScanBand CaptureScanBand = "5"
-	6__CaptureScanBand CaptureScanBand = "6"
-)

@@ -12,9 +12,3 @@ package swagger
 type DiscoveredSwitchMetricType string
 
 // List of discovered_switch_metric_type
-const (
-	INACTIVE_WIRED_VLANS_DiscoveredSwitchMetricType DiscoveredSwitchMetricType = "inactive_wired_vlans"
-	POE_COMPLIANCE_DiscoveredSwitchMetricType DiscoveredSwitchMetricType = "poe_compliance"
-	SWITCH_AP_AFFINITY_DiscoveredSwitchMetricType DiscoveredSwitchMetricType = "switch_ap_affinity"
-	VERSION_COMPLIANCE_DiscoveredSwitchMetricType DiscoveredSwitchMetricType = "version_compliance"
-)

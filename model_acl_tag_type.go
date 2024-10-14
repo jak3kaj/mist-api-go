@@ -12,13 +12,3 @@ package swagger
 type AclTagType string
 
 // List of acl_tag_type
-const (
-	ANY_AclTagType AclTagType = "any"
-	DYNAMIC_GBP_AclTagType AclTagType = "dynamic_gbp"
-	MAC_AclTagType AclTagType = "mac"
-	NETWORK_AclTagType AclTagType = "network"
-	RADIUS_GROUP_AclTagType AclTagType = "radius_group"
-	RESOURCE_AclTagType AclTagType = "resource"
-	STATIC_GBP_AclTagType AclTagType = "static_gbp"
-	SUBNET_AclTagType AclTagType = "subnet"
-)

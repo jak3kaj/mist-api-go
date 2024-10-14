@@ -12,6 +12,3 @@ package swagger
 type SwitchMetricType string
 
 // List of switch_metric_type
-const (
-	ACTIVE_PORTS_SUMMARY_SwitchMetricType SwitchMetricType = "active_ports_summary"
-)

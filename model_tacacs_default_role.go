@@ -12,9 +12,3 @@ package swagger
 type TacacsDefaultRole string
 
 // List of tacacs_default_role
-const (
-	ADMIN_TacacsDefaultRole TacacsDefaultRole = "admin"
-	HELPDESK_TacacsDefaultRole TacacsDefaultRole = "helpdesk"
-	NONE_TacacsDefaultRole TacacsDefaultRole = "none"
-	READ_TacacsDefaultRole TacacsDefaultRole = "read"
-)

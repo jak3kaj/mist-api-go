@@ -12,6 +12,3 @@ package swagger
 type WebhookSdkclientScanDataTopic string
 
 // List of webhook_sdkclient_scan_data_topic
-const (
-	SDKCLIENT_SCAN_DATA_WebhookSdkclientScanDataTopic WebhookSdkclientScanDataTopic = "sdkclient_scan_data"
-)

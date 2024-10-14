@@ -12,7 +12,3 @@ package swagger
 type ConstDeviceApExtiosDefaultDir string
 
 // List of const_device_ap_extios_default_dir
-const (
-	IN_ConstDeviceApExtiosDefaultDir ConstDeviceApExtiosDefaultDir = "IN"
-	OUT_ConstDeviceApExtiosDefaultDir ConstDeviceApExtiosDefaultDir = "OUT"
-)

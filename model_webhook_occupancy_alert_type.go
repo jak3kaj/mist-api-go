@@ -12,7 +12,3 @@ package swagger
 type WebhookOccupancyAlertType string
 
 // List of webhook_occupancy_alert_type
-const (
-	OK_WebhookOccupancyAlertType WebhookOccupancyAlertType = "COMPLIANCE-OK"
-	VIOLATION_WebhookOccupancyAlertType WebhookOccupancyAlertType = "COMPLIANCE-VIOLATION"
-)

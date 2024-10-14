@@ -12,8 +12,3 @@ package swagger
 type Snmpv3ConfigTargetParamSecurityLevel string
 
 // List of snmpv3_config_target_param_security_level
-const (
-	AUTHENTICATION_Snmpv3ConfigTargetParamSecurityLevel Snmpv3ConfigTargetParamSecurityLevel = "authentication"
-	NONE_Snmpv3ConfigTargetParamSecurityLevel Snmpv3ConfigTargetParamSecurityLevel = "none"
-	PRIVACY_Snmpv3ConfigTargetParamSecurityLevel Snmpv3ConfigTargetParamSecurityLevel = "privacy"
-)

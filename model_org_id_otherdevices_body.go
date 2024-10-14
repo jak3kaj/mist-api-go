@@ -12,6 +12,6 @@ package swagger
 type OrgIdOtherdevicesBody struct {
 	// The mac address of the peer device.
 	Macs []string `json:"macs,omitempty"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	SiteId string `json:"site_id,omitempty"`
 }

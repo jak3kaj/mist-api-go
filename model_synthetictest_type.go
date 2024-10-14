@@ -12,13 +12,3 @@ package swagger
 type SynthetictestType string
 
 // List of synthetictest_type
-const (
-	ARP_SynthetictestType SynthetictestType = "arp"
-	CURL_SynthetictestType SynthetictestType = "curl"
-	DHCP_SynthetictestType SynthetictestType = "dhcp"
-	DHCP6_SynthetictestType SynthetictestType = "dhcp6"
-	DNS_SynthetictestType SynthetictestType = "dns"
-	LAN_CONNECTIVITY_SynthetictestType SynthetictestType = "lan_connectivity"
-	RADIUS_SynthetictestType SynthetictestType = "radius"
-	SPEEDTEST_SynthetictestType SynthetictestType = "speedtest"
-)

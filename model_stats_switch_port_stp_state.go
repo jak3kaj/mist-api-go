@@ -12,10 +12,3 @@ package swagger
 type StatsSwitchPortStpState string
 
 // List of stats_switch_port_stp_state
-const (
-	BLOCKING_StatsSwitchPortStpState StatsSwitchPortStpState = "blocking"
-	DISABLED_StatsSwitchPortStpState StatsSwitchPortStpState = "disabled"
-	FORWARDING_StatsSwitchPortStpState StatsSwitchPortStpState = "forwarding"
-	LEARNING_StatsSwitchPortStpState StatsSwitchPortStpState = "learning"
-	LISTENING_StatsSwitchPortStpState StatsSwitchPortStpState = "listening"
-)

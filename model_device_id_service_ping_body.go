@@ -12,7 +12,7 @@ package swagger
 type DeviceIdServicePingBody struct {
 	Count int32 `json:"count,omitempty"`
 	Host string `json:"host"`
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// ping packet takes the same path as the service
 	Service string `json:"service"`
 	Size int32 `json:"size,omitempty"`

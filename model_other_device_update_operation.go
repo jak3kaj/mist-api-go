@@ -12,7 +12,3 @@ package swagger
 type OtherDeviceUpdateOperation string
 
 // List of other_device_update_operation
-const (
-	ASSIGN_OtherDeviceUpdateOperation OtherDeviceUpdateOperation = "assign"
-	UNASSIGN_OtherDeviceUpdateOperation OtherDeviceUpdateOperation = "unassign"
-)

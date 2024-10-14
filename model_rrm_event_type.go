@@ -12,13 +12,3 @@ package swagger
 type RrmEventType string
 
 // List of rrm_event_type
-const (
-	INTERFERENCE_AP_CO_CHANNEL_RrmEventType RrmEventType = "interference-ap-co-channel"
-	INTERFERENCE_AP_NON_WIFI_RrmEventType RrmEventType = "interference-ap-non-wifi"
-	NEIGHBOR_AP_DOWN_RrmEventType RrmEventType = "neighbor-ap-down"
-	NEIGHBOR_AP_RECOVERED_RrmEventType RrmEventType = "neighbor-ap-recovered"
-	RADAR_DETECTED_RrmEventType RrmEventType = "radar-detected"
-	RRM_RADAR_RrmEventType RrmEventType = "rrm-radar"
-	SCHEDULED_SITE_RRM_RrmEventType RrmEventType = "scheduled-site_rrm"
-	TRIGGERED_SITE_RRM_RrmEventType RrmEventType = "triggered-site_rrm"
-)

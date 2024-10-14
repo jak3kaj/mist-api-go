@@ -12,14 +12,3 @@ package swagger
 type NacTagType string
 
 // List of nac_tag_type
-const (
-	EGRESS_VLAN_NAMES_NacTagType NacTagType = "egress_vlan_names"
-	GBP_TAG_NacTagType NacTagType = "gbp_tag"
-	MATCH_NacTagType NacTagType = "match"
-	RADIUS_ATTRS_NacTagType NacTagType = "radius_attrs"
-	RADIUS_GROUP_NacTagType NacTagType = "radius_group"
-	RADIUS_VENDOR_ATTRS_NacTagType NacTagType = "radius_vendor_attrs"
-	SESSION_TIMEOUT_NacTagType NacTagType = "session_timeout"
-	USERNAME_ATTR_NacTagType NacTagType = "username_attr"
-	VLAN_NacTagType NacTagType = "vlan"
-)

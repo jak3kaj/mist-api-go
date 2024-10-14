@@ -12,6 +12,3 @@ package swagger
 type CaptureWirelessType string
 
 // List of capture_wireless_type
-const (
-	WIRELESS_CaptureWirelessType CaptureWirelessType = "wireless"
-)

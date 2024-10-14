@@ -12,9 +12,3 @@ package swagger
 type CaptureRadiotapwiredBand string
 
 // List of capture_radiotapwired_band
-const (
-	24__CaptureRadiotapwiredBand CaptureRadiotapwiredBand = "24"
-	2456__CaptureRadiotapwiredBand CaptureRadiotapwiredBand = "24,5,6"
-	5__CaptureRadiotapwiredBand CaptureRadiotapwiredBand = "5"
-	6__CaptureRadiotapwiredBand CaptureRadiotapwiredBand = "6"
-)

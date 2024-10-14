@@ -10,7 +10,7 @@
 package swagger
 
 type IdpprofilesIdpprofileIdBody struct {
-	BaseProfile *Object `json:"base_profile,omitempty"`
+	BaseProfile *any `json:"base_profile,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	Id string `json:"id,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`

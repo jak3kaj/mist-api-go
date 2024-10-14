@@ -12,9 +12,3 @@ package swagger
 type Dot11Bandwidth6 int32
 
 // List of dot11_bandwidth6
-const (
-	20__Dot11Bandwidth6 Dot11Bandwidth6 = "20"
-	40__Dot11Bandwidth6 Dot11Bandwidth6 = "40"
-	80__Dot11Bandwidth6 Dot11Bandwidth6 = "80"
-	160__Dot11Bandwidth6 Dot11Bandwidth6 = "160"
-)

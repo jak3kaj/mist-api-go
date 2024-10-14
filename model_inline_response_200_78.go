@@ -17,6 +17,6 @@ type InlineResponse20078 struct {
 	Status string `json:"status,omitempty"`
 	Uptime int32 `json:"uptime,omitempty"`
 	Vendor string `json:"vendor,omitempty"`
-	VendorSpecific *Object `json:"vendor_specific,omitempty"`
+	VendorSpecific *any `json:"vendor_specific,omitempty"`
 	Version string `json:"version,omitempty"`
 }

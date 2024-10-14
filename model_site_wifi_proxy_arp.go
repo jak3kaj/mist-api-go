@@ -12,8 +12,3 @@ package swagger
 type SiteWifiProxyArp string
 
 // List of site_wifi_proxy_arp
-const (
-	DEFAULT__SiteWifiProxyArp SiteWifiProxyArp = "default"
-	DISABLED_SiteWifiProxyArp SiteWifiProxyArp = "disabled"
-	ENABLED_SiteWifiProxyArp SiteWifiProxyArp = "enabled"
-)

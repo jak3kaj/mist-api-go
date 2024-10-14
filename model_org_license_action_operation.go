@@ -12,9 +12,3 @@ package swagger
 type OrgLicenseActionOperation string
 
 // List of org_license_action_operation
-const (
-	AMEND_OrgLicenseActionOperation OrgLicenseActionOperation = "amend"
-	ANNOTATE_OrgLicenseActionOperation OrgLicenseActionOperation = "annotate"
-	DELETE_OrgLicenseActionOperation OrgLicenseActionOperation = "delete"
-	UNAMEND_OrgLicenseActionOperation OrgLicenseActionOperation = "unamend"
-)

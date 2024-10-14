@@ -17,7 +17,7 @@ type TicketsTicketIdBody struct {
 	Requester string `json:"requester,omitempty"`
 	// email of the requester
 	RequesterEmail string `json:"requester_email,omitempty"`
-	Status *Object `json:"status,omitempty"`
+	Status *any `json:"status,omitempty"`
 	Subject string `json:"subject"`
 	// question (default) / bug / critical
 	Type_ string `json:"type"`

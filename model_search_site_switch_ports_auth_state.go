@@ -12,9 +12,3 @@ package swagger
 type SearchSiteSwitchPortsAuthState string
 
 // List of search_site_switch_ports_auth_state
-const (
-	AUTHENTICATED_SearchSiteSwitchPortsAuthState SearchSiteSwitchPortsAuthState = "authenticated"
-	AUTHENTICATING_SearchSiteSwitchPortsAuthState SearchSiteSwitchPortsAuthState = "authenticating"
-	HELD_SearchSiteSwitchPortsAuthState SearchSiteSwitchPortsAuthState = "held"
-	INIT_SearchSiteSwitchPortsAuthState SearchSiteSwitchPortsAuthState = "init"
-)

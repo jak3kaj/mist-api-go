@@ -12,11 +12,3 @@ package swagger
 type JunosPortConfigSpeed string
 
 // List of junos_port_config_speed
-const (
-	100M__JunosPortConfigSpeed JunosPortConfigSpeed = "100m"
-	10M__JunosPortConfigSpeed JunosPortConfigSpeed = "10m"
-	1G__JunosPortConfigSpeed JunosPortConfigSpeed = "1g"
-	25G__JunosPortConfigSpeed JunosPortConfigSpeed = "2.5g"
-	5G__JunosPortConfigSpeed JunosPortConfigSpeed = "5g"
-	AUTO_JunosPortConfigSpeed JunosPortConfigSpeed = "auto"
-)

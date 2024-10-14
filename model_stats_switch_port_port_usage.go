@@ -12,6 +12,3 @@ package swagger
 type StatsSwitchPortPortUsage string
 
 // List of stats_switch_port_port_usage
-const (
-	LAN_StatsSwitchPortPortUsage StatsSwitchPortPortUsage = "lan"
-)

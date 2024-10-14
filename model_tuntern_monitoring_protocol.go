@@ -12,8 +12,3 @@ package swagger
 type TunternMonitoringProtocol string
 
 // List of tuntern_monitoring_protocol
-const (
-	ARP_TunternMonitoringProtocol TunternMonitoringProtocol = "arp"
-	PING_TunternMonitoringProtocol TunternMonitoringProtocol = "ping"
-	TCP_TunternMonitoringProtocol TunternMonitoringProtocol = "tcp"
-)

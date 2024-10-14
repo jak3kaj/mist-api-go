@@ -12,8 +12,3 @@ package swagger
 type SiteWiredClientsCountDistinct string
 
 // List of site_wired_clients_count_distinct
-const (
-	MAC_SiteWiredClientsCountDistinct SiteWiredClientsCountDistinct = "mac"
-	PORT_ID_SiteWiredClientsCountDistinct SiteWiredClientsCountDistinct = "port_id"
-	VLAN_SiteWiredClientsCountDistinct SiteWiredClientsCountDistinct = "vlan"
-)

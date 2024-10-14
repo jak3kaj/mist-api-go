@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdShowOspfInterfacesBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// the network interface
 	PortId string `json:"port_id,omitempty"`
 	// VRF name

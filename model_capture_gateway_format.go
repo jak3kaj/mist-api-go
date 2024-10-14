@@ -12,6 +12,3 @@ package swagger
 type CaptureGatewayFormat string
 
 // List of capture_gateway_format
-const (
-	STREAM_CaptureGatewayFormat CaptureGatewayFormat = "stream"
-)

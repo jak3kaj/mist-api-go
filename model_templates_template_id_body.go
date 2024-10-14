@@ -10,11 +10,11 @@
 package swagger
 
 type TemplatesTemplateIdBody struct {
-	Applies *Object `json:"applies,omitempty"`
+	Applies *any `json:"applies,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	// list of Device Profile ids
 	DeviceprofileIds []string `json:"deviceprofile_ids,omitempty"`
-	Exceptions *Object `json:"exceptions,omitempty"`
+	Exceptions *any `json:"exceptions,omitempty"`
 	// whether to further filter by Device Profile
 	FilterByDeviceprofile bool `json:"filter_by_deviceprofile,omitempty"`
 	Id string `json:"id,omitempty"`

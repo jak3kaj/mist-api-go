@@ -12,8 +12,3 @@ package swagger
 type ApPortConfigMacAuthProtocol string
 
 // List of ap_port_config_mac_auth_protocol
-const (
-	EAP_MD5_ApPortConfigMacAuthProtocol ApPortConfigMacAuthProtocol = "eap-md5"
-	EAP_PEAP_ApPortConfigMacAuthProtocol ApPortConfigMacAuthProtocol = "eap-peap"
-	PAP_ApPortConfigMacAuthProtocol ApPortConfigMacAuthProtocol = "pap"
-)

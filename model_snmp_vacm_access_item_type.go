@@ -12,7 +12,3 @@ package swagger
 type SnmpVacmAccessItemType string
 
 // List of snmp_vacm_access_item_type
-const (
-	CONTEXT_PREFIX_SnmpVacmAccessItemType SnmpVacmAccessItemType = "context_prefix"
-	DEFAULT_CONTEXT_PREFIX_SnmpVacmAccessItemType SnmpVacmAccessItemType = "default_context_prefix"
-)

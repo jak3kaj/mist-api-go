@@ -12,7 +12,3 @@ package swagger
 type RemoteSyslogServerProtocol string
 
 // List of remote_syslog_server_protocol
-const (
-	TCP_RemoteSyslogServerProtocol RemoteSyslogServerProtocol = "tcp"
-	UDP_RemoteSyslogServerProtocol RemoteSyslogServerProtocol = "udp"
-)

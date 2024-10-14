@@ -12,11 +12,3 @@ package swagger
 type SearchSiteSwOrGwPortsDeviceType string
 
 // List of search_site_sw_or_gw_ports_device_type
-const (
-	AP_SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "ap"
-	BLE_SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "ble"
-	GATEWAY_SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "gateway"
-	MXEDGE_SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "mxedge"
-	NAC_SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "nac"
-	SWITCH__SearchSiteSwOrGwPortsDeviceType SearchSiteSwOrGwPortsDeviceType = "switch"
-)

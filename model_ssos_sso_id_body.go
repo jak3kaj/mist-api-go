@@ -22,10 +22,10 @@ type SsosSsoIdBody struct {
 	Id string `json:"id,omitempty"`
 	// if `idp_type`==`saml`. IDP Cert (used to verify the signed response)
 	IdpCert string `json:"idp_cert,omitempty"`
-	IdpSignAlgo *Object `json:"idp_sign_algo,omitempty"`
+	IdpSignAlgo *any `json:"idp_sign_algo,omitempty"`
 	// Required if `idp_type`==`saml`, IDP Single-Sign-On URL
 	IdpSsoUrl string `json:"idp_sso_url,omitempty"`
-	IdpType *Object `json:"idp_type,omitempty"`
+	IdpType *any `json:"idp_type,omitempty"`
 	// if `idp_type`==`saml`, ignore any unmatched roles provided in assertion. By default, an assertion is treated as invalid for any unmatched role
 	IgnoreUnmatchedRoles bool `json:"ignore_unmatched_roles,omitempty"`
 	// if `idp_type`==`saml`. IDP issuer URL
@@ -50,17 +50,17 @@ type SsosSsoIdBody struct {
 	LdapResolveGroups bool `json:"ldap_resolve_groups,omitempty"`
 	// if `idp_type`==`ldap`, list of LDAP/LDAPS server IP Addresses or Hostnames
 	LdapServerHosts []string `json:"ldap_server_hosts,omitempty"`
-	LdapType *Object `json:"ldap_type,omitempty"`
+	LdapType *any `json:"ldap_type,omitempty"`
 	// Required if `ldap_type`==`custom`, LDAP filter that will identify the type of user
 	LdapUserFilter string `json:"ldap_user_filter,omitempty"`
 	// Required if `ldap_type`==`custom`,LDAP filter that will identify the type of member
 	MemberFilter string `json:"member_filter,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	MspId string `json:"msp_id,omitempty"`
-	MxedgeProxy *Object `json:"mxedge_proxy,omitempty"`
+	MxedgeProxy *any `json:"mxedge_proxy,omitempty"`
 	// name
 	Name string `json:"name"`
-	NameidFormat *Object `json:"nameid_format,omitempty"`
+	NameidFormat *any `json:"nameid_format,omitempty"`
 	// Required if `idp_type`==`oauth`, Client Credentials
 	OauthCcClientId string `json:"oauth_cc_client_id,omitempty"`
 	// Required if `idp_type`==`oauth`, oauth_cc_client_secret is RSA private key, of the form \"-----BEGIN RSA PRIVATE KEY--....\"
@@ -73,7 +73,7 @@ type SsosSsoIdBody struct {
 	OauthRopcClientSecret string `json:"oauth_ropc_client_secret,omitempty"`
 	// Required if `idp_type`==`oauth`, oauth_tenant_id
 	OauthTenantId string `json:"oauth_tenant_id,omitempty"`
-	OauthType *Object `json:"oauth_type,omitempty"`
+	OauthType *any `json:"oauth_type,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	// if `idp_type`==`saml`, custom role attribute parsing scheme  Supported Role Parsing Schemes <table><tr><th>Name</th><th>Scheme</th></tr><tr><td>cn</td><td><ul><li>The expected role attribute format in SAML Assertion is “CN=cn,OU=ou1,OU=ou2,…”</li><li>CN (the key) is case insensitive and exactly 1 CN is expected (or the entire entry will be ignored)</li><li>E.g. if role attribute is “CN=cn,OU=ou1,OU=ou2” then parsed role value is “cn”</li></ul></td></tr></table>
 	RoleAttrExtraction string `json:"role_attr_extraction,omitempty"`

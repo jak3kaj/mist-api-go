@@ -17,7 +17,7 @@ type NetworksNetworkIdBody struct {
 	Gateway6 string `json:"gateway6,omitempty"`
 	Id string `json:"id,omitempty"`
 	InternalAccess *NetworkInternalAccess `json:"internal_access,omitempty"`
-	InternetAccess *Object `json:"internet_access,omitempty"`
+	InternetAccess *any `json:"internet_access,omitempty"`
 	// whether to allow clients in the network to talk to each other
 	Isolation bool `json:"isolation,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
@@ -28,7 +28,7 @@ type NetworksNetworkIdBody struct {
 	Subnet string `json:"subnet,omitempty"`
 	Subnet6 string `json:"subnet6,omitempty"`
 	Tenants map[string]NetworkTenant `json:"tenants,omitempty"`
-	VlanId *Object `json:"vlan_id,omitempty"`
+	VlanId *any `json:"vlan_id,omitempty"`
 	// Property key is the VPN name. Whether this network can be accessed from vpn
 	VpnAccess map[string]NetworkVpnAccessConfig `json:"vpn_access,omitempty"`
 }

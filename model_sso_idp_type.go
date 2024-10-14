@@ -12,9 +12,3 @@ package swagger
 type SsoIdpType string
 
 // List of sso_idp_type
-const (
-	LDAP_SsoIdpType SsoIdpType = "ldap"
-	MXEDGE_PROXY_SsoIdpType SsoIdpType = "mxedge_proxy"
-	OAUTH_SsoIdpType SsoIdpType = "oauth"
-	SAML_SsoIdpType SsoIdpType = "saml"
-)

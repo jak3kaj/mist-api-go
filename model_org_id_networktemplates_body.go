@@ -27,7 +27,7 @@ type OrgIdNetworktemplatesBody struct {
 	Id string `json:"id,omitempty"`
 	// Org Networks that we'd like to import
 	ImportOrgNetworks []string `json:"import_org_networks,omitempty"`
-	MistNac *Object `json:"mist_nac,omitempty"`
+	MistNac *any `json:"mist_nac,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	Name string `json:"name,omitempty"`
 	// Property key is network name
@@ -40,13 +40,13 @@ type OrgIdNetworktemplatesBody struct {
 	// Property key is the port mirroring instance name port_mirroring can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 port mirrorings is allowed
 	PortMirroring map[string]SwitchPortMirroringProperty `json:"port_mirroring,omitempty"`
 	PortUsages map[string]SwitchPortUsage `json:"port_usages,omitempty"`
-	RadiusConfig *Object `json:"radius_config,omitempty"`
+	RadiusConfig *any `json:"radius_config,omitempty"`
 	RemoteSyslog *RemoteSyslog `json:"remote_syslog,omitempty"`
 	// by default, when we configure a device, we only clean up config we generates. Remove existing configs if enabled
 	RemoveExistingConfigs bool `json:"remove_existing_configs,omitempty"`
 	SnmpConfig *SnmpConfig `json:"snmp_config,omitempty"`
-	SwitchMatching *Object `json:"switch_matching,omitempty"`
-	SwitchMgmt *Object `json:"switch_mgmt,omitempty"`
+	SwitchMatching *any `json:"switch_matching,omitempty"`
+	SwitchMgmt *any `json:"switch_mgmt,omitempty"`
 	VrfConfig *VrfConfig `json:"vrf_config,omitempty"`
 	// Property key is the network name
 	VrfInstances map[string]SwitchVrfInstance `json:"vrf_instances,omitempty"`

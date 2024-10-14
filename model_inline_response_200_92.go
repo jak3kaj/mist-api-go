@@ -24,14 +24,14 @@ type InlineResponse20092 struct {
 	ClientLimitUp int32 `json:"client_limit_up,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	Description string `json:"description,omitempty"`
-	Dscp *Object `json:"dscp,omitempty"`
-	FailoverPolicy *Object `json:"failover_policy,omitempty"`
+	Dscp *any `json:"dscp,omitempty"`
+	FailoverPolicy *any `json:"failover_policy,omitempty"`
 	// if `type`==`custom`, web filtering
 	Hostnames []string `json:"hostnames,omitempty"`
 	Id string `json:"id,omitempty"`
-	MaxJitter *Object `json:"max_jitter,omitempty"`
-	MaxLatency *Object `json:"max_latency,omitempty"`
-	MaxLoss *Object `json:"max_loss,omitempty"`
+	MaxJitter *any `json:"max_jitter,omitempty"`
+	MaxLatency *any `json:"max_latency,omitempty"`
+	MaxLoss *any `json:"max_loss,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	Name string `json:"name,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
@@ -44,10 +44,10 @@ type InlineResponse20092 struct {
 	// when `type`==`custom`, optional, if it doesn't exist, http and https is assumed
 	Specs []ServiceSpec `json:"specs,omitempty"`
 	SsrRelaxedTcpStateEnforcement bool `json:"ssr_relaxed_tcp_state_enforcement,omitempty"`
-	TrafficClass *Object `json:"traffic_class,omitempty"`
+	TrafficClass *any `json:"traffic_class,omitempty"`
 	// values from `/api/v1/consts/traffic_types`
 	TrafficType string `json:"traffic_type,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// when `type`==`urls`, no need for spec as URL can encode the ports being used
 	Urls []string `json:"urls,omitempty"`
 }

@@ -12,8 +12,3 @@ package swagger
 type PrivilegeMspScope string
 
 // List of privilege_msp_scope
-const (
-	MSP_PrivilegeMspScope PrivilegeMspScope = "msp"
-	ORG_PrivilegeMspScope PrivilegeMspScope = "org"
-	ORGGROUP_PrivilegeMspScope PrivilegeMspScope = "orggroup"
-)

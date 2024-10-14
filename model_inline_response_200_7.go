@@ -10,5 +10,5 @@
 package swagger
 
 type InlineResponse2007 struct {
-	Id *Object `json:"id,omitempty"`
+	Id *any `json:"id,omitempty"`
 }

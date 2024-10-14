@@ -12,6 +12,3 @@ package swagger
 type CaptureGatewayType string
 
 // List of capture_gateway_type
-const (
-	GATEWAY_CaptureGatewayType CaptureGatewayType = "gateway"
-)

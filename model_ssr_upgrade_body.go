@@ -10,14 +10,14 @@
 package swagger
 
 type SsrUpgradeBody struct {
-	Channel *Object `json:"channel,omitempty"`
+	Channel *any `json:"channel,omitempty"`
 	// list of 128T device IDs to upgrade
 	DeviceIds []string `json:"device_ids"`
 	// reboot start time in epoch seconds, default is start_time, -1 disables reboot
 	RebootAt int32 `json:"reboot_at,omitempty"`
 	// 128T firmware download start time in epoch seconds, default is now, -1 disables download
 	StartTime int32 `json:"start_time,omitempty"`
-	Strategy *Object `json:"strategy,omitempty"`
+	Strategy *any `json:"strategy,omitempty"`
 	// 128T firmware version to upgrade (e.g. 5.3.0-93)
 	Version string `json:"version,omitempty"`
 }

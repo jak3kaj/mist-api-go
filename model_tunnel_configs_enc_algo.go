@@ -12,10 +12,3 @@ package swagger
 type TunnelConfigsEncAlgo string
 
 // List of tunnel_configs_enc_algo
-const (
-	3DES__TunnelConfigsEncAlgo TunnelConfigsEncAlgo = "3des"
-	AES128_TunnelConfigsEncAlgo TunnelConfigsEncAlgo = "aes128"
-	AES256_TunnelConfigsEncAlgo TunnelConfigsEncAlgo = "aes256"
-	AES_GCM128_TunnelConfigsEncAlgo TunnelConfigsEncAlgo = "aes_gcm128"
-	AES_GCM256_TunnelConfigsEncAlgo TunnelConfigsEncAlgo = "aes_gcm256"
-)

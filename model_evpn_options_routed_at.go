@@ -12,8 +12,3 @@ package swagger
 type EvpnOptionsRoutedAt string
 
 // List of evpn_options_routed_at
-const (
-	CORE_EvpnOptionsRoutedAt EvpnOptionsRoutedAt = "core"
-	DISTRIBUTION_EvpnOptionsRoutedAt EvpnOptionsRoutedAt = "distribution"
-	EDGE_EvpnOptionsRoutedAt EvpnOptionsRoutedAt = "edge"
-)

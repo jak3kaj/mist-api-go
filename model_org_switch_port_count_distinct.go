@@ -12,17 +12,3 @@ package swagger
 type OrgSwitchPortCountDistinct string
 
 // List of org_switch_port_count_distinct
-const (
-	FULL_DUPLEX_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "full_duplex"
-	MAC_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "mac"
-	NEIGHBOR_MAC_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "neighbor_mac"
-	NEIGHBOR_PORT_DESC_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "neighbor_port_desc"
-	NEIGHBOR_SYSTEM_NAME_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "neighbor_system_name"
-	POE_DISABLED_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "poe_disabled"
-	POE_MODE_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "poe_mode"
-	POE_ON_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "poe_on"
-	PORT_ID_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "port_id"
-	PORT_MAC_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "port_mac"
-	SPEED_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "speed"
-	UP_OrgSwitchPortCountDistinct OrgSwitchPortCountDistinct = "up"
-)

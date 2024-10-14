@@ -10,7 +10,7 @@
 package swagger
 
 type InlineResponse200198 struct {
-	Counts *Object `json:"counts,omitempty"`
+	Counts *any `json:"counts,omitempty"`
 	// current canary or rrm phase in progress
 	CurrentPhase int32 `json:"current_phase,omitempty"`
 	// whether to allow local AP-to-AP FW upgrade
@@ -27,8 +27,8 @@ type InlineResponse200198 struct {
 	RebootAt int32 `json:"reboot_at,omitempty"`
 	// firmware download start time in epoch
 	StartTime float64 `json:"start_time,omitempty"`
-	Status *Object `json:"status,omitempty"`
-	Strategy *Object `json:"strategy,omitempty"`
+	Status *any `json:"status,omitempty"`
+	Strategy *any `json:"strategy,omitempty"`
 	// version to upgrade to
 	TargetVersion string `json:"target_version,omitempty"`
 	// a dictionary of rrm phase number to devices part of that phase

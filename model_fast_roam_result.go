@@ -12,8 +12,3 @@ package swagger
 type FastRoamResult string
 
 // List of fast_roam_result
-const (
-	FAIL_FastRoamResult FastRoamResult = "fail"
-	NONE_FastRoamResult FastRoamResult = "none"
-	SUCCESS_FastRoamResult FastRoamResult = "success"
-)

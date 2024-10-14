@@ -12,10 +12,3 @@ package swagger
 type SearchSiteSwitchPortsStpState string
 
 // List of search_site_switch_ports_stp_state
-const (
-	BLOCKING_SearchSiteSwitchPortsStpState SearchSiteSwitchPortsStpState = "blocking"
-	DISABLED_SearchSiteSwitchPortsStpState SearchSiteSwitchPortsStpState = "disabled"
-	FORWARDING_SearchSiteSwitchPortsStpState SearchSiteSwitchPortsStpState = "forwarding"
-	LEARNING_SearchSiteSwitchPortsStpState SearchSiteSwitchPortsStpState = "learning"
-	LISTENING_SearchSiteSwitchPortsStpState SearchSiteSwitchPortsStpState = "listening"
-)

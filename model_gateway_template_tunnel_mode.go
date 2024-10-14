@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateTunnelMode string
 
 // List of gateway_template_tunnel_mode
-const (
-	ACTIVE_GatewayTemplateTunnelMode GatewayTemplateTunnelMode = "active-active"
-	STANDBY_GatewayTemplateTunnelMode GatewayTemplateTunnelMode = "active-standby"
-)

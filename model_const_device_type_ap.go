@@ -12,6 +12,3 @@ package swagger
 type ConstDeviceTypeAp string
 
 // List of const_device_type_ap
-const (
-	AP_ConstDeviceTypeAp ConstDeviceTypeAp = "ap"
-)

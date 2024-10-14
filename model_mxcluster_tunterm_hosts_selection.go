@@ -12,8 +12,3 @@ package swagger
 type MxclusterTuntermHostsSelection string
 
 // List of mxcluster_tunterm_hosts_selection
-const (
-	ORDERED_MxclusterTuntermHostsSelection MxclusterTuntermHostsSelection = "ordered"
-	SHUFFLE_MxclusterTuntermHostsSelection MxclusterTuntermHostsSelection = "shuffle"
-	SHUFFLE_BY_SITE_MxclusterTuntermHostsSelection MxclusterTuntermHostsSelection = "shuffle-by-site"
-)

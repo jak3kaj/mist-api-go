@@ -12,7 +12,3 @@ package swagger
 type StatsWxruleAction string
 
 // List of stats_wxrule_action
-const (
-	ALLOW_StatsWxruleAction StatsWxruleAction = "allow"
-	BLOCK_StatsWxruleAction StatsWxruleAction = "block"
-)

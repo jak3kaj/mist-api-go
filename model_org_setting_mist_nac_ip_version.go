@@ -12,7 +12,3 @@ package swagger
 type OrgSettingMistNacIpVersion string
 
 // List of org_setting_mist_nac_ip_version
-const (
-	V4_OrgSettingMistNacIpVersion OrgSettingMistNacIpVersion = "v4"
-	V6_OrgSettingMistNacIpVersion OrgSettingMistNacIpVersion = "v6"
-)

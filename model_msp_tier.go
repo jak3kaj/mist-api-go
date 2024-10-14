@@ -12,7 +12,3 @@ package swagger
 type MspTier string
 
 // List of msp_tier
-const (
-	ADVANCED_MspTier MspTier = "advanced"
-	BASE_MspTier MspTier = "base"
-)

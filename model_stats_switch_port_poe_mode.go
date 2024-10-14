@@ -12,8 +12,3 @@ package swagger
 type StatsSwitchPortPoeMode string
 
 // List of stats_switch_port_poe_mode
-const (
-	3AF__StatsSwitchPortPoeMode StatsSwitchPortPoeMode = "802.3af"
-	3AT__StatsSwitchPortPoeMode StatsSwitchPortPoeMode = "802.3at"
-	3BT__StatsSwitchPortPoeMode StatsSwitchPortPoeMode = "802.3bt"
-)

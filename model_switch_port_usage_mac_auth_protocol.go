@@ -12,8 +12,3 @@ package swagger
 type SwitchPortUsageMacAuthProtocol string
 
 // List of switch_port_usage_mac_auth_protocol
-const (
-	EAP_MD5_SwitchPortUsageMacAuthProtocol SwitchPortUsageMacAuthProtocol = "eap-md5"
-	EAP_PEAP_SwitchPortUsageMacAuthProtocol SwitchPortUsageMacAuthProtocol = "eap-peap"
-	PAP_SwitchPortUsageMacAuthProtocol SwitchPortUsageMacAuthProtocol = "pap"
-)

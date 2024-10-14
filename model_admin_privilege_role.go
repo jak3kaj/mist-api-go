@@ -12,10 +12,3 @@ package swagger
 type AdminPrivilegeRole string
 
 // List of admin_privilege_role
-const (
-	ADMIN_AdminPrivilegeRole AdminPrivilegeRole = "admin"
-	HELPDESK_AdminPrivilegeRole AdminPrivilegeRole = "helpdesk"
-	INSTALLER_AdminPrivilegeRole AdminPrivilegeRole = "installer"
-	READ_AdminPrivilegeRole AdminPrivilegeRole = "read"
-	WRITE_AdminPrivilegeRole AdminPrivilegeRole = "write"
-)

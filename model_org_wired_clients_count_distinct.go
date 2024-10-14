@@ -12,11 +12,3 @@ package swagger
 type OrgWiredClientsCountDistinct string
 
 // List of org_wired_clients_count_distinct
-const (
-	DEVICE_MAC_OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "device_mac"
-	MAC_OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "mac"
-	PORT_ID_OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "port_id"
-	SITE_ID_OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "site_id"
-	TYPE__OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "type"
-	VLAN_OrgWiredClientsCountDistinct OrgWiredClientsCountDistinct = "vlan"
-)

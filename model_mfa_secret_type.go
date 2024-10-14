@@ -12,6 +12,3 @@ package swagger
 type MfaSecretType string
 
 // List of mfa_secret_type
-const (
-	QRCODE_MfaSecretType MfaSecretType = "qrcode"
-)

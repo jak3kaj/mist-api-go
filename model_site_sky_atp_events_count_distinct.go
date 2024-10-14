@@ -12,9 +12,3 @@ package swagger
 type SiteSkyAtpEventsCountDistinct string
 
 // List of site_sky_atp_events_count_distinct
-const (
-	DEVICE_MAC_SiteSkyAtpEventsCountDistinct SiteSkyAtpEventsCountDistinct = "device_mac"
-	MAC_SiteSkyAtpEventsCountDistinct SiteSkyAtpEventsCountDistinct = "mac"
-	THREAT_LEVEL_SiteSkyAtpEventsCountDistinct SiteSkyAtpEventsCountDistinct = "threat_level"
-	TYPE__SiteSkyAtpEventsCountDistinct SiteSkyAtpEventsCountDistinct = "type"
-)

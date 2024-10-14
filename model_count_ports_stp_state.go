@@ -12,10 +12,3 @@ package swagger
 type CountPortsStpState string
 
 // List of count_ports_stp_state
-const (
-	BLOCKING_CountPortsStpState CountPortsStpState = "blocking"
-	DISABLED_CountPortsStpState CountPortsStpState = "disabled"
-	FORWARDING_CountPortsStpState CountPortsStpState = "forwarding"
-	LEARNING_CountPortsStpState CountPortsStpState = "learning"
-	LISTENING_CountPortsStpState CountPortsStpState = "listening"
-)

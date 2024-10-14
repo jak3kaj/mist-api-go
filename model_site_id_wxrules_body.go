@@ -10,7 +10,7 @@
 package swagger
 
 type SiteIdWxrulesBody struct {
-	Action *Object `json:"action,omitempty"`
+	Action *any `json:"action,omitempty"`
 	ApplyTags []string `json:"apply_tags,omitempty"`
 	// blocked apps (always blocking, ignoring action), the key of Get Application List
 	BlockedApps []string `json:"blocked_apps,omitempty"`

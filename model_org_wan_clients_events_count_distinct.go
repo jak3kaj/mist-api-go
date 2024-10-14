@@ -12,10 +12,3 @@ package swagger
 type OrgWanClientsEventsCountDistinct string
 
 // List of org_wan_clients_events_count_distinct
-const (
-	HOSTNAME_OrgWanClientsEventsCountDistinct OrgWanClientsEventsCountDistinct = "hostname"
-	IP_OrgWanClientsEventsCountDistinct OrgWanClientsEventsCountDistinct = "ip"
-	MAC_OrgWanClientsEventsCountDistinct OrgWanClientsEventsCountDistinct = "mac"
-	MFG_OrgWanClientsEventsCountDistinct OrgWanClientsEventsCountDistinct = "mfg"
-	TYPE__OrgWanClientsEventsCountDistinct OrgWanClientsEventsCountDistinct = "type"
-)

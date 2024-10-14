@@ -12,8 +12,3 @@ package swagger
 type Snmpv3ConfigTargetParamMessProcessModel string
 
 // List of snmpv3_config_target_param_mess_process_model
-const (
-	V1_Snmpv3ConfigTargetParamMessProcessModel Snmpv3ConfigTargetParamMessProcessModel = "v1"
-	V2C_Snmpv3ConfigTargetParamMessProcessModel Snmpv3ConfigTargetParamMessProcessModel = "v2c"
-	V3_Snmpv3ConfigTargetParamMessProcessModel Snmpv3ConfigTargetParamMessProcessModel = "v3"
-)

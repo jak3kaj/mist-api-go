@@ -12,7 +12,3 @@ package swagger
 type SsoNameidFormat string
 
 // List of sso_nameid_format
-const (
-	EMAIL_SsoNameidFormat SsoNameidFormat = "email"
-	UNSPECIFIED_SsoNameidFormat SsoNameidFormat = "unspecified"
-)

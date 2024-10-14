@@ -12,5 +12,5 @@ package swagger
 type AllOfmxclusterTuntermDhcpdConfig struct {
 	Enabled bool `json:"enabled,omitempty"`
 	Servers []string `json:"servers,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 }

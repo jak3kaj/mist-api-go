@@ -12,8 +12,3 @@ package swagger
 type PskUsage string
 
 // List of psk_usage
-const (
-	MACS_PskUsage PskUsage = "macs"
-	MULTI_PskUsage PskUsage = "multi"
-	SINGLE_PskUsage PskUsage = "single"
-)

@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdSupportBody struct {
-	Info *Object `json:"info,omitempty"`
+	Info *any `json:"info,omitempty"`
 	// optional: for SSR, if node is not present, both nodes support files are uploaded
 	Node string `json:"node,omitempty"`
 	// optional: number of most recent messages files to upload.

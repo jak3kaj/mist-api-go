@@ -12,11 +12,3 @@ package swagger
 type OrgAssetCountDistinct string
 
 // List of org_asset_count_distinct
-const (
-	IBEACON_MAJOR_OrgAssetCountDistinct OrgAssetCountDistinct = "ibeacon_major"
-	IBEACON_MINOR_OrgAssetCountDistinct OrgAssetCountDistinct = "ibeacon_minor"
-	IBEACON_UUID_OrgAssetCountDistinct OrgAssetCountDistinct = "ibeacon_uuid"
-	MAC_OrgAssetCountDistinct OrgAssetCountDistinct = "mac"
-	MAP_ID_OrgAssetCountDistinct OrgAssetCountDistinct = "map_id"
-	SITE_ID_OrgAssetCountDistinct OrgAssetCountDistinct = "site_id"
-)

@@ -12,10 +12,3 @@ package swagger
 type WlanAuthPairwiseItem string
 
 // List of wlan_auth_pairwise_item
-const (
-	WPA1_CCMP_WlanAuthPairwiseItem WlanAuthPairwiseItem = "wpa1-ccmp"
-	WPA1_TKIP_WlanAuthPairwiseItem WlanAuthPairwiseItem = "wpa1-tkip"
-	WPA2_CCMP_WlanAuthPairwiseItem WlanAuthPairwiseItem = "wpa2-ccmp"
-	WPA2_TKIP_WlanAuthPairwiseItem WlanAuthPairwiseItem = "wpa2-tkip"
-	WPA3_WlanAuthPairwiseItem WlanAuthPairwiseItem = "wpa3"
-)

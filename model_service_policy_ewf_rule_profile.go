@@ -12,8 +12,3 @@ package swagger
 type ServicePolicyEwfRuleProfile string
 
 // List of service_policy_ewf_rule_profile
-const (
-	CRITICAL_ServicePolicyEwfRuleProfile ServicePolicyEwfRuleProfile = "critical"
-	STANDARD_ServicePolicyEwfRuleProfile ServicePolicyEwfRuleProfile = "standard"
-	STRICT_ServicePolicyEwfRuleProfile ServicePolicyEwfRuleProfile = "strict"
-)

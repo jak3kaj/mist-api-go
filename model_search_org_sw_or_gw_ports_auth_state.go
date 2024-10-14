@@ -12,9 +12,3 @@ package swagger
 type SearchOrgSwOrGwPortsAuthState string
 
 // List of search_org_sw_or_gw_ports_auth_state
-const (
-	AUTHENTICATED_SearchOrgSwOrGwPortsAuthState SearchOrgSwOrGwPortsAuthState = "authenticated"
-	AUTHENTICATING_SearchOrgSwOrGwPortsAuthState SearchOrgSwOrGwPortsAuthState = "authenticating"
-	HELD_SearchOrgSwOrGwPortsAuthState SearchOrgSwOrGwPortsAuthState = "held"
-	INIT_SearchOrgSwOrGwPortsAuthState SearchOrgSwOrGwPortsAuthState = "init"
-)

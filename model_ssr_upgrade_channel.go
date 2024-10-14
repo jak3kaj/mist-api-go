@@ -12,8 +12,3 @@ package swagger
 type SsrUpgradeChannel string
 
 // List of ssr_upgrade_channel
-const (
-	ALPHA_SsrUpgradeChannel SsrUpgradeChannel = "alpha"
-	BETA_SsrUpgradeChannel SsrUpgradeChannel = "beta"
-	STABLE_SsrUpgradeChannel SsrUpgradeChannel = "stable"
-)

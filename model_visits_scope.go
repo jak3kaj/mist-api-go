@@ -12,9 +12,3 @@ package swagger
 type VisitsScope string
 
 // List of visits_scope
-const (
-	MAP__VisitsScope VisitsScope = "map"
-	RSSIZONE_VisitsScope VisitsScope = "rssizone"
-	SITE_VisitsScope VisitsScope = "site"
-	ZONE_VisitsScope VisitsScope = "zone"
-)

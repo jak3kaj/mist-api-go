@@ -11,6 +11,6 @@ package swagger
 
 type AllOfswitchMgmtRadius struct {
 	Enabled bool `json:"enabled,omitempty"`
-	RadiusConfig *Object `json:"radius_config,omitempty"`
+	RadiusConfig *any `json:"radius_config,omitempty"`
 	UseDifferentRadius string `json:"use_different_radius,omitempty"`
 }

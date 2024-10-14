@@ -12,8 +12,3 @@ package swagger
 type MxedgeServiceAction string
 
 // List of mxedge_service_action
-const (
-	RESTART_MxedgeServiceAction MxedgeServiceAction = "restart"
-	START_MxedgeServiceAction MxedgeServiceAction = "start"
-	STOP_MxedgeServiceAction MxedgeServiceAction = "stop"
-)

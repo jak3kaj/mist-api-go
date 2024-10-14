@@ -12,8 +12,3 @@ package swagger
 type SecintelProfileProfileCategory string
 
 // List of secintel_profile_profile_category
-const (
-	CC_SecintelProfileProfileCategory SecintelProfileProfileCategory = "CC"
-	DNS_SecintelProfileProfileCategory SecintelProfileProfileCategory = "DNS"
-	IH_SecintelProfileProfileCategory SecintelProfileProfileCategory = "IH"
-)

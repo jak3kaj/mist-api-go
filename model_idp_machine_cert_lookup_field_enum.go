@@ -12,9 +12,3 @@ package swagger
 type IdpMachineCertLookupFieldEnum string
 
 // List of idp_machine_cert_lookup_field_enum
-const (
-	AUTOMATIC_IdpMachineCertLookupFieldEnum IdpMachineCertLookupFieldEnum = "automatic"
-	CN_IdpMachineCertLookupFieldEnum IdpMachineCertLookupFieldEnum = "cn"
-	EMAIL_IdpMachineCertLookupFieldEnum IdpMachineCertLookupFieldEnum = "email"
-	UPN_IdpMachineCertLookupFieldEnum IdpMachineCertLookupFieldEnum = "upn"
-)

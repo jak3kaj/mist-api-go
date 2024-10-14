@@ -12,7 +12,7 @@ package swagger
 type InlineResponse200176 struct {
 	// list of ble assets currently in the zone and when they entered
 	Assets []string `json:"assets,omitempty"`
-	ClientWaits *Object `json:"client_waits"`
+	ClientWaits *any `json:"client_waits"`
 	// list of clients currently in the zone and when they entered
 	Clients []string `json:"clients,omitempty"`
 	// id of the zone

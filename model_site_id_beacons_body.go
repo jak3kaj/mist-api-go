@@ -36,7 +36,7 @@ type SiteIdBeaconsBody struct {
 	// in dBm
 	Power int32 `json:"power,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// x in pixel
 	X float64 `json:"x,omitempty"`
 	// y in pixel

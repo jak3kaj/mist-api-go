@@ -12,10 +12,3 @@ package swagger
 type AvprofileProtocolsEnum string
 
 // List of avprofile_protocols_enum
-const (
-	FTP_AvprofileProtocolsEnum AvprofileProtocolsEnum = "ftp"
-	HTTP_AvprofileProtocolsEnum AvprofileProtocolsEnum = "http"
-	IMAP_AvprofileProtocolsEnum AvprofileProtocolsEnum = "imap"
-	POP3_AvprofileProtocolsEnum AvprofileProtocolsEnum = "pop3"
-	SMTP_AvprofileProtocolsEnum AvprofileProtocolsEnum = "smtp"
-)

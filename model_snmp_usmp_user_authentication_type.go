@@ -12,12 +12,3 @@ package swagger
 type SnmpUsmpUserAuthenticationType string
 
 // List of snmp_usmp_user_authentication_type
-const (
-	MD5_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_md5"
-	NONE_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_none"
-	SHA_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_sha"
-	SHA224_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_sha224"
-	SHA256_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_sha256"
-	SHA384_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_sha384"
-	SHA512_SnmpUsmpUserAuthenticationType SnmpUsmpUserAuthenticationType = "authentication_sha512"
-)

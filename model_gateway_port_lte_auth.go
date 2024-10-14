@@ -12,8 +12,3 @@ package swagger
 type GatewayPortLteAuth string
 
 // List of gateway_port_lte_auth
-const (
-	CHAP_GatewayPortLteAuth GatewayPortLteAuth = "chap"
-	NONE_GatewayPortLteAuth GatewayPortLteAuth = "none"
-	PAP_GatewayPortLteAuth GatewayPortLteAuth = "pap"
-)

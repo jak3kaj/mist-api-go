@@ -12,7 +12,3 @@ package swagger
 type ImportSiteAssetsUpsert string
 
 // List of import_site_assets_upsert
-const (
-	FALSE_ImportSiteAssetsUpsert ImportSiteAssetsUpsert = "False"
-	TRUE_ImportSiteAssetsUpsert ImportSiteAssetsUpsert = "True"
-)

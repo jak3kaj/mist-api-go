@@ -12,10 +12,3 @@ package swagger
 type ApRadioAntennaMode string
 
 // List of ap_radio_antenna_mode
-const (
-	1X1__ApRadioAntennaMode ApRadioAntennaMode = "1x1"
-	2X2__ApRadioAntennaMode ApRadioAntennaMode = "2x2"
-	3X3__ApRadioAntennaMode ApRadioAntennaMode = "3x3"
-	4X4__ApRadioAntennaMode ApRadioAntennaMode = "4x4"
-	DEFAULT__ApRadioAntennaMode ApRadioAntennaMode = "default"
-)

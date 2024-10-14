@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdShowSessionBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// The exact service name for which to display the active sessions
 	ServiceName string `json:"service_name,omitempty"`
 	// Show session details by session_id

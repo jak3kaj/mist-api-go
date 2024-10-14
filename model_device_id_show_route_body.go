@@ -19,7 +19,7 @@ type DeviceIdShowRouteBody struct {
 	Node *HaClusterNode `json:"node,omitempty"`
 	// route prefix
 	Prefix string `json:"prefix,omitempty"`
-	Protocol *Object `json:"protocol,omitempty"`
+	Protocol *any `json:"protocol,omitempty"`
 	// if specified, dump bot received and advertised, if not specified, both will be shown   * for SSR, show bgp neighbors 10.250.18.202 received-routes/advertised-routes   * for SRX and Switches, show route receive_protocol/advertise_protocol bgp 192.168.255.12'
 	Route string `json:"route,omitempty"`
 	// VRF name

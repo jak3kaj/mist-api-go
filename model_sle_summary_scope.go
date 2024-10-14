@@ -12,10 +12,3 @@ package swagger
 type SleSummaryScope string
 
 // List of sle_summary_scope
-const (
-	AP_SleSummaryScope SleSummaryScope = "ap"
-	CLIENT_SleSummaryScope SleSummaryScope = "client"
-	GATEWAY_SleSummaryScope SleSummaryScope = "gateway"
-	SITE_SleSummaryScope SleSummaryScope = "site"
-	SWITCH__SleSummaryScope SleSummaryScope = "switch"
-)

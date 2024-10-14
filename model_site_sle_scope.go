@@ -12,8 +12,3 @@ package swagger
 type SiteSleScope string
 
 // List of site_sle_scope
-const (
-	GATEWAY_SiteSleScope SiteSleScope = "gateway"
-	SITE_SiteSleScope SiteSleScope = "site"
-	SWITCH__SiteSleScope SiteSleScope = "switch"
-)

@@ -12,8 +12,3 @@ package swagger
 type VirtualChassisMemberUpdateVcRole string
 
 // List of virtual_chassis_member_update_vc_role
-const (
-	BACKUP_VirtualChassisMemberUpdateVcRole VirtualChassisMemberUpdateVcRole = "backup"
-	LINECARD_VirtualChassisMemberUpdateVcRole VirtualChassisMemberUpdateVcRole = "linecard"
-	MASTER_VirtualChassisMemberUpdateVcRole VirtualChassisMemberUpdateVcRole = "master"
-)

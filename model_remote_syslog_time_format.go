@@ -12,8 +12,3 @@ package swagger
 type RemoteSyslogTimeFormat string
 
 // List of remote_syslog_time_format
-const (
-	MILLISECOND_RemoteSyslogTimeFormat RemoteSyslogTimeFormat = "millisecond"
-	YEAR_RemoteSyslogTimeFormat RemoteSyslogTimeFormat = "year"
-	YEAR_MILLISECOND_RemoteSyslogTimeFormat RemoteSyslogTimeFormat = "year millisecond"
-)

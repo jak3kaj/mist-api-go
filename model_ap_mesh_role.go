@@ -12,7 +12,3 @@ package swagger
 type ApMeshRole string
 
 // List of ap_mesh_role
-const (
-	BASE_ApMeshRole ApMeshRole = "base"
-	REMOTE_ApMeshRole ApMeshRole = "remote"
-)

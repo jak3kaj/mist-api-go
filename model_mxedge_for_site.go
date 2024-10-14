@@ -12,8 +12,3 @@ package swagger
 type MxedgeForSite string
 
 // List of mxedge_for_site
-const (
-	ANY_MxedgeForSite MxedgeForSite = "any"
-	FALSE_MxedgeForSite MxedgeForSite = "false"
-	TRUE_MxedgeForSite MxedgeForSite = "true"
-)

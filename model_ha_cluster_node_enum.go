@@ -12,7 +12,3 @@ package swagger
 type HaClusterNodeEnum string
 
 // List of ha_cluster_node_enum
-const (
-	NODE0_HaClusterNodeEnum HaClusterNodeEnum = "node0"
-	NODE1_HaClusterNodeEnum HaClusterNodeEnum = "node1"
-)

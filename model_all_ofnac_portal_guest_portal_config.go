@@ -20,7 +20,7 @@ type AllOfnacPortalGuestPortalConfig struct {
 	AmazonEnabled bool `json:"amazon_enabled,omitempty"`
 	// interval for which guest remains authorized using amazon auth (in minutes), if not provided, uses expire`
 	AmazonExpire float64 `json:"amazon_expire,omitempty"`
-	Auth *Object `json:"auth,omitempty"`
+	Auth *any `json:"auth,omitempty"`
 	// Required if `azure_enabled`==`true`. Azure active directory app client id
 	AzureClientId string `json:"azure_client_id,omitempty"`
 	// Required if `azure_enabled`==`true`. Azure active directory app client secret
@@ -111,7 +111,7 @@ type AllOfnacPortalGuestPortalConfig struct {
 	SmsEnabled bool `json:"sms_enabled,omitempty"`
 	// interval for which guest remains authorized using sms auth (in minutes), if not provided, uses expire`
 	SmsExpire float64 `json:"sms_expire,omitempty"`
-	SmsProvider *Object `json:"sms_provider,omitempty"`
+	SmsProvider *any `json:"sms_provider,omitempty"`
 	// whether to automatically approve guest and allow sponsor to revoke guest access, needs predefined_sponsors_enabled enabled and sponsor_notify_all disabled
 	SponsorAutoApprove bool `json:"sponsor_auto_approve,omitempty"`
 	// list of domain allowed for sponsor email. Required if `sponsor_enabled` is `true` and `sponsors` is empty.
@@ -126,19 +126,19 @@ type AllOfnacPortalGuestPortalConfig struct {
 	SponsorNotifyAll bool `json:"sponsor_notify_all,omitempty"`
 	// if enabled, guest will get email about sponsor's action (approve/deny)
 	SponsorStatusNotify bool `json:"sponsor_status_notify,omitempty"`
-	Sponsors *Object `json:"sponsors,omitempty"`
+	Sponsors *any `json:"sponsors,omitempty"`
 	// if `wlan_portal_auth`==`sso`, default role to assign if there’s no match. By default, an assertion is treated as invalid when there’s no role matched
 	SsoDefaultRole string `json:"sso_default_role,omitempty"`
 	// if `wlan_portal_auth`==`sso`
 	SsoForcedRole string `json:"sso_forced_role,omitempty"`
 	// if `wlan_portal_auth`==`sso`, IDP Cert (used to verify the signed response)
 	SsoIdpCert string `json:"sso_idp_cert,omitempty"`
-	SsoIdpSignAlgo *Object `json:"sso_idp_sign_algo,omitempty"`
+	SsoIdpSignAlgo *any `json:"sso_idp_sign_algo,omitempty"`
 	// if `wlan_portal_auth`==`sso`, IDP Single-Sign-On URL
 	SsoIdpSsoUrl string `json:"sso_idp_sso_url,omitempty"`
 	// if `wlan_portal_auth`==`sso`, IDP issuer URL
 	SsoIssuer string `json:"sso_issuer,omitempty"`
-	SsoNameidFormat *Object `json:"sso_nameid_format,omitempty"`
+	SsoNameidFormat *any `json:"sso_nameid_format,omitempty"`
 	// when `sms_provider`==`telstra`, Client ID provided by Telstra
 	TelstraClientId string `json:"telstra_client_id,omitempty"`
 	// when `sms_provider`==`telstra`, Client secret provided by Telstra

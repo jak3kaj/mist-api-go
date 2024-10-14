@@ -10,18 +10,18 @@
 package swagger
 
 type InlineResponse20077 struct {
-	CpuStat *Object `json:"cpu_stat,omitempty"`
+	CpuStat *any `json:"cpu_stat,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	// alue indicating fips configuration on the device
 	FipsEnabled bool `json:"fips_enabled,omitempty"`
 	ForSite bool `json:"for_site,omitempty"`
 	Id string `json:"id,omitempty"`
-	IpStat *Object `json:"ip_stat,omitempty"`
+	IpStat *any `json:"ip_stat,omitempty"`
 	// Stat for LAG (Link Aggregation Group). Property key is the LAG name
 	LagStat map[string]StatsMxedgeLagStat `json:"lag_stat,omitempty"`
 	LastSeen float64 `json:"last_seen,omitempty"`
 	Mac string `json:"mac,omitempty"`
-	MemoryStat *Object `json:"memory_stat,omitempty"`
+	MemoryStat *any `json:"memory_stat,omitempty"`
 	Model string `json:"model,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	MxagentRegistered bool `json:"mxagent_registered,omitempty"`
@@ -29,7 +29,7 @@ type InlineResponse20077 struct {
 	// The name of the tunnel
 	Name string `json:"name,omitempty"`
 	NumTunnels int32 `json:"num_tunnels,omitempty"`
-	OobIpConfig *Object `json:"oob_ip_config,omitempty"`
+	OobIpConfig *any `json:"oob_ip_config,omitempty"`
 	OobIpStat *StatsMxedgeOobIpStat `json:"oob_ip_stat,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	PortStat map[string]StatsMxedgePortStat `json:"port_stat,omitempty"`

@@ -23,8 +23,8 @@ type AllOfgatewayPortConfigIpConfig struct {
 	Network string `json:"network,omitempty"`
 	// if `type`==`pppoe`
 	PoserPassword string `json:"poser_password,omitempty"`
-	PppoeAuth *Object `json:"pppoe_auth,omitempty"`
+	PppoeAuth *any `json:"pppoe_auth,omitempty"`
 	// if `type`==`pppoe`
 	PppoeUsername string `json:"pppoe_username,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 }

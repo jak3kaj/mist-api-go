@@ -18,9 +18,9 @@ type AllOfmxclusterRadsec struct {
 	Enabled bool `json:"enabled,omitempty"`
 	// whether to match ssid in request message to select from a subset of RADIUS servers
 	MatchSsid bool `json:"match_ssid,omitempty"`
-	NasIpSource *Object `json:"nas_ip_source,omitempty"`
+	NasIpSource *any `json:"nas_ip_source,omitempty"`
 	// hostnames or IPs for Mist AP to use as the TLS Server (i.e. they are reachable from AP) in addition to `tunterm_hosts`
 	ProxyHosts []string `json:"proxy_hosts,omitempty"`
-	ServerSelection *Object `json:"server_selection,omitempty"`
-	SrcIpSource *Object `json:"src_ip_source,omitempty"`
+	ServerSelection *any `json:"server_selection,omitempty"`
+	SrcIpSource *any `json:"src_ip_source,omitempty"`
 }

@@ -27,7 +27,7 @@ type SiteIdVbeaconsBody struct {
 	OrgId string `json:"org_id,omitempty"`
 	// required if `power_mode`==`custom`, -30 - 100, in dBm. For default power_mode, power = 4 dBm.
 	Power int32 `json:"power,omitempty"`
-	PowerMode *Object `json:"power_mode,omitempty"`
+	PowerMode *any `json:"power_mode,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	// URL to show, optional
 	Url string `json:"url,omitempty"`

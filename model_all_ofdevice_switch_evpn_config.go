@@ -11,5 +11,5 @@ package swagger
 
 type AllOfdeviceSwitchEvpnConfig struct {
 	Enabled bool `json:"enabled,omitempty"`
-	Role *Object `json:"role,omitempty"`
+	Role *any `json:"role,omitempty"`
 }

@@ -16,7 +16,7 @@ type OrgIdLicensesBody struct {
 	DstOrgId string `json:"dst_org_id,omitempty"`
 	// if `op`==`annotate`
 	Notes string `json:"notes,omitempty"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	// if `op`==`amend`, the number of licenses to move
 	Quantity int32 `json:"quantity,omitempty"`
 	// if `op`==`amend` or `op`==`delete`, the ID of the subscription to use

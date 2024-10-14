@@ -12,8 +12,3 @@ package swagger
 type SynthetictestDeviceProtocol string
 
 // List of synthetictest_device_protocol
-const (
-	PING_SynthetictestDeviceProtocol SynthetictestDeviceProtocol = "ping"
-	PINGTRACEROUTE_SynthetictestDeviceProtocol SynthetictestDeviceProtocol = "ping+traceroute"
-	TRACEROUTE_SynthetictestDeviceProtocol SynthetictestDeviceProtocol = "traceroute"
-)

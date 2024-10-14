@@ -12,8 +12,3 @@ package swagger
 type TroubleshootType string
 
 // List of troubleshoot_type
-const (
-	WAN_TroubleshootType TroubleshootType = "wan"
-	WIRED_TroubleshootType TroubleshootType = "wired"
-	WIRELESS_TroubleshootType TroubleshootType = "wireless"
-)

@@ -12,7 +12,3 @@ package swagger
 type BgpConfigType string
 
 // List of bgp_config_type
-const (
-	EXTERNAL_BgpConfigType BgpConfigType = "external"
-	INTERNAL_BgpConfigType BgpConfigType = "internal"
-)

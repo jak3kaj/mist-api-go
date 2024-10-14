@@ -12,6 +12,3 @@ package swagger
 type CaptureScanType string
 
 // List of capture_scan_type
-const (
-	SCAN_CaptureScanType CaptureScanType = "scan"
-)

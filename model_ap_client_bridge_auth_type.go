@@ -12,7 +12,3 @@ package swagger
 type ApClientBridgeAuthType string
 
 // List of ap_client_bridge_auth_type
-const (
-	OPEN_ApClientBridgeAuthType ApClientBridgeAuthType = "open"
-	PSK_ApClientBridgeAuthType ApClientBridgeAuthType = "psk"
-)

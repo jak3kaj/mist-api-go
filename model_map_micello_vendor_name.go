@@ -12,6 +12,3 @@ package swagger
 type MapMicelloVendorName string
 
 // List of map_micello_vendor_name
-const (
-	MICELLO_MapMicelloVendorName MapMicelloVendorName = "micello"
-)

@@ -12,6 +12,3 @@ package swagger
 type CaptureRadiotapwiredType string
 
 // List of capture_radiotapwired_type
-const (
-	RADIOTAPWIRED_CaptureRadiotapwiredType CaptureRadiotapwiredType = "radiotap,wired"
-)

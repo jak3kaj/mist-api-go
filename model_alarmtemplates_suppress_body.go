@@ -10,10 +10,10 @@
 package swagger
 
 type AlarmtemplatesSuppressBody struct {
-	Applies *Object `json:"applies,omitempty"`
+	Applies *any `json:"applies,omitempty"`
 	// duration, in seconds. Maximum duration is 86400 * 180 (180 days). 0 is to un-suppress alarms
 	Duration float64 `json:"duration,omitempty"`
 	// poch_time in seconds, Default as now, accepted time range is from now to now + 7 days
 	ScheduledTime int32 `json:"scheduled_time,omitempty"`
-	Scope *Object `json:"scope,omitempty"`
+	Scope *any `json:"scope,omitempty"`
 }

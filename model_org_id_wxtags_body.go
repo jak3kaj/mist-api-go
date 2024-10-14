@@ -16,11 +16,11 @@ type OrgIdWxtagsBody struct {
 	LastIps []string `json:"last_ips,omitempty"`
 	// if `type`==`client`, Client MAC Address
 	Mac string `json:"mac,omitempty"`
-	Match *Object `json:"match,omitempty"`
+	Match *any `json:"match,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
 	// The name
 	Name string `json:"name"`
-	Op *Object `json:"op,omitempty"`
+	Op *any `json:"op,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	ResourceMac string `json:"resource_mac,omitempty"`
 	Services []string `json:"services,omitempty"`
@@ -28,8 +28,8 @@ type OrgIdWxtagsBody struct {
 	// if `type`==`spec`
 	Specs []WxlanTagSpec `json:"specs,omitempty"`
 	Subnet string `json:"subnet,omitempty"`
-	Type_ *Object `json:"type"`
+	Type_ *any `json:"type"`
 	// required if `type`==`match` and   * `match`==`ap_id`: list of AP IDs   * `match`==`app`: list of Application Names   * `match`==`asset_mac`: list of Asset MAC Addresses   * `match`==`client_mac`: list of Client MAC Addresses   * `match`==`hostname`: list of Resources Hostnames   * `match`==`ip_range_subnet`: list of IP Addresses and/or CIDRs   * `match`==`psk_name`: list of PSK Names   * `match`==`psk_role`: list of PSK Roles   * `match`==`port`: list of Ports or Port Ranges   * `match`==`radius_attr`: list of RADIUS Attributes. The values are [ “6=1”, “26=10.2.3.4” ], this support other RADIUS attributes where we know the type   * `match`==`radius_class`: list of RADIUS Classes. This matches the ATTR-Class(25)   * `match`==`radius_group`: list of RADIUS Groups. This is a smart tag that matches RADIUS-Filter-ID, Airespace-ACL-Name (VendorID=14179, VendorType=6) / Aruba-User-Role (VendorID=14823, VendorType=1)   * `match`==`radius_username`: list of RADIUS Usernames. This matches the ATTR-User-Name(1)   * `match`==`sdkclient_uuid`: list of SDK UUIDs   * `match`==`wlan_id`: list of WLAN IDs  **Notes**: Variables are not allowed
 	Values []string `json:"values,omitempty"`
-	VlanId *Object `json:"vlan_id,omitempty"`
+	VlanId *any `json:"vlan_id,omitempty"`
 }

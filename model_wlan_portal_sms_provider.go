@@ -12,12 +12,3 @@ package swagger
 type WlanPortalSmsProvider string
 
 // List of wlan_portal_sms_provider
-const (
-	BROADNET_WlanPortalSmsProvider WlanPortalSmsProvider = "broadnet"
-	CLICKATELL_WlanPortalSmsProvider WlanPortalSmsProvider = "clickatell"
-	GUPSHUP_WlanPortalSmsProvider WlanPortalSmsProvider = "gupshup"
-	MANUAL_WlanPortalSmsProvider WlanPortalSmsProvider = "manual"
-	PUZZEL_WlanPortalSmsProvider WlanPortalSmsProvider = "puzzel"
-	TELSTRA_WlanPortalSmsProvider WlanPortalSmsProvider = "telstra"
-	TWILIO_WlanPortalSmsProvider WlanPortalSmsProvider = "twilio"
-)

@@ -13,7 +13,7 @@ type AllOfpskPortalSso struct {
 	// // allowed roles for accessing psk portal, if none, any role is permitted
 	AllowedRoles []string `json:"allowed_roles,omitempty"`
 	IdpCert string `json:"idp_cert,omitempty"`
-	IdpSignAlgo *Object `json:"idp_sign_algo,omitempty"`
+	IdpSignAlgo *any `json:"idp_sign_algo,omitempty"`
 	IdpSsoUrl string `json:"idp_sso_url,omitempty"`
 	Issuer string `json:"issuer,omitempty"`
 	NameidFormat string `json:"nameid_format,omitempty"`

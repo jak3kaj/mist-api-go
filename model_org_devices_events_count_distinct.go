@@ -12,13 +12,3 @@ package swagger
 type OrgDevicesEventsCountDistinct string
 
 // List of org_devices_events_count_distinct
-const (
-	AP_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "ap"
-	APFW_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "apfw"
-	MODEL_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "model"
-	ORG_ID_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "org_id"
-	SITE_ID_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "site_id"
-	TEXT_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "text"
-	TIMESTAMP_OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "timestamp"
-	TYPE__OrgDevicesEventsCountDistinct OrgDevicesEventsCountDistinct = "type"
-)

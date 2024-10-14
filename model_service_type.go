@@ -12,9 +12,3 @@ package swagger
 type ServiceType string
 
 // List of service_type
-const (
-	APP_CATEGORIES_ServiceType ServiceType = "app_categories"
-	APPS_ServiceType ServiceType = "apps"
-	CUSTOM_ServiceType ServiceType = "custom"
-	URLS_ServiceType ServiceType = "urls"
-)

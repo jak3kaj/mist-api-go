@@ -12,7 +12,3 @@ package swagger
 type AdminComplianceStatus string
 
 // List of admin_compliance_status
-const (
-	BLOCKED_AdminComplianceStatus AdminComplianceStatus = "blocked"
-	RESTRICTED_AdminComplianceStatus AdminComplianceStatus = "restricted"
-)

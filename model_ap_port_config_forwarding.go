@@ -12,10 +12,3 @@ package swagger
 type ApPortConfigForwarding string
 
 // List of ap_port_config_forwarding
-const (
-	ALL_ApPortConfigForwarding ApPortConfigForwarding = "all"
-	LIMITED_ApPortConfigForwarding ApPortConfigForwarding = "limited"
-	MXTUNNEL_ApPortConfigForwarding ApPortConfigForwarding = "mxtunnel"
-	SITE_MXEDGE_ApPortConfigForwarding ApPortConfigForwarding = "site_mxedge"
-	WXTUNNEL_ApPortConfigForwarding ApPortConfigForwarding = "wxtunnel"
-)

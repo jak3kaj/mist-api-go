@@ -12,10 +12,3 @@ package swagger
 type RadioBandAntennaMode string
 
 // List of radio_band_antenna_mode
-const (
-	1X1__RadioBandAntennaMode RadioBandAntennaMode = "1x1"
-	2X2__RadioBandAntennaMode RadioBandAntennaMode = "2x2"
-	3X3__RadioBandAntennaMode RadioBandAntennaMode = "3x3"
-	4X4__RadioBandAntennaMode RadioBandAntennaMode = "4x4"
-	DEFAULT__RadioBandAntennaMode RadioBandAntennaMode = "default"
-)

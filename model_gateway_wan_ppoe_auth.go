@@ -12,8 +12,3 @@ package swagger
 type GatewayWanPpoeAuth string
 
 // List of gateway_wan_ppoe_auth
-const (
-	CHAP_GatewayWanPpoeAuth GatewayWanPpoeAuth = "chap"
-	NONE_GatewayWanPpoeAuth GatewayWanPpoeAuth = "none"
-	PAP_GatewayWanPpoeAuth GatewayWanPpoeAuth = "pap"
-)

@@ -12,7 +12,3 @@ package swagger
 type AllowDeny string
 
 // List of allow_deny
-const (
-	ALLOW_AllowDeny AllowDeny = "allow"
-	DENY_AllowDeny AllowDeny = "deny"
-)

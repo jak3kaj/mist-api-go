@@ -16,5 +16,5 @@ type AllOftunnelConfigsProbe struct {
 	Threshold int32 `json:"threshold,omitempty"`
 	// time within which to complete the connectivity check
 	Timeout int32 `json:"timeout,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 }

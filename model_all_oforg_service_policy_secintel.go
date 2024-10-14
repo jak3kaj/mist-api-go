@@ -11,7 +11,7 @@ package swagger
 
 type AllOforgServicePolicySecintel struct {
 	Enabled bool `json:"enabled,omitempty"`
-	Profile *Object `json:"profile,omitempty"`
+	Profile *any `json:"profile,omitempty"`
 	// org-level secintel Profile can be used, this takes precendence over 'profile'
 	SecintelprofileId string `json:"secintelprofile_id,omitempty"`
 }

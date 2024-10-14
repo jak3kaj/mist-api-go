@@ -12,9 +12,3 @@ package swagger
 type ApEslType string
 
 // List of ap_esl_type
-const (
-	HANSHOW_ApEslType ApEslType = "hanshow"
-	IMAGOTAG_ApEslType ApEslType = "imagotag"
-	NATIVE_ApEslType ApEslType = "native"
-	SOLUM_ApEslType ApEslType = "solum"
-)

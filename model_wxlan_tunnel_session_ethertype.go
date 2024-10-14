@@ -12,7 +12,3 @@ package swagger
 type WxlanTunnelSessionEthertype string
 
 // List of wxlan_tunnel_session_ethertype
-const (
-	ETHERNET_WxlanTunnelSessionEthertype WxlanTunnelSessionEthertype = "ethernet"
-	VLAN_WxlanTunnelSessionEthertype WxlanTunnelSessionEthertype = "vlan"
-)

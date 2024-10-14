@@ -33,5 +33,5 @@ type AllOfsiteSettingWifi struct {
 	MeshPsk string `json:"mesh_psk,omitempty"`
 	// optional ssid of mesh networking, default is based on site_id
 	MeshSsid string `json:"mesh_ssid,omitempty"`
-	ProxyArp *Object `json:"proxy_arp,omitempty"`
+	ProxyArp *any `json:"proxy_arp,omitempty"`
 }

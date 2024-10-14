@@ -12,17 +12,3 @@ package swagger
 type SitePortsCountDistinct string
 
 // List of site_ports_count_distinct
-const (
-	FULL_DUPLEX_SitePortsCountDistinct SitePortsCountDistinct = "full_duplex"
-	MAC_SitePortsCountDistinct SitePortsCountDistinct = "mac"
-	NEIGHBOR_MAC_SitePortsCountDistinct SitePortsCountDistinct = "neighbor_mac"
-	NEIGHBOR_PORT_DESC_SitePortsCountDistinct SitePortsCountDistinct = "neighbor_port_desc"
-	NEIGHBOR_SYSTEM_NAME_SitePortsCountDistinct SitePortsCountDistinct = "neighbor_system_name"
-	POE_DISABLED_SitePortsCountDistinct SitePortsCountDistinct = "poe_disabled"
-	POE_MODE_SitePortsCountDistinct SitePortsCountDistinct = "poe_mode"
-	POE_ON_SitePortsCountDistinct SitePortsCountDistinct = "poe_on"
-	PORT_ID_SitePortsCountDistinct SitePortsCountDistinct = "port_id"
-	PORT_MAC_SitePortsCountDistinct SitePortsCountDistinct = "port_mac"
-	SPEED_SitePortsCountDistinct SitePortsCountDistinct = "speed"
-	UP_SitePortsCountDistinct SitePortsCountDistinct = "up"
-)

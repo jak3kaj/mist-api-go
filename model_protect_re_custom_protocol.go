@@ -12,9 +12,3 @@ package swagger
 type ProtectReCustomProtocol string
 
 // List of protect_re_custom_protocol
-const (
-	ANY_ProtectReCustomProtocol ProtectReCustomProtocol = "any"
-	ICMP_ProtectReCustomProtocol ProtectReCustomProtocol = "icmp"
-	TCP_ProtectReCustomProtocol ProtectReCustomProtocol = "tcp"
-	UDP_ProtectReCustomProtocol ProtectReCustomProtocol = "udp"
-)

@@ -12,13 +12,3 @@ package swagger
 type SiteClientSessionsCountDistinct string
 
 // List of site_client_sessions_count_distinct
-const (
-	AP_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "ap"
-	CLIENT_FAMILY_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "client_family"
-	CLIENT_MANUFACTURE_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "client_manufacture"
-	CLIENT_MODEL_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "client_model"
-	CLIENT_OS_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "client_os"
-	MAC_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "mac"
-	SSID_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "ssid"
-	WLAN_ID_SiteClientSessionsCountDistinct SiteClientSessionsCountDistinct = "wlan_id"
-)

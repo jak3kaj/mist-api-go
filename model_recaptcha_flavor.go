@@ -12,7 +12,3 @@ package swagger
 type RecaptchaFlavor string
 
 // List of recaptcha_flavor
-const (
-	GOOGLE_RecaptchaFlavor RecaptchaFlavor = "google"
-	HCAPTCHA_RecaptchaFlavor RecaptchaFlavor = "hcaptcha"
-)

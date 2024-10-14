@@ -18,7 +18,7 @@ type OrgIdInventoryBody struct {
 	Managed bool `json:"managed,omitempty"`
 	// if `op`==`assign`, if true, treat site assignment against an already assigned AP as error
 	NoReassign bool `json:"no_reassign,omitempty"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	// if `op`==`delete`, list of serial numbers, e.g. [\"FXLH2015150025\"]
 	Serials []string `json:"serials,omitempty"`
 	// if `op`==`assign`, target site id

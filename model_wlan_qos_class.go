@@ -12,9 +12,3 @@ package swagger
 type WlanQosClass string
 
 // List of wlan_qos_class
-const (
-	BACKGROUND_WlanQosClass WlanQosClass = "background"
-	BEST_EFFORT_WlanQosClass WlanQosClass = "best_effort"
-	VIDEO_WlanQosClass WlanQosClass = "video"
-	VOICE_WlanQosClass WlanQosClass = "voice"
-)

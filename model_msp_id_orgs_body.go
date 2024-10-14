@@ -10,7 +10,7 @@
 package swagger
 
 type MspIdOrgsBody struct {
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	// list of org_id
 	OrgIds []string `json:"org_ids"`
 }

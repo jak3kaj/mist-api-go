@@ -12,12 +12,3 @@ package swagger
 type OrgAutoRulesSrc string
 
 // List of org_auto_rules_src
-const (
-	DNS_SUFFIX_OrgAutoRulesSrc OrgAutoRulesSrc = "dns_suffix"
-	GEOIP_OrgAutoRulesSrc OrgAutoRulesSrc = "geoip"
-	LLDP_PORT_DESC_OrgAutoRulesSrc OrgAutoRulesSrc = "lldp_port_desc"
-	LLDP_SYSTEM_NAME_OrgAutoRulesSrc OrgAutoRulesSrc = "lldp_system_name"
-	MODEL_OrgAutoRulesSrc OrgAutoRulesSrc = "model"
-	NAME_OrgAutoRulesSrc OrgAutoRulesSrc = "name"
-	SUBNET_OrgAutoRulesSrc OrgAutoRulesSrc = "subnet"
-)

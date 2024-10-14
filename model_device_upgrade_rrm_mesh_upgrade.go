@@ -12,7 +12,3 @@ package swagger
 type DeviceUpgradeRrmMeshUpgrade string
 
 // List of device_upgrade_rrm_mesh_upgrade
-const (
-	PARALLEL_DeviceUpgradeRrmMeshUpgrade DeviceUpgradeRrmMeshUpgrade = "parallel"
-	SEQUENTIAL_DeviceUpgradeRrmMeshUpgrade DeviceUpgradeRrmMeshUpgrade = "sequential"
-)

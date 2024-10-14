@@ -18,8 +18,8 @@ type MapsMapIdBody2 struct {
 	Height int32 `json:"height,omitempty"`
 	HeightM float64 `json:"height_m,omitempty"`
 	Id string `json:"id,omitempty"`
-	LatlngBr *Object `json:"latlng_br,omitempty"`
-	LatlngTl *Object `json:"latlng_tl,omitempty"`
+	LatlngBr *any `json:"latlng_br,omitempty"`
+	LatlngTl *any `json:"latlng_tl,omitempty"`
 	// whether this map is considered locked down
 	Locked bool `json:"locked,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
@@ -40,17 +40,17 @@ type MapsMapIdBody2 struct {
 	SitesurveyPath []MapSitesurveyPathItems `json:"sitesurvey_path,omitempty"`
 	// when type=image, the url for the thumbnail image / preview
 	ThumbnailUrl string `json:"thumbnail_url,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// when type=image, the url
 	Url string `json:"url,omitempty"`
 	// whether this map uses autooreintation values or ignores them
 	UseAutoOrientation bool `json:"use_auto_orientation,omitempty"`
 	// whether this map uses autoplacement values or ignores them
 	UseAutoPlacement bool `json:"use_auto_placement,omitempty"`
-	View *Object `json:"view,omitempty"`
-	WallPath *Object `json:"wall_path,omitempty"`
-	Wayfinding *Object `json:"wayfinding,omitempty"`
-	WayfindingPath *Object `json:"wayfinding_path,omitempty"`
+	View *any `json:"view,omitempty"`
+	WallPath *any `json:"wall_path,omitempty"`
+	Wayfinding *any `json:"wayfinding,omitempty"`
+	WayfindingPath *any `json:"wayfinding_path,omitempty"`
 	// when type=image, width of the image map
 	Width int32 `json:"width,omitempty"`
 	WidthM float64 `json:"width_m,omitempty"`

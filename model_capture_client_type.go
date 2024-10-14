@@ -12,6 +12,3 @@ package swagger
 type CaptureClientType string
 
 // List of capture_client_type
-const (
-	CLIENT_CaptureClientType CaptureClientType = "client"
-)

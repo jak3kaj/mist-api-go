@@ -12,8 +12,3 @@ package swagger
 type ServiceFailoverPolicy string
 
 // List of service_failover_policy
-const (
-	NON_REVERTABLE_ServiceFailoverPolicy ServiceFailoverPolicy = "non_revertable"
-	NONE_ServiceFailoverPolicy ServiceFailoverPolicy = "none"
-	REVERTABLE_ServiceFailoverPolicy ServiceFailoverPolicy = "revertable"
-)

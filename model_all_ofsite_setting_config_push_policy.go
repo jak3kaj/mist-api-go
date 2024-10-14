@@ -12,5 +12,5 @@ package swagger
 type AllOfsiteSettingConfigPushPolicy struct {
 	// stop any new config from being pushed to the device
 	NoPush bool `json:"no_push,omitempty"`
-	PushWindow *Object `json:"push_window,omitempty"`
+	PushWindow *any `json:"push_window,omitempty"`
 }

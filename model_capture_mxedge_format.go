@@ -12,7 +12,3 @@ package swagger
 type CaptureMxedgeFormat string
 
 // List of capture_mxedge_format
-const (
-	STREAM_CaptureMxedgeFormat CaptureMxedgeFormat = "stream"
-	TZSP_CaptureMxedgeFormat CaptureMxedgeFormat = "tzsp"
-)

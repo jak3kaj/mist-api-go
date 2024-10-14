@@ -12,7 +12,3 @@ package swagger
 type UtilsTracerouteProtocol string
 
 // List of utils_traceroute_protocol
-const (
-	ICMP_UtilsTracerouteProtocol UtilsTracerouteProtocol = "icmp"
-	UDP_UtilsTracerouteProtocol UtilsTracerouteProtocol = "udp"
-)

@@ -12,8 +12,3 @@ package swagger
 type SystemDefinedPortUsages string
 
 // List of system_defined_port_usages
-const (
-	AP_SystemDefinedPortUsages SystemDefinedPortUsages = "ap"
-	IOT_SystemDefinedPortUsages SystemDefinedPortUsages = "iot"
-	UPLINK_SystemDefinedPortUsages SystemDefinedPortUsages = "uplink"
-)

@@ -12,11 +12,3 @@ package swagger
 type EventFastroamType string
 
 // List of event_fastroam_type
-const (
-	FAIL_EventFastroamType EventFastroamType = "fail"
-	NONE_EventFastroamType EventFastroamType = "none"
-	PINGPONG_EventFastroamType EventFastroamType = "pingpong"
-	POOR_EventFastroamType EventFastroamType = "poor"
-	SLOW_EventFastroamType EventFastroamType = "slow"
-	SUCCESS_EventFastroamType EventFastroamType = "success"
-)

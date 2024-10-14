@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdShowOspfDatabaseBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// show originating info, default is false
 	SelfOriginate bool `json:"self_originate,omitempty"`
 	// VRF name

@@ -14,5 +14,5 @@ type AllOfapIotDi1 struct {
 	Enabled bool `json:"enabled,omitempty"`
 	// optional; descriptive pin name
 	Name string `json:"name,omitempty"`
-	Pullup *Object `json:"pullup,omitempty"`
+	Pullup *any `json:"pullup,omitempty"`
 }

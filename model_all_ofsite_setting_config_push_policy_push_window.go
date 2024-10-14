@@ -11,5 +11,5 @@ package swagger
 
 type AllOfsiteSettingConfigPushPolicyPushWindow struct {
 	Enabled bool `json:"enabled,omitempty"`
-	Hours *Object `json:"hours,omitempty"`
+	Hours *any `json:"hours,omitempty"`
 }

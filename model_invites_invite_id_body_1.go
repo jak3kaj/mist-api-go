@@ -11,7 +11,7 @@ package swagger
 
 type InvitesInviteIdBody1 struct {
 	AdminId string `json:"admin_id,omitempty"`
-	ComplianceStatus *Object `json:"compliance_status,omitempty"`
+	ComplianceStatus *any `json:"compliance_status,omitempty"`
 	// if admin account is not an Org API Token
 	Email string `json:"email,omitempty"`
 	// if admin account is not an Org API Token

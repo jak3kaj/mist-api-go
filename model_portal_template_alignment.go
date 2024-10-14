@@ -12,8 +12,3 @@ package swagger
 type PortalTemplateAlignment string
 
 // List of portal_template_alignment
-const (
-	CENTER_PortalTemplateAlignment PortalTemplateAlignment = "center"
-	LEFT_PortalTemplateAlignment PortalTemplateAlignment = "left"
-	RIGHT_PortalTemplateAlignment PortalTemplateAlignment = "right"
-)

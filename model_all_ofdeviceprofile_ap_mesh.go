@@ -14,5 +14,5 @@ type AllOfdeviceprofileApMesh struct {
 	Enabled bool `json:"enabled,omitempty"`
 	// mesh group, base AP(s) will only allow remote AP(s) in the same mesh group to join, 1-9, optional
 	Group int32 `json:"group,omitempty"`
-	Role *Object `json:"role,omitempty"`
+	Role *any `json:"role,omitempty"`
 }

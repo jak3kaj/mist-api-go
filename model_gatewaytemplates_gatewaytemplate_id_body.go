@@ -24,7 +24,7 @@ type GatewaytemplatesGatewaytemplateIdBody struct {
 	ExtraRoutes map[string]GatewayExtraRoute `json:"extra_routes,omitempty"`
 	// Property key is the destination CIDR (e.g. \"2a02:1234:420a:10c9::/64\")
 	ExtraRoutes6 map[string]GatewayExtraRoute `json:"extra_routes6,omitempty"`
-	GatewayMatching *Object `json:"gateway_matching,omitempty"`
+	GatewayMatching *any `json:"gateway_matching,omitempty"`
 	Id string `json:"id,omitempty"`
 	// Property key is the profile name
 	IdpProfiles map[string]IdpProfile `json:"idp_profiles,omitempty"`
@@ -36,7 +36,7 @@ type GatewaytemplatesGatewaytemplateIdBody struct {
 	NtpOverride bool `json:"ntpOverride,omitempty"`
 	// list of NTP servers specific to this device. By default, those in Site Settings will be used
 	NtpServers []string `json:"ntp_servers,omitempty"`
-	OobIpConfig *Object `json:"oob_ip_config,omitempty"`
+	OobIpConfig *any `json:"oob_ip_config,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	// Property key is the path name
 	PathPreferences map[string]GatewayPathPreferences `json:"path_preferences,omitempty"`
@@ -50,7 +50,7 @@ type GatewaytemplatesGatewaytemplateIdBody struct {
 	// Property key is the tunnel name
 	TunnelConfigs map[string]TunnelConfigs `json:"tunnel_configs,omitempty"`
 	TunnelProviderOptions *TunnelProviderOptions `json:"tunnel_provider_options,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	VrfConfig *VrfConfig `json:"vrf_config,omitempty"`
 	// Property key is the network name
 	VrfInstances map[string]GatewayVrfInstance `json:"vrf_instances,omitempty"`

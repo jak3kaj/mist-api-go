@@ -12,7 +12,3 @@ package swagger
 type VirtualChassisPortOperation string
 
 // List of virtual_chassis_port_operation
-const (
-	DELETE_VirtualChassisPortOperation VirtualChassisPortOperation = "delete"
-	SET_VirtualChassisPortOperation VirtualChassisPortOperation = "set"
-)

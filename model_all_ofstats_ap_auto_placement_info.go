@@ -14,5 +14,5 @@ type AllOfstatsApAutoPlacementInfo struct {
 	ClusterNumber int32 `json:"cluster_number,omitempty"`
 	// The orientation of an AP
 	OrientationStats int32 `json:"orientation_stats,omitempty"`
-	ProbabilitySurface *Object `json:"probability_surface,omitempty"`
+	ProbabilitySurface *any `json:"probability_surface,omitempty"`
 }

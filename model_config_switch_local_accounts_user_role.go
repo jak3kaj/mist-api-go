@@ -12,9 +12,3 @@ package swagger
 type ConfigSwitchLocalAccountsUserRole string
 
 // List of config_switch_local_accounts_user_role
-const (
-	ADMIN_ConfigSwitchLocalAccountsUserRole ConfigSwitchLocalAccountsUserRole = "admin"
-	HELPDESK_ConfigSwitchLocalAccountsUserRole ConfigSwitchLocalAccountsUserRole = "helpdesk"
-	NONE_ConfigSwitchLocalAccountsUserRole ConfigSwitchLocalAccountsUserRole = "none"
-	READ_ConfigSwitchLocalAccountsUserRole ConfigSwitchLocalAccountsUserRole = "read"
-)

@@ -12,7 +12,7 @@ package swagger
 type MxtunnelsMxtunnelIdBody struct {
 	// list of anchor mxtunnels used for forming edge to edge tunnels
 	AnchorMxtunnelIds []string `json:"anchor_mxtunnel_ids,omitempty"`
-	AutoPreemption *Object `json:"auto_preemption,omitempty"`
+	AutoPreemption *any `json:"auto_preemption,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
 	ForSite bool `json:"for_site,omitempty"`
 	// in seconds, used as heartbeat to detect if a tunnel is alive. AP will try another peer after missing N hellos specified by `hello_retries`.
@@ -27,7 +27,7 @@ type MxtunnelsMxtunnelIdBody struct {
 	MxclusterIds []string `json:"mxcluster_ids,omitempty"`
 	Name string `json:"name,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	Protocol *Object `json:"protocol,omitempty"`
+	Protocol *any `json:"protocol,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	// list of vlan_ids that will be used
 	VlanIds []int32 `json:"vlan_ids,omitempty"`

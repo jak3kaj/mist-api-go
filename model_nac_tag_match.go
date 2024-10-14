@@ -12,20 +12,3 @@ package swagger
 type NacTagMatch string
 
 // List of nac_tag_match
-const (
-	CERT_CN_NacTagMatch NacTagMatch = "cert_cn"
-	CERT_ISSUER_NacTagMatch NacTagMatch = "cert_issuer"
-	CERT_SAN_NacTagMatch NacTagMatch = "cert_san"
-	CERT_SERIAL_NacTagMatch NacTagMatch = "cert_serial"
-	CERT_SUB_NacTagMatch NacTagMatch = "cert_sub"
-	CLIENT_MAC_NacTagMatch NacTagMatch = "client_mac"
-	IDP_ROLE_NacTagMatch NacTagMatch = "idp_role"
-	INGRESS_VLAN_NacTagMatch NacTagMatch = "ingress_vlan"
-	MDM_STATUS_NacTagMatch NacTagMatch = "mdm_status"
-	NAS_IP_NacTagMatch NacTagMatch = "nas_ip"
-	RADIUS_GROUP_NacTagMatch NacTagMatch = "radius_group"
-	REALM_NacTagMatch NacTagMatch = "realm"
-	SSID_NacTagMatch NacTagMatch = "ssid"
-	USER_NAME_NacTagMatch NacTagMatch = "user_name"
-	USERMAC_LABEL_NacTagMatch NacTagMatch = "usermac_label"
-)

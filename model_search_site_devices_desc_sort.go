@@ -12,9 +12,3 @@ package swagger
 type SearchSiteDevicesDescSort string
 
 // List of search_site_devices_desc_sort
-const (
-	MAC_SearchSiteDevicesDescSort SearchSiteDevicesDescSort = "mac"
-	MODEL_SearchSiteDevicesDescSort SearchSiteDevicesDescSort = "model"
-	SKU_SearchSiteDevicesDescSort SearchSiteDevicesDescSort = "sku"
-	TIMESTAMP_SearchSiteDevicesDescSort SearchSiteDevicesDescSort = "timestamp"
-)

@@ -12,7 +12,3 @@ package swagger
 type DynamicPskSource string
 
 // List of dynamic_psk_source
-const (
-	CLOUD_PSKS_DynamicPskSource DynamicPskSource = "cloud_psks"
-	RADIUS_DynamicPskSource DynamicPskSource = "radius"
-)

@@ -16,7 +16,7 @@ type MspIdLicensesBody struct {
 	DstOrgId string `json:"dst_org_id,omitempty"`
 	// required if `op`== `annotate`
 	Notes string `json:"notes,omitempty"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	// required if `op`==`amend`
 	Quantity float64 `json:"quantity,omitempty"`
 	// required if `op`== `annotate`

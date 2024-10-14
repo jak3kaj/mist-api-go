@@ -12,7 +12,3 @@ package swagger
 type CaptureScanFormat string
 
 // List of capture_scan_format
-const (
-	PCAP_CaptureScanFormat CaptureScanFormat = "pcap"
-	STREAM_CaptureScanFormat CaptureScanFormat = "stream"
-)

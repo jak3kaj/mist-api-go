@@ -12,9 +12,3 @@ package swagger
 type MxedgeMgmtOobIpType6 string
 
 // List of mxedge_mgmt_oob_ip_type6
-const (
-	AUTOCONF_MxedgeMgmtOobIpType6 MxedgeMgmtOobIpType6 = "autoconf"
-	DHCP_MxedgeMgmtOobIpType6 MxedgeMgmtOobIpType6 = "dhcp"
-	DISABLED_MxedgeMgmtOobIpType6 MxedgeMgmtOobIpType6 = "disabled"
-	STATIC_MxedgeMgmtOobIpType6 MxedgeMgmtOobIpType6 = "static"
-)

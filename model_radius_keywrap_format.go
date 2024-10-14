@@ -12,7 +12,3 @@ package swagger
 type RadiusKeywrapFormat string
 
 // List of radius_keywrap_format
-const (
-	ASCII_RadiusKeywrapFormat RadiusKeywrapFormat = "ascii"
-	HEX_RadiusKeywrapFormat RadiusKeywrapFormat = "hex"
-)

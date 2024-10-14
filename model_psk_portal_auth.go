@@ -12,7 +12,3 @@ package swagger
 type PskPortalAuth string
 
 // List of psk_portal_auth
-const (
-	SPONSOR_PskPortalAuth PskPortalAuth = "sponsor"
-	SSO_PskPortalAuth PskPortalAuth = "sso"
-)

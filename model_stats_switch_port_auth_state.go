@@ -12,9 +12,3 @@ package swagger
 type StatsSwitchPortAuthState string
 
 // List of stats_switch_port_auth_state
-const (
-	AUTHENTICATED_StatsSwitchPortAuthState StatsSwitchPortAuthState = "authenticated"
-	AUTHENTICATING_StatsSwitchPortAuthState StatsSwitchPortAuthState = "authenticating"
-	HELD_StatsSwitchPortAuthState StatsSwitchPortAuthState = "held"
-	INIT_StatsSwitchPortAuthState StatsSwitchPortAuthState = "init"
-)

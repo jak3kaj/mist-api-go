@@ -12,8 +12,3 @@ package swagger
 type ApUsbType string
 
 // List of ap_usb_type
-const (
-	HANSHOW_ApUsbType ApUsbType = "hanshow"
-	IMAGOTAG_ApUsbType ApUsbType = "imagotag"
-	SOLUM_ApUsbType ApUsbType = "solum"
-)

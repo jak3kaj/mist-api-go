@@ -13,5 +13,5 @@ type V1RecoverBody struct {
 	Email string `json:"email"`
 	// see https://www.google.com/recaptcha/
 	Recaptcha string `json:"recaptcha,omitempty"`
-	RecaptchaFlavor *Object `json:"recaptcha_flavor,omitempty"`
+	RecaptchaFlavor *any `json:"recaptcha_flavor,omitempty"`
 }

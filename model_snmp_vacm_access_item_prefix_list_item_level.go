@@ -12,8 +12,3 @@ package swagger
 type SnmpVacmAccessItemPrefixListItemLevel string
 
 // List of snmp_vacm_access_item_prefix_list_item_level
-const (
-	AUTHENTICATION_SnmpVacmAccessItemPrefixListItemLevel SnmpVacmAccessItemPrefixListItemLevel = "authentication"
-	NONE_SnmpVacmAccessItemPrefixListItemLevel SnmpVacmAccessItemPrefixListItemLevel = "none"
-	PRIVACY_SnmpVacmAccessItemPrefixListItemLevel SnmpVacmAccessItemPrefixListItemLevel = "privacy"
-)

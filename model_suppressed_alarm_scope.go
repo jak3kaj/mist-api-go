@@ -12,7 +12,3 @@ package swagger
 type SuppressedAlarmScope string
 
 // List of suppressed_alarm_scope
-const (
-	ORG_SuppressedAlarmScope SuppressedAlarmScope = "org"
-	SITE_SuppressedAlarmScope SuppressedAlarmScope = "site"
-)

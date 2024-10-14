@@ -20,15 +20,15 @@ type SiteIdSettingBody struct {
 	ApPortConfig *SiteSettingApPortConfig `json:"ap_port_config,omitempty"`
 	// enable threshold-based device down delivery for AP devices only. When configured it takes effect for AP devices and `device_updown_threshold` is ignored.
 	ApUpdownThreshold int32 `json:"ap_updown_threshold,omitempty"`
-	AutoPlacement *Object `json:"auto_placement,omitempty"`
-	AutoUpgrade *Object `json:"auto_upgrade,omitempty"`
+	AutoPlacement *any `json:"auto_placement,omitempty"`
+	AutoUpgrade *any `json:"auto_upgrade,omitempty"`
 	BlacklistUrl string `json:"blacklist_url,omitempty"`
-	BleConfig *Object `json:"ble_config,omitempty"`
+	BleConfig *any `json:"ble_config,omitempty"`
 	// whether to enable ap auto config revert
 	ConfigAutoRevert bool `json:"config_auto_revert,omitempty"`
-	ConfigPushPolicy *Object `json:"config_push_policy,omitempty"`
+	ConfigPushPolicy *any `json:"config_push_policy,omitempty"`
 	CreatedTime float64 `json:"created_time,omitempty"`
-	CriticalUrlMonitoring *Object `json:"critical_url_monitoring,omitempty"`
+	CriticalUrlMonitoring *any `json:"critical_url_monitoring,omitempty"`
 	// by default, device_updown_thresold, if set, will apply to all devices types if different values for specific device type is desired, use the following
 	DeviceUpdownThreshold int32 `json:"device_updown_threshold,omitempty"`
 	DhcpSnooping *DhcpSnooping `json:"dhcp_snooping,omitempty"`
@@ -38,32 +38,32 @@ type SiteIdSettingBody struct {
 	DnsServers []string `json:"dns_servers,omitempty"`
 	// Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
 	DnsSuffix []string `json:"dns_suffix,omitempty"`
-	Engagement *Object `json:"engagement,omitempty"`
-	EvpnOptions *Object `json:"evpn_options,omitempty"`
+	Engagement *any `json:"engagement,omitempty"`
+	EvpnOptions *any `json:"evpn_options,omitempty"`
 	ExtraRoutes map[string]ExtraRoute `json:"extra_routes,omitempty"`
 	// Property key is the destination CIDR (e.g. \"2a02:1234:420a:10c9::/64\")
 	ExtraRoutes6 map[string]ExtraRoute6 `json:"extra_routes6,omitempty"`
 	// name/val pair objects for location engine to use
 	Flags map[string]string `json:"flags,omitempty"`
 	ForSite bool `json:"for_site,omitempty"`
-	Gateway *Object `json:"gateway,omitempty"`
+	Gateway *any `json:"gateway,omitempty"`
 	// additional CLI commands to append to the generated Junos config  **Note**: no check is done
 	GatewayAdditionalConfigCmds []string `json:"gateway_additional_config_cmds,omitempty"`
-	GatewayMgmt *Object `json:"gateway_mgmt,omitempty"`
+	GatewayMgmt *any `json:"gateway_mgmt,omitempty"`
 	// enable threshold-based device down delivery for Gateway devices only. When configured it takes effect for GW devices and `device_updown_threshold` is ignored.
 	GatewayUpdownThreshold int32 `json:"gateway_updown_threshold,omitempty"`
 	Id string `json:"id,omitempty"`
-	Led *Object `json:"led,omitempty"`
-	MistNac *Object `json:"mist_nac,omitempty"`
+	Led *any `json:"led,omitempty"`
+	MistNac *any `json:"mist_nac,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
-	Mxedge *Object `json:"mxedge,omitempty"`
+	Mxedge *any `json:"mxedge,omitempty"`
 	MxedgeMgmt *MxedgeMgmt `json:"mxedge_mgmt,omitempty"`
-	Mxtunnels *Object `json:"mxtunnels,omitempty"`
+	Mxtunnels *any `json:"mxtunnels,omitempty"`
 	// Property key is network name
 	Networks map[string]SwitchNetwork `json:"networks,omitempty"`
 	// list of NTP servers
 	NtpServers []string `json:"ntp_servers,omitempty"`
-	Occupancy *Object `json:"occupancy,omitempty"`
+	Occupancy *any `json:"occupancy,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	// Junos OSPF areas
 	OspfAreas map[string]OspfArea `json:"ospf_areas,omitempty"`
@@ -73,17 +73,17 @@ type SiteIdSettingBody struct {
 	// Property key is the port mirroring instance name port_mirroring can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 port mirrorings is allowed
 	PortMirroring map[string]SwitchPortMirroringProperty `json:"port_mirroring,omitempty"`
 	PortUsages map[string]SwitchPortUsage `json:"port_usages,omitempty"`
-	Proxy *Object `json:"proxy,omitempty"`
-	RadioConfig *Object `json:"radio_config,omitempty"`
-	RadiusConfig *Object `json:"radius_config,omitempty"`
+	Proxy *any `json:"proxy,omitempty"`
+	RadioConfig *any `json:"radio_config,omitempty"`
+	RadiusConfig *any `json:"radius_config,omitempty"`
 	RemoteSyslog *RemoteSyslog `json:"remote_syslog,omitempty"`
 	// by default, when we configure a device, we only clean up config we generates. Remove existing configs if enabled
 	RemoveExistingConfigs bool `json:"remove_existing_configs,omitempty"`
 	// whether AP should periodically connect to BLE devices and report GATT device info (device name, manufacturer name, serial number, battery %, temperature, humidity)
 	ReportGatt bool `json:"report_gatt,omitempty"`
-	Rogue *Object `json:"rogue,omitempty"`
-	Rtsa *Object `json:"rtsa,omitempty"`
-	SimpleAlert *Object `json:"simple_alert,omitempty"`
+	Rogue *any `json:"rogue,omitempty"`
+	Rtsa *any `json:"rtsa,omitempty"`
+	SimpleAlert *any `json:"simple_alert,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	Skyatp *SiteSettingSkyatp `json:"skyatp,omitempty"`
 	SnmpConfig *SnmpConfig `json:"snmp_config,omitempty"`
@@ -92,9 +92,9 @@ type SiteIdSettingBody struct {
 	SshKeys []string `json:"ssh_keys,omitempty"`
 	Ssr *SiteSettingSsr `json:"ssr,omitempty"`
 	StatusPortal *SiteSettingStatusPortal `json:"status_portal,omitempty"`
-	Switch_ *Object `json:"switch,omitempty"`
-	SwitchMatching *Object `json:"switch_matching,omitempty"`
-	SwitchMgmt *Object `json:"switch_mgmt,omitempty"`
+	Switch_ *any `json:"switch,omitempty"`
+	SwitchMatching *any `json:"switch_matching,omitempty"`
+	SwitchMgmt *any `json:"switch_mgmt,omitempty"`
 	// enable threshold-based device down delivery for Switch devices only. When configured it takes effect for SW devices and `device_updown_threshold` is ignored.
 	SwitchUpdownThreshold int32 `json:"switch_updown_threshold,omitempty"`
 	SyntheticTest *SynthetictestConfig `json:"synthetic_test,omitempty"`
@@ -117,8 +117,8 @@ type SiteIdSettingBody struct {
 	WanVna *SiteSettingWanVna `json:"wan_vna,omitempty"`
 	WatchedStationUrl string `json:"watched_station_url,omitempty"`
 	WhitelistUrl string `json:"whitelist_url,omitempty"`
-	Wids *Object `json:"wids,omitempty"`
-	Wifi *Object `json:"wifi,omitempty"`
+	Wids *any `json:"wids,omitempty"`
+	Wifi *any `json:"wifi,omitempty"`
 	WiredVna *SiteSettingWiredVna `json:"wired_vna,omitempty"`
-	ZoneOccupancyAlert *Object `json:"zone_occupancy_alert,omitempty"`
+	ZoneOccupancyAlert *any `json:"zone_occupancy_alert,omitempty"`
 }

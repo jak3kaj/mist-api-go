@@ -12,10 +12,3 @@ package swagger
 type MxclusterRadsecSrcIpSource string
 
 // List of mxcluster_radsec_src_ip_source
-const (
-	ANY_MxclusterRadsecSrcIpSource MxclusterRadsecSrcIpSource = "any"
-	OOB_MxclusterRadsecSrcIpSource MxclusterRadsecSrcIpSource = "oob"
-	OOB6_MxclusterRadsecSrcIpSource MxclusterRadsecSrcIpSource = "oob6"
-	TUNNEL_MxclusterRadsecSrcIpSource MxclusterRadsecSrcIpSource = "tunnel"
-	TUNNEL6_MxclusterRadsecSrcIpSource MxclusterRadsecSrcIpSource = "tunnel6"
-)

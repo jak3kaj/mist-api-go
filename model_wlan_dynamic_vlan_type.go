@@ -12,7 +12,3 @@ package swagger
 type WlanDynamicVlanType string
 
 // List of wlan_dynamic_vlan_type
-const (
-	AIRESPACE_INTERFACE_NAME_WlanDynamicVlanType WlanDynamicVlanType = "airespace-interface-name"
-	STANDARD_WlanDynamicVlanType WlanDynamicVlanType = "standard"
-)

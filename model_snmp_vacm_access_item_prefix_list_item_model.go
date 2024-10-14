@@ -12,9 +12,3 @@ package swagger
 type SnmpVacmAccessItemPrefixListItemModel string
 
 // List of snmp_vacm_access_item_prefix_list_item_model
-const (
-	ANY_SnmpVacmAccessItemPrefixListItemModel SnmpVacmAccessItemPrefixListItemModel = "any"
-	USM_SnmpVacmAccessItemPrefixListItemModel SnmpVacmAccessItemPrefixListItemModel = "usm"
-	V1_SnmpVacmAccessItemPrefixListItemModel SnmpVacmAccessItemPrefixListItemModel = "v1"
-	V2C_SnmpVacmAccessItemPrefixListItemModel SnmpVacmAccessItemPrefixListItemModel = "v2c"
-)

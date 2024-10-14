@@ -12,8 +12,3 @@ package swagger
 type TunnelConfigsAuthAlgo string
 
 // List of tunnel_configs_auth_algo
-const (
-	MD5_TunnelConfigsAuthAlgo TunnelConfigsAuthAlgo = "md5"
-	SHA1_TunnelConfigsAuthAlgo TunnelConfigsAuthAlgo = "sha1"
-	SHA2_TunnelConfigsAuthAlgo TunnelConfigsAuthAlgo = "sha2"
-)

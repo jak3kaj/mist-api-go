@@ -12,9 +12,3 @@ package swagger
 type NacPortalSsoIdpSignAlgo string
 
 // List of nac_portal_sso_idp_sign_algo
-const (
-	SHA1_NacPortalSsoIdpSignAlgo NacPortalSsoIdpSignAlgo = "sha1"
-	SHA256_NacPortalSsoIdpSignAlgo NacPortalSsoIdpSignAlgo = "sha256"
-	SHA384_NacPortalSsoIdpSignAlgo NacPortalSsoIdpSignAlgo = "sha384"
-	SHA512_NacPortalSsoIdpSignAlgo NacPortalSsoIdpSignAlgo = "sha512"
-)

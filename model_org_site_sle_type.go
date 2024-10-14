@@ -12,8 +12,3 @@ package swagger
 type OrgSiteSleType string
 
 // List of org_site_sle_type
-const (
-	WAN_OrgSiteSleType OrgSiteSleType = "wan"
-	WIFI_OrgSiteSleType OrgSiteSleType = "wifi"
-	WIRED_OrgSiteSleType OrgSiteSleType = "wired"
-)

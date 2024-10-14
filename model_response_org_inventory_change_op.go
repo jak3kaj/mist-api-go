@@ -12,10 +12,3 @@ package swagger
 type ResponseOrgInventoryChangeOp string
 
 // List of response_org_inventory_change_op
-const (
-	ASSIGN_ResponseOrgInventoryChangeOp ResponseOrgInventoryChangeOp = "assign"
-	DELETE_ResponseOrgInventoryChangeOp ResponseOrgInventoryChangeOp = "delete"
-	DOWNGRADE_TO_JSI_ResponseOrgInventoryChangeOp ResponseOrgInventoryChangeOp = "downgrade_to_jsi"
-	UNASSIGN_ResponseOrgInventoryChangeOp ResponseOrgInventoryChangeOp = "unassign"
-	UPGRADE_TO_MIST_ResponseOrgInventoryChangeOp ResponseOrgInventoryChangeOp = "upgrade_to_mist"
-)

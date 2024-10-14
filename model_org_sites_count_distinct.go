@@ -12,21 +12,3 @@ package swagger
 type OrgSitesCountDistinct string
 
 // List of org_sites_count_distinct
-const (
-	ANALYTIC_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "analytic_enabled"
-	APP_WAKING_OrgSitesCountDistinct OrgSitesCountDistinct = "app_waking"
-	ASSET_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "asset_enabled"
-	AUTO_UPGRADE_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "auto_upgrade_enabled"
-	AUTO_UPGRADE_VERSION_OrgSitesCountDistinct OrgSitesCountDistinct = "auto_upgrade_version"
-	COUNTRY_CODE_OrgSitesCountDistinct OrgSitesCountDistinct = "country_code"
-	HONEYPOT_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "honeypot_enabled"
-	ID_OrgSitesCountDistinct OrgSitesCountDistinct = "id"
-	LOCATE_UNCONNECTED_OrgSitesCountDistinct OrgSitesCountDistinct = "locate_unconnected"
-	MESH_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "mesh_enabled"
-	NAME_OrgSitesCountDistinct OrgSitesCountDistinct = "name"
-	REMOTE_SYSLOG_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "remote_syslog_enabled"
-	ROGUE_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "rogue_enabled"
-	RTSA_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "rtsa_enabled"
-	VNA_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "vna_enabled"
-	WIFI_ENABLED_OrgSitesCountDistinct OrgSitesCountDistinct = "wifi_enabled"
-)

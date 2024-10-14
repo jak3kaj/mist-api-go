@@ -12,7 +12,3 @@ package swagger
 type Dot11Bandwidth24 int32
 
 // List of dot11_bandwidth24
-const (
-	20__Dot11Bandwidth24 Dot11Bandwidth24 = "20"
-	40__Dot11Bandwidth24 Dot11Bandwidth24 = "40"
-)

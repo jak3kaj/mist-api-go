@@ -12,8 +12,8 @@ package swagger
 type AllOfapRadioBand5 struct {
 	AllowRrmDisable bool `json:"allow_rrm_disable,omitempty"`
 	AntGain int32 `json:"ant_gain,omitempty"`
-	AntennaMode *Object `json:"antenna_mode,omitempty"`
-	Bandwidth *Object `json:"bandwidth,omitempty"`
+	AntennaMode *any `json:"antenna_mode,omitempty"`
+	Bandwidth *any `json:"bandwidth,omitempty"`
 	// For Device. (primary) channel for the band, 0 means using the Site Setting
 	Channel int32 `json:"channel,omitempty"`
 	// For RFTemplates. List of channels, null or empty array means auto
@@ -26,5 +26,5 @@ type AllOfapRadioBand5 struct {
 	PowerMax int32 `json:"power_max,omitempty"`
 	// when power=0, min tx power to use, HW-specific values will be used if not set
 	PowerMin int32 `json:"power_min,omitempty"`
-	Preamble *Object `json:"preamble,omitempty"`
+	Preamble *any `json:"preamble,omitempty"`
 }

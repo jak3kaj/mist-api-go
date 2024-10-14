@@ -12,8 +12,8 @@ package swagger
 type AllOfrfTemplateBand5 struct {
 	AllowRrmDisable bool `json:"allow_rrm_disable,omitempty"`
 	AntGain int32 `json:"ant_gain,omitempty"`
-	AntennaMode *Object `json:"antenna_mode,omitempty"`
-	Bandwidth *Object `json:"bandwidth,omitempty"`
+	AntennaMode *any `json:"antenna_mode,omitempty"`
+	Bandwidth *any `json:"bandwidth,omitempty"`
 	// For RFTemplates. List of channels, null or empty array means auto
 	Channels []int32 `json:"channels,omitempty"`
 	// whether to disable the radio
@@ -24,5 +24,5 @@ type AllOfrfTemplateBand5 struct {
 	PowerMax int32 `json:"power_max,omitempty"`
 	// when power=0, min tx power to use, HW-specific values will be used if not set
 	PowerMin int32 `json:"power_min,omitempty"`
-	Preamble *Object `json:"preamble,omitempty"`
+	Preamble *any `json:"preamble,omitempty"`
 }

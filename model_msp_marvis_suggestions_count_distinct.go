@@ -12,7 +12,3 @@ package swagger
 type MspMarvisSuggestionsCountDistinct string
 
 // List of msp_marvis_suggestions_count_distinct
-const (
-	ORG_ID_MspMarvisSuggestionsCountDistinct MspMarvisSuggestionsCountDistinct = "org_id"
-	STATUS_MspMarvisSuggestionsCountDistinct MspMarvisSuggestionsCountDistinct = "status"
-)

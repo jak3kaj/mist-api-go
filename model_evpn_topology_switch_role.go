@@ -12,11 +12,3 @@ package swagger
 type EvpnTopologySwitchRole string
 
 // List of evpn_topology_switch_role
-const (
-	ACCESS_EvpnTopologySwitchRole EvpnTopologySwitchRole = "access"
-	COLLAPSED_CORE_EvpnTopologySwitchRole EvpnTopologySwitchRole = "collapsed-core"
-	CORE_EvpnTopologySwitchRole EvpnTopologySwitchRole = "core"
-	DISTRIBUTION_EvpnTopologySwitchRole EvpnTopologySwitchRole = "distribution"
-	ESILAG_ACCESS_EvpnTopologySwitchRole EvpnTopologySwitchRole = "esilag-access"
-	NONE_EvpnTopologySwitchRole EvpnTopologySwitchRole = "none"
-)

@@ -12,8 +12,3 @@ package swagger
 type RfClientType string
 
 // List of rf_client_type
-const (
-	ASSET_RfClientType RfClientType = "asset"
-	CLIENT_RfClientType RfClientType = "client"
-	SDKCLIENT_RfClientType RfClientType = "sdkclient"
-)

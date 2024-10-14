@@ -10,7 +10,7 @@
 package swagger
 
 type InlineResponse200131 struct {
-	State *Object `json:"state,omitempty"`
+	State *any `json:"state,omitempty"`
 	// Time when auto orient process was last queued for this map
 	TimeQueued float64 `json:"time_queued,omitempty"`
 }

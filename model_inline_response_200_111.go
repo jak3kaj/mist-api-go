@@ -24,7 +24,7 @@ type InlineResponse200111 struct {
 	Oauth2ClientId string `json:"oauth2_client_id,omitempty"`
 	// required when `oauth2_grant_type`==`client_credentials`
 	Oauth2ClientSecret string `json:"oauth2_client_secret,omitempty"`
-	Oauth2GrantType *Object `json:"oauth2_grant_type,omitempty"`
+	Oauth2GrantType *any `json:"oauth2_grant_type,omitempty"`
 	// required when `oauth2_grant_type`==`password`
 	Oauth2Password string `json:"oauth2_password,omitempty"`
 	// required when `type`==`oauth2`, if provided, will be used in the token request
@@ -41,7 +41,7 @@ type InlineResponse200111 struct {
 	SplunkToken string `json:"splunk_token,omitempty"`
 	// N.B. For org webhooks, only alarms/audits/client-info/client-join/client-sessions/device-events/device-updowns/mxedge-events/nac-sessions/nac_events topics are supported.
 	Topics []WebhookTopic `json:"topics,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	Url string `json:"url,omitempty"`
 	// when url uses HTTPS, whether to verify the certificate
 	VerifyCert bool `json:"verify_cert,omitempty"`

@@ -12,8 +12,3 @@ package swagger
 type JunosPortConfigDuplex string
 
 // List of junos_port_config_duplex
-const (
-	AUTO_JunosPortConfigDuplex JunosPortConfigDuplex = "auto"
-	FULL_JunosPortConfigDuplex JunosPortConfigDuplex = "full"
-	HALF_JunosPortConfigDuplex JunosPortConfigDuplex = "half"
-)

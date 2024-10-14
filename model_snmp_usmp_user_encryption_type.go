@@ -12,9 +12,3 @@ package swagger
 type SnmpUsmpUserEncryptionType string
 
 // List of snmp_usmp_user_encryption_type
-const (
-	3DES__SnmpUsmpUserEncryptionType SnmpUsmpUserEncryptionType = "privacy-3des"
-	AES128_SnmpUsmpUserEncryptionType SnmpUsmpUserEncryptionType = "privacy-aes128"
-	DES_SnmpUsmpUserEncryptionType SnmpUsmpUserEncryptionType = "privacy-des"
-	NONE_SnmpUsmpUserEncryptionType SnmpUsmpUserEncryptionType = "privacy-none"
-)

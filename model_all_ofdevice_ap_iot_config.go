@@ -10,11 +10,11 @@
 package swagger
 
 type AllOfdeviceApIotConfig struct {
-	A1 *Object `json:"A1,omitempty"`
-	A2 *Object `json:"A2,omitempty"`
-	A3 *Object `json:"A3,omitempty"`
-	A4 *Object `json:"A4,omitempty"`
-	DI1 *Object `json:"DI1,omitempty"`
-	DI2 *Object `json:"DI2,omitempty"`
-	DO *Object `json:"DO,omitempty"`
+	A1 *any `json:"A1,omitempty"`
+	A2 *any `json:"A2,omitempty"`
+	A3 *any `json:"A3,omitempty"`
+	A4 *any `json:"A4,omitempty"`
+	DI1 *any `json:"DI1,omitempty"`
+	DI2 *any `json:"DI2,omitempty"`
+	DO *any `json:"DO,omitempty"`
 }

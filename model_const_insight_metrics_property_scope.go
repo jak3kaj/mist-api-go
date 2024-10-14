@@ -12,11 +12,3 @@ package swagger
 type ConstInsightMetricsPropertyScope string
 
 // List of const_insight_metrics_property_scope
-const (
-	AP_ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "ap"
-	CLIENT_ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "client"
-	DEVICE_ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "device"
-	MXEDGE_ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "mxedge"
-	SITE_ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "site"
-	SWITCH__ConstInsightMetricsPropertyScope ConstInsightMetricsPropertyScope = "switch"
-)

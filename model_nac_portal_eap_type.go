@@ -12,7 +12,3 @@ package swagger
 type NacPortalEapType string
 
 // List of nac_portal_eap_type
-const (
-	WPA2_NacPortalEapType NacPortalEapType = "wpa2"
-	WPA3_NacPortalEapType NacPortalEapType = "wpa3"
-)

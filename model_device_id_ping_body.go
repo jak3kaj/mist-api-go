@@ -14,6 +14,6 @@ type DeviceIdPingBody struct {
 	// Interface through which packet needs to egress
 	EgressInterface string `json:"egress_interface,omitempty"`
 	Host string `json:"host"`
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	Size int32 `json:"size,omitempty"`
 }

@@ -17,12 +17,12 @@ type AllOfsiteSettingRadioConfig struct {
 	AntGain5 int32 `json:"ant_gain_5,omitempty"`
 	// antenna gain for 6G - for models with external antenna only
 	AntGain6 int32 `json:"ant_gain_6,omitempty"`
-	AntennaMode *Object `json:"antenna_mode,omitempty"`
-	Band24 *Object `json:"band_24,omitempty"`
-	Band24Usage *Object `json:"band_24_usage,omitempty"`
-	Band5 *Object `json:"band_5,omitempty"`
-	Band5On24Radio *Object `json:"band_5_on_24_radio,omitempty"`
-	Band6 *Object `json:"band_6,omitempty"`
+	AntennaMode *any `json:"antenna_mode,omitempty"`
+	Band24 *any `json:"band_24,omitempty"`
+	Band24Usage *any `json:"band_24_usage,omitempty"`
+	Band5 *any `json:"band_5,omitempty"`
+	Band5On24Radio *any `json:"band_5_on_24_radio,omitempty"`
+	Band6 *any `json:"band_6,omitempty"`
 	// to make an outdoor operate indoor. for an outdoor-ap, some channels are disallowed by default, this allows the user to use it as an indoor-ap
 	IndoorUse bool `json:"indoor_use,omitempty"`
 	// whether scanning radio is enabled

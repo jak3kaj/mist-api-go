@@ -18,5 +18,5 @@ type RfdiagsRfdiagIdBody struct {
 	Name string `json:"name"`
 	// if `type`==`sdkclient`, sdkclient_id of this recording
 	SdkclientId string `json:"sdkclient_id,omitempty"`
-	Type_ *Object `json:"type"`
+	Type_ *any `json:"type"`
 }

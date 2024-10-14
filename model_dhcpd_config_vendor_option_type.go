@@ -12,13 +12,3 @@ package swagger
 type DhcpdConfigVendorOptionType string
 
 // List of dhcpd_config_vendor_option_type
-const (
-	BOOLEAN_DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "boolean"
-	HEX_DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "hex"
-	INT16__DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "int16"
-	INT32__DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "int32"
-	IP_DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "ip"
-	STRING__DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "string"
-	UINT16__DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "uint16"
-	UINT32__DhcpdConfigVendorOptionType DhcpdConfigVendorOptionType = "uint32"
-)

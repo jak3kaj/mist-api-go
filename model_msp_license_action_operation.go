@@ -12,9 +12,3 @@ package swagger
 type MspLicenseActionOperation string
 
 // List of msp_license_action_operation
-const (
-	AMEND_MspLicenseActionOperation MspLicenseActionOperation = "amend"
-	ANNOTATE_MspLicenseActionOperation MspLicenseActionOperation = "annotate"
-	DELETE_MspLicenseActionOperation MspLicenseActionOperation = "delete"
-	UNAMEND_MspLicenseActionOperation MspLicenseActionOperation = "unamend"
-)

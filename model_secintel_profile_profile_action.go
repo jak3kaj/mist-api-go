@@ -12,8 +12,3 @@ package swagger
 type SecintelProfileProfileAction string
 
 // List of secintel_profile_profile_action
-const (
-	DEFAULT__SecintelProfileProfileAction SecintelProfileProfileAction = "default"
-	STANDARD_SecintelProfileProfileAction SecintelProfileProfileAction = "standard"
-	STRICT_SecintelProfileProfileAction SecintelProfileProfileAction = "strict"
-)

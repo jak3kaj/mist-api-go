@@ -10,6 +10,6 @@
 package swagger
 
 type DeviceIdShowServicePathBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	ServiceName string `json:"service_name,omitempty"`
 }

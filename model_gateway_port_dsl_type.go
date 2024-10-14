@@ -12,7 +12,3 @@ package swagger
 type GatewayPortDslType string
 
 // List of gateway_port_dsl_type
-const (
-	ADSL_GatewayPortDslType GatewayPortDslType = "adsl"
-	VDSL_GatewayPortDslType GatewayPortDslType = "vdsl"
-)

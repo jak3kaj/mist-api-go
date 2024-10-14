@@ -12,7 +12,3 @@ package swagger
 type StatsWanTunnelPriority string
 
 // List of stats_wan_tunnel_priority
-const (
-	PRIMARY_StatsWanTunnelPriority StatsWanTunnelPriority = "primary"
-	SECONDARY_StatsWanTunnelPriority StatsWanTunnelPriority = "secondary"
-)

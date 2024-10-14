@@ -15,7 +15,7 @@ type AllOfgatewayOobIpConfigNode1 struct {
 	Ip string `json:"ip,omitempty"`
 	// used only if `subnet` is not specified in `networks`
 	Netmask string `json:"netmask,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	// if supported on the platform. If enabled, DNS will be using this routing-instance, too
 	UseMgmtVrf bool `json:"use_mgmt_vrf,omitempty"`
 	// whether to use `mgmt_junos` for host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired

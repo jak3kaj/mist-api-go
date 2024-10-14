@@ -12,6 +12,3 @@ package swagger
 type WebhookClientInfoTopic string
 
 // List of webhook_client_info_topic
-const (
-	CLIENT_INFO_WebhookClientInfoTopic WebhookClientInfoTopic = "client-info"
-)

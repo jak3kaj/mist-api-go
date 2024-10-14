@@ -12,10 +12,3 @@ package swagger
 type ResponseDeviceSnapshotStatus string
 
 // List of response_device_snapshot_status
-const (
-	ERROR__ResponseDeviceSnapshotStatus ResponseDeviceSnapshotStatus = "error"
-	INPROGRESS_ResponseDeviceSnapshotStatus ResponseDeviceSnapshotStatus = "inprogress"
-	SCHEDULED_ResponseDeviceSnapshotStatus ResponseDeviceSnapshotStatus = "scheduled"
-	STARTING_ResponseDeviceSnapshotStatus ResponseDeviceSnapshotStatus = "starting"
-	SUCCESS_ResponseDeviceSnapshotStatus ResponseDeviceSnapshotStatus = "success"
-)

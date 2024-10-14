@@ -12,8 +12,3 @@ package swagger
 type SiteAutoUpgradeVersion string
 
 // List of site_auto_upgrade_version
-const (
-	BETA_SiteAutoUpgradeVersion SiteAutoUpgradeVersion = "beta"
-	CUSTOM_SiteAutoUpgradeVersion SiteAutoUpgradeVersion = "custom"
-	STABLE_SiteAutoUpgradeVersion SiteAutoUpgradeVersion = "stable"
-)

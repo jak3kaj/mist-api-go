@@ -22,14 +22,14 @@ type AllOfwlanAuth struct {
 	Keys []string `json:"keys,omitempty"`
 	// when `type`==`psk`, whether to only use multi_psk
 	MultiPskOnly bool `json:"multi_psk_only,omitempty"`
-	Owe *Object `json:"owe,omitempty"`
+	Owe *any `json:"owe,omitempty"`
 	// when `type`=`psk` or `type`=`eap`, one or more of `wpa1-ccmp`, `wpa1-tkip`, `wpa2-ccmp`, `wpa2-tkip`, `wpa3`
-	Pairwise []Object `json:"pairwise,omitempty"`
+	Pairwise []any `json:"pairwise,omitempty"`
 	// when `multi_psk_only`==`true`, whether private wlan is enabled
 	PrivateWlan bool `json:"private_wlan,omitempty"`
 	// when `type`==`psk`, 8-64 characters, or 64 hex characters
 	Psk string `json:"psk,omitempty"`
-	Type_ *Object `json:"type"`
+	Type_ *any `json:"type"`
 	// enable WEP as secondary auth
 	WepAsSecondaryAuth bool `json:"wep_as_secondary_auth,omitempty"`
 }

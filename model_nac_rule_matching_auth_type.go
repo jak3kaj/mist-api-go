@@ -12,14 +12,3 @@ package swagger
 type NacRuleMatchingAuthType string
 
 // List of nac_rule_matching_auth_type
-const (
-	CERT_NacRuleMatchingAuthType NacRuleMatchingAuthType = "cert"
-	DEVICE_AUTH_NacRuleMatchingAuthType NacRuleMatchingAuthType = "device-auth"
-	EAP_TEAP_NacRuleMatchingAuthType NacRuleMatchingAuthType = "eap-teap"
-	EAP_TLS_NacRuleMatchingAuthType NacRuleMatchingAuthType = "eap-tls"
-	EAP_TTLS_NacRuleMatchingAuthType NacRuleMatchingAuthType = "eap-ttls"
-	IDP_NacRuleMatchingAuthType NacRuleMatchingAuthType = "idp"
-	MAB_NacRuleMatchingAuthType NacRuleMatchingAuthType = "mab"
-	PEAP_TLS_NacRuleMatchingAuthType NacRuleMatchingAuthType = "peap-tls"
-	PSK_NacRuleMatchingAuthType NacRuleMatchingAuthType = "psk"
-)

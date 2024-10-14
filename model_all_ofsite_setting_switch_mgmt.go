@@ -25,8 +25,8 @@ type AllOfsiteSettingSwitchMgmt struct {
 	LocalAccounts map[string]ConfigSwitchLocalAccountsUser `json:"local_accounts,omitempty"`
 	MxedgeProxyHost string `json:"mxedge_proxy_host,omitempty"`
 	MxedgeProxyPort int32 `json:"mxedge_proxy_port,omitempty"`
-	ProtectRe *Object `json:"protect_re,omitempty"`
-	Radius *Object `json:"radius,omitempty"`
+	ProtectRe *any `json:"protect_re,omitempty"`
+	Radius *any `json:"radius,omitempty"`
 	RootPassword string `json:"root_password,omitempty"`
 	Tacacs *Tacacs `json:"tacacs,omitempty"`
 	// to use mxedge as proxy

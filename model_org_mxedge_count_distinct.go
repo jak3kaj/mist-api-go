@@ -12,10 +12,3 @@ package swagger
 type OrgMxedgeCountDistinct string
 
 // List of org_mxedge_count_distinct
-const (
-	DISTRO_OrgMxedgeCountDistinct OrgMxedgeCountDistinct = "distro"
-	MODEL_OrgMxedgeCountDistinct OrgMxedgeCountDistinct = "model"
-	MXCLUSTER_ID_OrgMxedgeCountDistinct OrgMxedgeCountDistinct = "mxcluster_id"
-	SITE_ID_OrgMxedgeCountDistinct OrgMxedgeCountDistinct = "site_id"
-	TUNTERM_VERSION_OrgMxedgeCountDistinct OrgMxedgeCountDistinct = "tunterm_version"
-)

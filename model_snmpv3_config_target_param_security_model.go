@@ -12,8 +12,3 @@ package swagger
 type Snmpv3ConfigTargetParamSecurityModel string
 
 // List of snmpv3_config_target_param_security_model
-const (
-	USM_Snmpv3ConfigTargetParamSecurityModel Snmpv3ConfigTargetParamSecurityModel = "usm"
-	V1_Snmpv3ConfigTargetParamSecurityModel Snmpv3ConfigTargetParamSecurityModel = "v1"
-	V2C_Snmpv3ConfigTargetParamSecurityModel Snmpv3ConfigTargetParamSecurityModel = "v2c"
-)

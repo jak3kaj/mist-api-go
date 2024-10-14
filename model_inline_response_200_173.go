@@ -12,5 +12,5 @@ package swagger
 type InlineResponse200173 struct {
 	// config success score
 	ConfigSuccess float64 `json:"config_success,omitempty"`
-	VersionCompliance *Object `json:"version_compliance,omitempty"`
+	VersionCompliance *any `json:"version_compliance,omitempty"`
 }

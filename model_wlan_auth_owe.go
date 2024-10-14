@@ -12,8 +12,3 @@ package swagger
 type WlanAuthOwe string
 
 // List of wlan_auth_owe
-const (
-	DISABLED_WlanAuthOwe WlanAuthOwe = "disabled"
-	ENABLED_WlanAuthOwe WlanAuthOwe = "enabled"
-	REQUIRED_WlanAuthOwe WlanAuthOwe = "required"
-)

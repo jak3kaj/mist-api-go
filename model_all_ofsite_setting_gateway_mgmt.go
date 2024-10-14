@@ -23,7 +23,7 @@ type AllOfsiteSettingGatewayMgmt struct {
 	// for both SSR and SRX disable management interface
 	DisableOob bool `json:"disable_oob,omitempty"`
 	ProbeHosts []string `json:"probe_hosts,omitempty"`
-	ProtectRe *Object `json:"protect_re,omitempty"`
+	ProtectRe *any `json:"protect_re,omitempty"`
 	// for SRX only
 	RootPassword string `json:"root_password,omitempty"`
 	SecurityLogSourceAddress string `json:"security_log_source_address,omitempty"`

@@ -12,11 +12,3 @@ package swagger
 type SiteClientEventsCountDistinct string
 
 // List of site_client_events_count_distinct
-const (
-	BAND_SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "band"
-	CHANNEL_SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "channel"
-	PROTO_SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "proto"
-	SSID_SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "ssid"
-	TYPE__SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "type"
-	WLAN_ID_SiteClientEventsCountDistinct SiteClientEventsCountDistinct = "wlan_id"
-)

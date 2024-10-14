@@ -12,7 +12,3 @@ package swagger
 type MxedgeUpgradeStrategy string
 
 // List of mxedge_upgrade_strategy
-const (
-	BIG_BANG_MxedgeUpgradeStrategy MxedgeUpgradeStrategy = "big_bang"
-	SERIAL_MxedgeUpgradeStrategy MxedgeUpgradeStrategy = "serial"
-)

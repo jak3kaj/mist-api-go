@@ -35,14 +35,14 @@ type DevicesUpgradeBody struct {
 	RrmMaxBatchPercentage int32 `json:"rrm_max_batch_percentage,omitempty"`
 	// sequential or parallel (default parallel). Whether to upgrade mesh AP’s parallelly or sequentially at the end of the upgrade
 	RrmMeshUpgrade string `json:"rrm_mesh_upgrade,omitempty"`
-	RrmNodeOrder *Object `json:"rrm_node_order,omitempty"`
+	RrmNodeOrder *any `json:"rrm_node_order,omitempty"`
 	// true will make rrm batch sizes slowly ramp up
 	RrmSlowRamp bool `json:"rrm_slow_ramp,omitempty"`
 	// Perform recovery snapshot after device is rebooted (Available on Junos OS devices)
 	Snapshot bool `json:"snapshot,omitempty"`
 	// upgrade start time in epoch seconds, default is now
 	StartTime float64 `json:"start_time,omitempty"`
-	Strategy *Object `json:"strategy,omitempty"`
+	Strategy *any `json:"strategy,omitempty"`
 	// specific version / stable
 	Version string `json:"version,omitempty"`
 }

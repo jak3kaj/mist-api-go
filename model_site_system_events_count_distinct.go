@@ -12,6 +12,3 @@ package swagger
 type SiteSystemEventsCountDistinct string
 
 // List of site_system_events_count_distinct
-const (
-	TYPE__SiteSystemEventsCountDistinct SiteSystemEventsCountDistinct = "type"
-)

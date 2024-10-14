@@ -12,6 +12,3 @@ package swagger
 type SwitchPortUsageDot1x string
 
 // List of switch_port_usage_dot1x
-const (
-	DOT1X_SwitchPortUsageDot1x SwitchPortUsageDot1x = "dot1x"
-)

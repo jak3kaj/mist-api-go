@@ -12,11 +12,3 @@ package swagger
 type MxedgeServiceName string
 
 // List of mxedge_service_name
-const (
-	MXAGENT_MxedgeServiceName MxedgeServiceName = "mxagent"
-	MXDAS_MxedgeServiceName MxedgeServiceName = "mxdas"
-	MXNACEDGE_MxedgeServiceName MxedgeServiceName = "mxnacedge"
-	MXOCPROXY_MxedgeServiceName MxedgeServiceName = "mxocproxy"
-	RADSECPROXY_MxedgeServiceName MxedgeServiceName = "radsecproxy"
-	TUNTERM_MxedgeServiceName MxedgeServiceName = "tunterm"
-)

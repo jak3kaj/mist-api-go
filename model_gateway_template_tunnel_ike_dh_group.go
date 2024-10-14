@@ -12,15 +12,3 @@ package swagger
 type GatewayTemplateTunnelIkeDhGroup string
 
 // List of gateway_template_tunnel_ike_dh_group
-const (
-	1__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "1"
-	14__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "14"
-	15__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "15"
-	16__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "16"
-	19__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "19"
-	2__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "2"
-	20__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "20"
-	21__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "21"
-	24__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "24"
-	5__GatewayTemplateTunnelIkeDhGroup GatewayTemplateTunnelIkeDhGroup = "5"
-)

@@ -10,5 +10,5 @@
 package swagger
 
 type WlanIdPortalTemplateBody1 struct {
-	PortalTemplate *Object `json:"portal_template,omitempty"`
+	PortalTemplate *any `json:"portal_template,omitempty"`
 }

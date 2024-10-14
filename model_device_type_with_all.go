@@ -12,9 +12,3 @@ package swagger
 type DeviceTypeWithAll string
 
 // List of device_type_with_all
-const (
-	ALL_DeviceTypeWithAll DeviceTypeWithAll = "all"
-	AP_DeviceTypeWithAll DeviceTypeWithAll = "ap"
-	GATEWAY_DeviceTypeWithAll DeviceTypeWithAll = "gateway"
-	SWITCH__DeviceTypeWithAll DeviceTypeWithAll = "switch"
-)

@@ -12,9 +12,3 @@ package swagger
 type SiteDiscoveredSwitchesCountDistinct string
 
 // List of site_discovered_switches_count_distinct
-const (
-	MGMT_ADDR_SiteDiscoveredSwitchesCountDistinct SiteDiscoveredSwitchesCountDistinct = "mgmt_addr"
-	MODEL_SiteDiscoveredSwitchesCountDistinct SiteDiscoveredSwitchesCountDistinct = "model"
-	SYSTEM_NAME_SiteDiscoveredSwitchesCountDistinct SiteDiscoveredSwitchesCountDistinct = "system_name"
-	VERSION_SiteDiscoveredSwitchesCountDistinct SiteDiscoveredSwitchesCountDistinct = "version"
-)

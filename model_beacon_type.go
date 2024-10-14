@@ -12,8 +12,3 @@ package swagger
 type BeaconType string
 
 // List of beacon_type
-const (
-	EDDYSTONE_UID_BeaconType BeaconType = "eddystone-uid"
-	EDDYSTONE_URL_BeaconType BeaconType = "eddystone-url"
-	IBEACON_BeaconType BeaconType = "ibeacon"
-)

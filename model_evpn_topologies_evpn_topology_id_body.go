@@ -10,7 +10,7 @@
 package swagger
 
 type EvpnTopologiesEvpnTopologyIdBody struct {
-	Config *Object `json:"config,omitempty"`
+	Config *any `json:"config,omitempty"`
 	Id string `json:"id,omitempty"`
 	Name string `json:"name,omitempty"`
 	Overwrite bool `json:"overwrite,omitempty"`

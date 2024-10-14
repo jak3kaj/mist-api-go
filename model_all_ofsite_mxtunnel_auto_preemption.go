@@ -10,7 +10,7 @@
 package swagger
 
 type AllOfsiteMxtunnelAutoPreemption struct {
-	DayOfWeek *Object `json:"day_of_week,omitempty"`
+	DayOfWeek *any `json:"day_of_week,omitempty"`
 	// whether auto preemption should happen
 	Enabled bool `json:"enabled,omitempty"`
 	// any / HH:MM (24-hour format)

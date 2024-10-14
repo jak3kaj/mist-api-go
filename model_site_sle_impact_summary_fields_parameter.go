@@ -12,20 +12,3 @@ package swagger
 type SiteSleImpactSummaryFieldsParameter string
 
 // List of site_sle_impact_summary_fields_parameter
-const (
-	AP_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "ap"
-	BAND_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "band"
-	CHASSIS_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "chassis"
-	CLIENT_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "client"
-	DEVICE_OS_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "device_os"
-	DEVICE_TYPE_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "device_type"
-	GATEWAY_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "gateway"
-	GATEWAY_ZONES_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "gateway_zones"
-	INTERFACE__SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "interface"
-	MXEDGE_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "mxedge"
-	PEER_PATH_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "peer_path"
-	SERVER_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "server"
-	SWITCH__SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "switch"
-	VLAN_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "vlan"
-	WLAN_SiteSleImpactSummaryFieldsParameter SiteSleImpactSummaryFieldsParameter = "wlan"
-)

@@ -12,7 +12,3 @@ package swagger
 type MxclusterRadsecServerSelection string
 
 // List of mxcluster_radsec_server_selection
-const (
-	ORDERED_MxclusterRadsecServerSelection MxclusterRadsecServerSelection = "ordered"
-	UNORDERED_MxclusterRadsecServerSelection MxclusterRadsecServerSelection = "unordered"
-)

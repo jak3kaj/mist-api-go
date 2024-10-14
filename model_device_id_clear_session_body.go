@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdClearSessionBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// ervice name, only supported in SSR
 	ServiceName string `json:"service_name,omitempty"`
 	// List of id of the sessions to be cleared

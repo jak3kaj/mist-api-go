@@ -12,7 +12,3 @@ package swagger
 type CaptureRadiotapwiredFormat string
 
 // List of capture_radiotapwired_format
-const (
-	PCAP_CaptureRadiotapwiredFormat CaptureRadiotapwiredFormat = "pcap"
-	STREAM_CaptureRadiotapwiredFormat CaptureRadiotapwiredFormat = "stream"
-)

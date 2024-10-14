@@ -12,10 +12,3 @@ package swagger
 type SearchSiteSwOrGwPortsStpRole string
 
 // List of search_site_sw_or_gw_ports_stp_role
-const (
-	ALTERNATE_SearchSiteSwOrGwPortsStpRole SearchSiteSwOrGwPortsStpRole = "alternate"
-	BACKUP_SearchSiteSwOrGwPortsStpRole SearchSiteSwOrGwPortsStpRole = "backup"
-	DESIGNATED_SearchSiteSwOrGwPortsStpRole SearchSiteSwOrGwPortsStpRole = "designated"
-	ROOT_SearchSiteSwOrGwPortsStpRole SearchSiteSwOrGwPortsStpRole = "root"
-	ROOT_PREVENTED_SearchSiteSwOrGwPortsStpRole SearchSiteSwOrGwPortsStpRole = "root-prevented"
-)

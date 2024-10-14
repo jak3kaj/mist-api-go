@@ -12,7 +12,3 @@ package swagger
 type SwitchPortUsageDynamicResetDefaultWhen string
 
 // List of switch_port_usage_dynamic_reset_default_when
-const (
-	LINK_DOWN_SwitchPortUsageDynamicResetDefaultWhen SwitchPortUsageDynamicResetDefaultWhen = "link_down"
-	NONE_SwitchPortUsageDynamicResetDefaultWhen SwitchPortUsageDynamicResetDefaultWhen = "none"
-)

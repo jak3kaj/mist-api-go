@@ -12,7 +12,3 @@ package swagger
 type MspOrgChangeOperation string
 
 // List of msp_org_change_operation
-const (
-	ASSIGN_MspOrgChangeOperation MspOrgChangeOperation = "assign"
-	UNASSIGN_MspOrgChangeOperation MspOrgChangeOperation = "unassign"
-)

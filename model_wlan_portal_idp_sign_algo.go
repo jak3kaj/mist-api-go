@@ -12,9 +12,3 @@ package swagger
 type WlanPortalIdpSignAlgo string
 
 // List of wlan_portal_idp_sign_algo
-const (
-	SHA1_WlanPortalIdpSignAlgo WlanPortalIdpSignAlgo = "sha1"
-	SHA256_WlanPortalIdpSignAlgo WlanPortalIdpSignAlgo = "sha256"
-	SHA384_WlanPortalIdpSignAlgo WlanPortalIdpSignAlgo = "sha384"
-	SHA512_WlanPortalIdpSignAlgo WlanPortalIdpSignAlgo = "sha512"
-)

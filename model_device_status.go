@@ -12,8 +12,3 @@ package swagger
 type DeviceStatus string
 
 // List of device_status
-const (
-	ALL_DeviceStatus DeviceStatus = "all"
-	CONNECTED_DeviceStatus DeviceStatus = "connected"
-	DISCONNECTED_DeviceStatus DeviceStatus = "disconnected"
-)

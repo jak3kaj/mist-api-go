@@ -18,5 +18,5 @@ type InventoryReplaceBody struct {
 	Mac string `json:"mac,omitempty"`
 	// the site_id of the device to be replaced
 	SiteId string `json:"site_id,omitempty"`
-	TuntermPortConfig *Object `json:"tunterm_port_config,omitempty"`
+	TuntermPortConfig *any `json:"tunterm_port_config,omitempty"`
 }

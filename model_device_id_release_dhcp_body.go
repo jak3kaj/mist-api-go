@@ -10,7 +10,7 @@
 package swagger
 
 type DeviceIdReleaseDhcpBody struct {
-	Node *Object `json:"node,omitempty"`
+	Node *any `json:"node,omitempty"`
 	// The nework interface on which to release the current DHCP release
 	PortId string `json:"port_id"`
 }

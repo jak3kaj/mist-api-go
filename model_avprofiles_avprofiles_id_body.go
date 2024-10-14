@@ -11,7 +11,7 @@ package swagger
 
 type AvprofilesAvprofilesIdBody struct {
 	CreatedTime float64 `json:"created_time,omitempty"`
-	FallbackAction *Object `json:"fallback_action,omitempty"`
+	FallbackAction *any `json:"fallback_action,omitempty"`
 	Id string `json:"id,omitempty"`
 	// in KB
 	MexFilesize int32 `json:"mex_filesize,omitempty"`

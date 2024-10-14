@@ -11,7 +11,7 @@ package swagger
 
 type InlineResponse200160 struct {
 	By string `json:"by,omitempty"`
-	DeviceType *Object `json:"device_type,omitempty"`
+	DeviceType *any `json:"device_type,omitempty"`
 	Failed bool `json:"failed,omitempty"`
 	Latency int32 `json:"latency,omitempty"`
 	Mac string `json:"mac,omitempty"`
@@ -22,6 +22,6 @@ type InlineResponse200160 struct {
 	Status string `json:"status,omitempty"`
 	Timestamp float64 `json:"timestamp,omitempty"`
 	TxMbps int32 `json:"tx_mbps,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 	VlanId int32 `json:"vlan_id,omitempty"`
 }

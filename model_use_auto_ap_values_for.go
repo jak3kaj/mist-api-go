@@ -12,7 +12,3 @@ package swagger
 type UseAutoApValuesFor string
 
 // List of use_auto_ap_values_for
-const (
-	ORIENTATION_UseAutoApValuesFor UseAutoApValuesFor = "orientation"
-	PLACEMENT_UseAutoApValuesFor UseAutoApValuesFor = "placement"
-)

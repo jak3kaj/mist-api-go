@@ -12,6 +12,3 @@ package swagger
 type CaptureNewAssocType string
 
 // List of capture_new_assoc_type
-const (
-	NEW_ASSOC_CaptureNewAssocType CaptureNewAssocType = "new_assoc"
-)

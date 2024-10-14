@@ -12,7 +12,3 @@ package swagger
 type AppProbingCustomAppProtocol string
 
 // List of app_probing_custom_app_protocol
-const (
-	HTTP_AppProbingCustomAppProtocol AppProbingCustomAppProtocol = "http"
-	ICMP_AppProbingCustomAppProtocol AppProbingCustomAppProtocol = "icmp"
-)

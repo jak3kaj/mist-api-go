@@ -12,9 +12,3 @@ package swagger
 type SiteWanClientsCountDistinct string
 
 // List of site_wan_clients_count_distinct
-const (
-	HOSTNAME_SiteWanClientsCountDistinct SiteWanClientsCountDistinct = "hostname"
-	IP_SiteWanClientsCountDistinct SiteWanClientsCountDistinct = "ip"
-	MAC_SiteWanClientsCountDistinct SiteWanClientsCountDistinct = "mac"
-	MFG_SiteWanClientsCountDistinct SiteWanClientsCountDistinct = "mfg"
-)

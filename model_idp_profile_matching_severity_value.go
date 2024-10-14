@@ -12,9 +12,3 @@ package swagger
 type IdpProfileMatchingSeverityValue string
 
 // List of idp_profile_matching_severity_value
-const (
-	CRITICAL_IdpProfileMatchingSeverityValue IdpProfileMatchingSeverityValue = "critical"
-	INFO_IdpProfileMatchingSeverityValue IdpProfileMatchingSeverityValue = "info"
-	MAJOR_IdpProfileMatchingSeverityValue IdpProfileMatchingSeverityValue = "major"
-	MINOR_IdpProfileMatchingSeverityValue IdpProfileMatchingSeverityValue = "minor"
-)

@@ -12,8 +12,3 @@ package swagger
 type OspfAreaType string
 
 // List of ospf_area_type
-const (
-	DEFAULT__OspfAreaType OspfAreaType = "default"
-	NSSA_OspfAreaType OspfAreaType = "nssa"
-	STUB_OspfAreaType OspfAreaType = "stub"
-)

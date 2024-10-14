@@ -12,8 +12,3 @@ package swagger
 type GatewayPortWanArpPolicer string
 
 // List of gateway_port_wan_arp_policer
-const (
-	DEFAULT__GatewayPortWanArpPolicer GatewayPortWanArpPolicer = "default"
-	MAX_GatewayPortWanArpPolicer GatewayPortWanArpPolicer = "max"
-	RECOMMENDED_GatewayPortWanArpPolicer GatewayPortWanArpPolicer = "recommended"
-)

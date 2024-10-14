@@ -12,7 +12,3 @@ package swagger
 type VarSource string
 
 // List of var_source
-const (
-	DEVICEPROFILE_VarSource VarSource = "deviceprofile"
-	SITE_VarSource VarSource = "site"
-)

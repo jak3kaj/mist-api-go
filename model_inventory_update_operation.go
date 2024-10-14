@@ -12,10 +12,3 @@ package swagger
 type InventoryUpdateOperation string
 
 // List of inventory_update_operation
-const (
-	ASSIGN_InventoryUpdateOperation InventoryUpdateOperation = "assign"
-	DELETE_InventoryUpdateOperation InventoryUpdateOperation = "delete"
-	DOWNGRADE_TO_JSI_InventoryUpdateOperation InventoryUpdateOperation = "downgrade_to_jsi"
-	UNASSIGN_InventoryUpdateOperation InventoryUpdateOperation = "unassign"
-	UPGRADE_TO_MIST_InventoryUpdateOperation InventoryUpdateOperation = "upgrade_to_mist"
-)

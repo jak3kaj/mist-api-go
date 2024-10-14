@@ -12,7 +12,3 @@ package swagger
 type WebhookDeliveryStatus string
 
 // List of webhook_delivery_status
-const (
-	FAILURE_WebhookDeliveryStatus WebhookDeliveryStatus = "failure"
-	SUCCESS_WebhookDeliveryStatus WebhookDeliveryStatus = "success"
-)

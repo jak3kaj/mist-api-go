@@ -12,8 +12,3 @@ package swagger
 type MxedgeUpgradeChannel string
 
 // List of mxedge_upgrade_channel
-const (
-	ALPHA_MxedgeUpgradeChannel MxedgeUpgradeChannel = "alpha"
-	BETA_MxedgeUpgradeChannel MxedgeUpgradeChannel = "beta"
-	STABLE_MxedgeUpgradeChannel MxedgeUpgradeChannel = "stable"
-)

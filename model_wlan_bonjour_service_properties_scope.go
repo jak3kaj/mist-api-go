@@ -12,8 +12,3 @@ package swagger
 type WlanBonjourServicePropertiesScope string
 
 // List of wlan_bonjour_service_properties_scope
-const (
-	AP_WlanBonjourServicePropertiesScope WlanBonjourServicePropertiesScope = "same_ap"
-	MAP__WlanBonjourServicePropertiesScope WlanBonjourServicePropertiesScope = "same_map"
-	SITE_WlanBonjourServicePropertiesScope WlanBonjourServicePropertiesScope = "same_site"
-)

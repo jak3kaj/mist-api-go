@@ -14,7 +14,7 @@ type AllOfsiteSettingBleConfig struct {
 	BeaconEnabled bool `json:"beacon_enabled,omitempty"`
 	// required if `beacon_rate_mode`==`custom`, 1-10, in number-beacons-per-second
 	BeaconRate int32 `json:"beacon_rate,omitempty"`
-	BeaconRateMode *Object `json:"beacon_rate_mode,omitempty"`
+	BeaconRateMode *any `json:"beacon_rate_mode,omitempty"`
 	// list of AP BLE location beam numbers (1-8) which should be disabled at the AP and not transmit location information (where beam 1 is oriented at the top the AP, growing counter-clock-wise, with 9 being the omni BLE beam)
 	BeamDisabled []int32 `json:"beam_disabled,omitempty"`
 	// can be enabled if `beacon_enabled`==`true`, whether to send custom packet
@@ -58,5 +58,5 @@ type AllOfsiteSettingBleConfig struct {
 	IbeaconUuid string `json:"ibeacon_uuid,omitempty"`
 	// required if `power_mode`==`custom`
 	Power int32 `json:"power,omitempty"`
-	PowerMode *Object `json:"power_mode,omitempty"`
+	PowerMode *any `json:"power_mode,omitempty"`
 }

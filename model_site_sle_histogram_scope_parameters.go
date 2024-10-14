@@ -12,10 +12,3 @@ package swagger
 type SiteSleHistogramScopeParameters string
 
 // List of site_sle_histogram_scope_parameters
-const (
-	AP_SiteSleHistogramScopeParameters SiteSleHistogramScopeParameters = "ap"
-	CLIENT_SiteSleHistogramScopeParameters SiteSleHistogramScopeParameters = "client"
-	GATEWAY_SiteSleHistogramScopeParameters SiteSleHistogramScopeParameters = "gateway"
-	SITE_SiteSleHistogramScopeParameters SiteSleHistogramScopeParameters = "site"
-	SWITCH__SiteSleHistogramScopeParameters SiteSleHistogramScopeParameters = "switch"
-)

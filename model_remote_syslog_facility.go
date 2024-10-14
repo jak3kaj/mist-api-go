@@ -12,21 +12,3 @@ package swagger
 type RemoteSyslogFacility string
 
 // List of remote_syslog_facility
-const (
-	ANY_RemoteSyslogFacility RemoteSyslogFacility = "any"
-	AUTHORIZATION_RemoteSyslogFacility RemoteSyslogFacility = "authorization"
-	CHANGE_LOG_RemoteSyslogFacility RemoteSyslogFacility = "change-log"
-	CONFIG_RemoteSyslogFacility RemoteSyslogFacility = "config"
-	CONFLICT_LOG_RemoteSyslogFacility RemoteSyslogFacility = "conflict-log"
-	DAEMON_RemoteSyslogFacility RemoteSyslogFacility = "daemon"
-	DFC_RemoteSyslogFacility RemoteSyslogFacility = "dfc"
-	EXTERNAL_RemoteSyslogFacility RemoteSyslogFacility = "external"
-	FIREWALL_RemoteSyslogFacility RemoteSyslogFacility = "firewall"
-	FTP_RemoteSyslogFacility RemoteSyslogFacility = "ftp"
-	INTERACTIVE_COMMANDS_RemoteSyslogFacility RemoteSyslogFacility = "interactive-commands"
-	KERNEL_RemoteSyslogFacility RemoteSyslogFacility = "kernel"
-	NTP_RemoteSyslogFacility RemoteSyslogFacility = "ntp"
-	PFE_RemoteSyslogFacility RemoteSyslogFacility = "pfe"
-	SECURITY_RemoteSyslogFacility RemoteSyslogFacility = "security"
-	USER_RemoteSyslogFacility RemoteSyslogFacility = "user"
-)

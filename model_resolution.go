@@ -12,7 +12,3 @@ package swagger
 type Resolution string
 
 // List of resolution
-const (
-	DEFAULT__Resolution Resolution = "default"
-	FINE_Resolution Resolution = "fine"
-)

@@ -12,10 +12,3 @@ package swagger
 type L2tpState string
 
 // List of l2tp_state
-const (
-	ESTABLISHED_L2tpState L2tpState = "established"
-	ESTABLISHED_WITH_SESSION_L2tpState L2tpState = "established_with_session"
-	IDLE_L2tpState L2tpState = "idle"
-	WAIT_CTRL_CONN_L2tpState L2tpState = "wait-ctrl-conn"
-	WAIT_CTRL_REPLY_L2tpState L2tpState = "wait-ctrl-reply"
-)

@@ -12,9 +12,3 @@ package swagger
 type ServiceTrafficClass string
 
 // List of service_traffic_class
-const (
-	BEST_EFFORT_ServiceTrafficClass ServiceTrafficClass = "best_effort"
-	HIGH_ServiceTrafficClass ServiceTrafficClass = "high"
-	LOW_ServiceTrafficClass ServiceTrafficClass = "low"
-	MEDIUM_ServiceTrafficClass ServiceTrafficClass = "medium"
-)

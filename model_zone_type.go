@@ -12,7 +12,3 @@ package swagger
 type ZoneType string
 
 // List of zone_type
-const (
-	RSSIZONES_ZoneType ZoneType = "rssizones"
-	ZONES_ZoneType ZoneType = "zones"
-)

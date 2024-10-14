@@ -12,12 +12,3 @@ package swagger
 type PcapType string
 
 // List of pcap_type
-const (
-	CLIENT_PcapType PcapType = "client"
-	GATEWAY_PcapType PcapType = "gateway"
-	NEW_ASSOC_PcapType PcapType = "new_assoc"
-	RADIOTAP_PcapType PcapType = "radiotap"
-	RADIOTAPWIRED_PcapType PcapType = "radiotap,wired"
-	WIRED_PcapType PcapType = "wired"
-	WIRELESS_PcapType PcapType = "wireless"
-)

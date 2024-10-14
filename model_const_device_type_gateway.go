@@ -12,6 +12,3 @@ package swagger
 type ConstDeviceTypeGateway string
 
 // List of const_device_type_gateway
-const (
-	GATEWAY_ConstDeviceTypeGateway ConstDeviceTypeGateway = "gateway"
-)

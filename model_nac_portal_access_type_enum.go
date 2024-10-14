@@ -12,7 +12,3 @@ package swagger
 type NacPortalAccessTypeEnum string
 
 // List of nac_portal_access_type_enum
-const (
-	WIRELESS_NacPortalAccessTypeEnum NacPortalAccessTypeEnum = "wireless"
-	WIRELESSWIRED_NacPortalAccessTypeEnum NacPortalAccessTypeEnum = "wireless+wired"
-)

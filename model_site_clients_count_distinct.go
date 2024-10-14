@@ -12,13 +12,3 @@ package swagger
 type SiteClientsCountDistinct string
 
 // List of site_clients_count_distinct
-const (
-	AP_SiteClientsCountDistinct SiteClientsCountDistinct = "ap"
-	DEVICE_SiteClientsCountDistinct SiteClientsCountDistinct = "device"
-	HOSTNAME_SiteClientsCountDistinct SiteClientsCountDistinct = "hostname"
-	IP_SiteClientsCountDistinct SiteClientsCountDistinct = "ip"
-	MODEL_SiteClientsCountDistinct SiteClientsCountDistinct = "model"
-	OS_SiteClientsCountDistinct SiteClientsCountDistinct = "os"
-	SSID_SiteClientsCountDistinct SiteClientsCountDistinct = "ssid"
-	VLAN_SiteClientsCountDistinct SiteClientsCountDistinct = "vlan"
-)

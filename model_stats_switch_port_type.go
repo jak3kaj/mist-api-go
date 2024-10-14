@@ -12,11 +12,3 @@ package swagger
 type StatsSwitchPortType string
 
 // List of stats_switch_port_type
-const (
-	AP_StatsSwitchPortType StatsSwitchPortType = "ap"
-	BLE_StatsSwitchPortType StatsSwitchPortType = "ble"
-	GATEWAY_StatsSwitchPortType StatsSwitchPortType = "gateway"
-	MXEDGE_StatsSwitchPortType StatsSwitchPortType = "mxedge"
-	NAC_StatsSwitchPortType StatsSwitchPortType = "nac"
-	SWITCH__StatsSwitchPortType StatsSwitchPortType = "switch"
-)

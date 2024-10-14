@@ -12,8 +12,3 @@ package swagger
 type SynthetictestInfoDeviceType string
 
 // List of synthetictest_info_device_type
-const (
-	AP_SynthetictestInfoDeviceType SynthetictestInfoDeviceType = "ap"
-	GATEWAY_SynthetictestInfoDeviceType SynthetictestInfoDeviceType = "gateway"
-	SWITCH__SynthetictestInfoDeviceType SynthetictestInfoDeviceType = "switch"
-)

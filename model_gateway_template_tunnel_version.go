@@ -12,7 +12,3 @@ package swagger
 type GatewayTemplateTunnelVersion string
 
 // List of gateway_template_tunnel_version
-const (
-	1__GatewayTemplateTunnelVersion GatewayTemplateTunnelVersion = "1"
-	2__GatewayTemplateTunnelVersion GatewayTemplateTunnelVersion = "2"
-)

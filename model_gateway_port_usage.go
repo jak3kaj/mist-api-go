@@ -12,9 +12,3 @@ package swagger
 type GatewayPortUsage string
 
 // List of gateway_port_usage
-const (
-	HA_CONTROL_GatewayPortUsage GatewayPortUsage = "ha_control"
-	HA_DATA_GatewayPortUsage GatewayPortUsage = "ha_data"
-	LAN_GatewayPortUsage GatewayPortUsage = "lan"
-	WAN_GatewayPortUsage GatewayPortUsage = "wan"
-)

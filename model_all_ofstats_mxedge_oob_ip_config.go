@@ -23,6 +23,6 @@ type AllOfstatsMxedgeOobIpConfig struct {
 	// if `type`=`static`
 	Netmask string `json:"netmask,omitempty"`
 	Netmask6 string `json:"netmask6,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
-	Type6 *Object `json:"type6,omitempty"`
+	Type_ *any `json:"type,omitempty"`
+	Type6 *any `json:"type6,omitempty"`
 }

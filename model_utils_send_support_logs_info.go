@@ -12,11 +12,3 @@ package swagger
 type UtilsSendSupportLogsInfo string
 
 // List of utils_send_support_logs_info
-const (
-	CODE_DUMPS_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "code-dumps"
-	FULL_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "full"
-	MESSAGES_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "messages"
-	OUTBOUND_SSH_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "outbound-ssh"
-	PROCESS_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "process"
-	VAR_LOGS_UtilsSendSupportLogsInfo UtilsSendSupportLogsInfo = "var-logs"
-)

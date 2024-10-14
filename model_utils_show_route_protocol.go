@@ -12,11 +12,3 @@ package swagger
 type UtilsShowRouteProtocol string
 
 // List of utils_show_route_protocol
-const (
-	ANY_UtilsShowRouteProtocol UtilsShowRouteProtocol = "any"
-	BGP_UtilsShowRouteProtocol UtilsShowRouteProtocol = "bgp"
-	DIRECT_UtilsShowRouteProtocol UtilsShowRouteProtocol = "direct"
-	EVPN_UtilsShowRouteProtocol UtilsShowRouteProtocol = "evpn"
-	OSPF_UtilsShowRouteProtocol UtilsShowRouteProtocol = "ospf"
-	STATIC_UtilsShowRouteProtocol UtilsShowRouteProtocol = "static"
-)

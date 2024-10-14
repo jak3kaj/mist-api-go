@@ -12,8 +12,3 @@ package swagger
 type SwitchDhcpdConfigType string
 
 // List of switch_dhcpd_config_type
-const (
-	NONE_SwitchDhcpdConfigType SwitchDhcpdConfigType = "none"
-	RELAY_SwitchDhcpdConfigType SwitchDhcpdConfigType = "relay"
-	SERVER_SwitchDhcpdConfigType SwitchDhcpdConfigType = "server"
-)

@@ -10,6 +10,6 @@
 package swagger
 
 type AllOforgServicePolicySslProxy struct {
-	CiphersCatagory *Object `json:"ciphers_catagory,omitempty"`
+	CiphersCatagory *any `json:"ciphers_catagory,omitempty"`
 	Enabled bool `json:"enabled,omitempty"`
 }

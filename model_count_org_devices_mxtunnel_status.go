@@ -12,7 +12,3 @@ package swagger
 type CountOrgDevicesMxtunnelStatus string
 
 // List of count_org_devices_mxtunnel_status
-const (
-	DOWN_CountOrgDevicesMxtunnelStatus CountOrgDevicesMxtunnelStatus = "down"
-	UP_CountOrgDevicesMxtunnelStatus CountOrgDevicesMxtunnelStatus = "up"
-)

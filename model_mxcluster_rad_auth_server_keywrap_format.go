@@ -12,7 +12,3 @@ package swagger
 type MxclusterRadAuthServerKeywrapFormat string
 
 // List of mxcluster_rad_auth_server_keywrap_format
-const (
-	ASCII_MxclusterRadAuthServerKeywrapFormat MxclusterRadAuthServerKeywrapFormat = "ascii"
-	HEX_MxclusterRadAuthServerKeywrapFormat MxclusterRadAuthServerKeywrapFormat = "hex"
-)

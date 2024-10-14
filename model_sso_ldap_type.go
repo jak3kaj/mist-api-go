@@ -12,10 +12,3 @@ package swagger
 type SsoLdapType string
 
 // List of sso_ldap_type
-const (
-	AZURE_SsoLdapType SsoLdapType = "azure"
-	CUSTOM_SsoLdapType SsoLdapType = "custom"
-	GOOGLE_SsoLdapType SsoLdapType = "google"
-	OKTA_SsoLdapType SsoLdapType = "okta"
-	PING_IDENTITY_SsoLdapType SsoLdapType = "ping_identity"
-)

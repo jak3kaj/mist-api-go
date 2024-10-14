@@ -17,7 +17,7 @@ type InlineResponse200171 struct {
 	MapId string `json:"map_id,omitempty"`
 	// name of the sdk client (if provided)
 	Name string `json:"name,omitempty"`
-	NetworkConnection *Object `json:"network_connection,omitempty"`
+	NetworkConnection *any `json:"network_connection,omitempty"`
 	// uuid of the sdk client
 	Uuid string `json:"uuid"`
 	// list of beacon_id’s of the sdk client is in and since when (if known)

@@ -10,12 +10,12 @@
 package swagger
 
 type MxedgesUpgradeBody struct {
-	AllowDowngrades *Object `json:"allow_downgrades,omitempty"`
-	Channel *Object `json:"channel,omitempty"`
+	AllowDowngrades *any `json:"allow_downgrades,omitempty"`
+	Channel *any `json:"channel,omitempty"`
 	// distro upgrade, optional, to specific codename (e.g. bullseye) with highest qualified versions
 	Distro string `json:"distro,omitempty"`
 	// list of mxedge IDs to upgrade. If not specified, it means all the org mxedges.
 	MxedgeIds []string `json:"mxedge_ids"`
-	Strategy *Object `json:"strategy,omitempty"`
-	Versions *Object `json:"versions,omitempty"`
+	Strategy *any `json:"strategy,omitempty"`
+	Versions *any `json:"versions,omitempty"`
 }

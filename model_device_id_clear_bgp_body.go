@@ -12,8 +12,8 @@ package swagger
 type DeviceIdClearBgpBody struct {
 	// neighbor ip-address or 'all'
 	Neighbor string `json:"neighbor"`
-	Node *Object `json:"node,omitempty"`
-	Type_ *Object `json:"type"`
+	Node *any `json:"node,omitempty"`
+	Type_ *any `json:"type"`
 	// vrf name
 	Vrf string `json:"vrf,omitempty"`
 }

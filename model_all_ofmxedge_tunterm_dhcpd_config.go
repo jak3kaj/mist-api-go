@@ -13,5 +13,5 @@ type AllOfmxedgeTuntermDhcpdConfig struct {
 	Enabled bool `json:"enabled,omitempty"`
 	// list of DHCP servers; required if `type`==`relay`
 	Servers []string `json:"servers,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 }

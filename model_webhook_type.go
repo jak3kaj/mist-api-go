@@ -12,10 +12,3 @@ package swagger
 type WebhookType string
 
 // List of webhook_type
-const (
-	AWS_SNS_WebhookType WebhookType = "aws-sns"
-	GOOGLE_PUBSUB_WebhookType WebhookType = "google-pubsub"
-	HTTP_POST_WebhookType WebhookType = "http-post"
-	OAUTH2_WebhookType WebhookType = "oauth2"
-	SPLUNK_WebhookType WebhookType = "splunk"
-)

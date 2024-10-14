@@ -25,7 +25,7 @@ type AllOfevpnTopologySwitchConfig struct {
 	DnsServers []string `json:"dns_servers,omitempty"`
 	// Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
 	DnsSuffix []string `json:"dns_suffix,omitempty"`
-	EvpnConfig *Object `json:"evpn_config,omitempty"`
+	EvpnConfig *any `json:"evpn_config,omitempty"`
 	ExtraRoutes map[string]ExtraRoute `json:"extra_routes,omitempty"`
 	// Property key is the destination CIDR (e.g. \"2a02:1234:420a:10c9::/64\")
 	ExtraRoutes6 map[string]ExtraRoute6 `json:"extra_routes6,omitempty"`
@@ -33,14 +33,14 @@ type AllOfevpnTopologySwitchConfig struct {
 	Image1Url string `json:"image1_url,omitempty"`
 	Image2Url string `json:"image2_url,omitempty"`
 	Image3Url string `json:"image3_url,omitempty"`
-	IpConfig *Object `json:"ip_config,omitempty"`
+	IpConfig *any `json:"ip_config,omitempty"`
 	// device MAC address
 	Mac string `json:"mac,omitempty"`
 	// for an adopted switch, we don’t overwrite their existing configs automatically
 	Managed bool `json:"managed,omitempty"`
 	// map where the device belongs to
 	MapId string `json:"map_id,omitempty"`
-	MistNac *Object `json:"mist_nac,omitempty"`
+	MistNac *any `json:"mist_nac,omitempty"`
 	// device Model
 	Model string `json:"model,omitempty"`
 	ModifiedTime float64 `json:"modified_time,omitempty"`
@@ -50,7 +50,7 @@ type AllOfevpnTopologySwitchConfig struct {
 	Notes string `json:"notes,omitempty"`
 	// list of NTP servers specific to this device. By default, those in Site Settings will be used
 	NtpServers []string `json:"ntp_servers,omitempty"`
-	OobIpConfig *Object `json:"oob_ip_config,omitempty"`
+	OobIpConfig *any `json:"oob_ip_config,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
 	// Junos OSPF areas
 	OspfAreas map[string]OspfArea `json:"ospf_areas,omitempty"`
@@ -61,7 +61,7 @@ type AllOfevpnTopologySwitchConfig struct {
 	// Property key is the port mirroring instance name port_mirroring can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 port mirrorings is allowed
 	PortMirroring map[string]SwitchPortMirroringProperty `json:"port_mirroring,omitempty"`
 	PortUsages map[string]SwitchPortUsage `json:"port_usages,omitempty"`
-	RadiusConfig *Object `json:"radius_config,omitempty"`
+	RadiusConfig *any `json:"radius_config,omitempty"`
 	RemoteSyslog *RemoteSyslog `json:"remote_syslog,omitempty"`
 	Role string `json:"role,omitempty"`
 	// used for OSPF / BGP / EVPN
@@ -71,18 +71,18 @@ type AllOfevpnTopologySwitchConfig struct {
 	SiteId string `json:"site_id,omitempty"`
 	SnmpConfig *SnmpConfig `json:"snmp_config,omitempty"`
 	StpConfig *SwitchStpConfig `json:"stp_config,omitempty"`
-	SwitchMgmt *Object `json:"switch_mgmt,omitempty"`
+	SwitchMgmt *any `json:"switch_mgmt,omitempty"`
 	// Device Type. enum: `switch`
 	Type_ string `json:"type"`
 	// whether to use it for snmp / syslog / tacplus / radius
 	UseRouterIdAsSourceIp bool `json:"use_router_id_as_source_ip,omitempty"`
 	// a dictionary of name->value, the vars can then be used in Wlans. This can overwrite those from Site Vars
 	Vars map[string]string `json:"vars,omitempty"`
-	VirtualChassis *Object `json:"virtual_chassis,omitempty"`
+	VirtualChassis *any `json:"virtual_chassis,omitempty"`
 	VrfConfig *VrfConfig `json:"vrf_config,omitempty"`
 	// Property key is the network name
 	VrfInstances map[string]SwitchVrfInstance `json:"vrf_instances,omitempty"`
-	VrrpConfig *Object `json:"vrrp_config,omitempty"`
+	VrrpConfig *any `json:"vrrp_config,omitempty"`
 	// x in pixel
 	X float64 `json:"x,omitempty"`
 	// y in pixel

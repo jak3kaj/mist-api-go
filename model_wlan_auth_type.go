@@ -12,12 +12,3 @@ package swagger
 type WlanAuthType string
 
 // List of wlan_auth_type
-const (
-	EAP_WlanAuthType WlanAuthType = "eap"
-	EAP192_WlanAuthType WlanAuthType = "eap192"
-	OPEN_WlanAuthType WlanAuthType = "open"
-	PSK_WlanAuthType WlanAuthType = "psk"
-	PSK_TKIP_WlanAuthType WlanAuthType = "psk-tkip"
-	PSK_WPA2_TKIP_WlanAuthType WlanAuthType = "psk-wpa2-tkip"
-	WEP_WlanAuthType WlanAuthType = "wep"
-)

@@ -12,10 +12,3 @@ package swagger
 type MxclusterRadsecNasIpSource string
 
 // List of mxcluster_radsec_nas_ip_source
-const (
-	ANY_MxclusterRadsecNasIpSource MxclusterRadsecNasIpSource = "any"
-	OOB_MxclusterRadsecNasIpSource MxclusterRadsecNasIpSource = "oob"
-	OOB6_MxclusterRadsecNasIpSource MxclusterRadsecNasIpSource = "oob6"
-	TUNNEL_MxclusterRadsecNasIpSource MxclusterRadsecNasIpSource = "tunnel"
-	TUNNEL6_MxclusterRadsecNasIpSource MxclusterRadsecNasIpSource = "tunnel6"
-)

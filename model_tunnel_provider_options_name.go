@@ -12,10 +12,3 @@ package swagger
 type TunnelProviderOptionsName string
 
 // List of tunnel_provider_options_name
-const (
-	CUSTOM_IPSEC_TunnelProviderOptionsName TunnelProviderOptionsName = "custom-ipsec"
-	CUSTOMER_GRE_TunnelProviderOptionsName TunnelProviderOptionsName = "customer-gre"
-	JSE_IPSEC_TunnelProviderOptionsName TunnelProviderOptionsName = "jse-ipsec"
-	ZSCALER_GRE_TunnelProviderOptionsName TunnelProviderOptionsName = "zscaler-gre"
-	ZSCALER_IPSEC_TunnelProviderOptionsName TunnelProviderOptionsName = "zscaler-ipsec"
-)

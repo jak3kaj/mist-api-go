@@ -16,7 +16,7 @@ type InlineResponse200113 struct {
 	AcctInterimInterval int32 `json:"acct_interim_interval,omitempty"`
 	// list of RADIUS accounting servers, optional, order matters where the first one is treated as primary
 	AcctServers []RadiusAcctServer `json:"acct_servers,omitempty"`
-	Airwatch *Object `json:"airwatch,omitempty"`
+	Airwatch *any `json:"airwatch,omitempty"`
 	// only applicable when limit_bcast==true, which allows or disallows ipv6 Neighbor Discovery packets to go through
 	AllowIpv6Ndp bool `json:"allow_ipv6_ndp,omitempty"`
 	// only applicable when limit_bcast==true, which allows mDNS / Bonjour packets to go through
@@ -25,13 +25,13 @@ type InlineResponse200113 struct {
 	AllowSsdp bool `json:"allow_ssdp,omitempty"`
 	// list of device ids
 	ApIds []string `json:"ap_ids,omitempty"`
-	AppLimit *Object `json:"app_limit,omitempty"`
-	AppQos *Object `json:"app_qos,omitempty"`
-	ApplyTo *Object `json:"apply_to,omitempty"`
+	AppLimit *any `json:"app_limit,omitempty"`
+	AppQos *any `json:"app_qos,omitempty"`
+	ApplyTo *any `json:"apply_to,omitempty"`
 	// whether to enable smart arp filter
 	ArpFilter bool `json:"arp_filter,omitempty"`
-	Auth *Object `json:"auth,omitempty"`
-	AuthServerSelection *Object `json:"auth_server_selection,omitempty"`
+	Auth *any `json:"auth,omitempty"`
+	AuthServerSelection *any `json:"auth_server_selection,omitempty"`
 	// list of RADIUS authentication servers, at least one is needed if `auth type`==`eap`, order matters where the first one is treated as primary
 	AuthServers []RadiusAuthServer `json:"auth_servers,omitempty"`
 	// optional, up to 48 bytes, will be dynamically generated if not provided. used only for authentication servers
@@ -52,8 +52,8 @@ type InlineResponse200113 struct {
 	Bands []Dot11Band `json:"bands,omitempty"`
 	// whether to block the clients in the blacklist (up to first 256 macs)
 	BlockBlacklistClients bool `json:"block_blacklist_clients,omitempty"`
-	Bonjour *Object `json:"bonjour,omitempty"`
-	CiscoCwa *Object `json:"cisco_cwa,omitempty"`
+	Bonjour *any `json:"bonjour,omitempty"`
+	CiscoCwa *any `json:"cisco_cwa,omitempty"`
 	// kbps
 	ClientLimitDown int32 `json:"client_limit_down,omitempty"`
 	// if downlink limiting per-client is enabled
@@ -77,10 +77,10 @@ type InlineResponse200113 struct {
 	DisableV2RoamNotify bool `json:"disable_v2_roam_notify,omitempty"`
 	// whether to disable WMM
 	DisableWmm bool `json:"disable_wmm,omitempty"`
-	DnsServerRewrite *Object `json:"dns_server_rewrite,omitempty"`
+	DnsServerRewrite *any `json:"dns_server_rewrite,omitempty"`
 	Dtim int32 `json:"dtim,omitempty"`
-	DynamicPsk *Object `json:"dynamic_psk,omitempty"`
-	DynamicVlan *Object `json:"dynamic_vlan,omitempty"`
+	DynamicPsk *any `json:"dynamic_psk,omitempty"`
+	DynamicVlan *any `json:"dynamic_vlan,omitempty"`
 	// enable AP-AP keycaching via multicast
 	EnableLocalKeycaching bool `json:"enable_local_keycaching,omitempty"`
 	// by default, we'd inspect all DHCP packets and drop those unrelated to the wireless client itself in the case where client is a wireless bridge (DHCP packets for other MACs will need to be orwarded), wireless_bridging can be enabled
@@ -96,10 +96,10 @@ type InlineResponse200113 struct {
 	HideSsid bool `json:"hide_ssid,omitempty"`
 	// include hostname inside IE in AP beacons / probe responses
 	HostnameIe bool `json:"hostname_ie,omitempty"`
-	Hotspot20 *Object `json:"hotspot20,omitempty"`
+	Hotspot20 *any `json:"hotspot20,omitempty"`
 	Id string `json:"id,omitempty"`
 	InjectDhcpOption82 *WlanInjectDhcpOption82 `json:"inject_dhcp_option_82,omitempty"`
-	Interface_ *Object `json:"interface,omitempty"`
+	Interface_ *any `json:"interface,omitempty"`
 	// whether to stop clients to talk to each other
 	Isolation bool `json:"isolation,omitempty"`
 	// if isolation is enabled, whether to deny clients to talk to L2 on the LAN
@@ -128,7 +128,7 @@ type InlineResponse200113 struct {
 	// whether to only allow client that we’ve learned from DHCP exchange to talk
 	NoStaticIp bool `json:"no_static_ip,omitempty"`
 	OrgId string `json:"org_id,omitempty"`
-	Portal *Object `json:"portal,omitempty"`
+	Portal *any `json:"portal,omitempty"`
 	// list of hostnames without http(s):// (matched by substring)
 	PortalAllowedHostnames []string `json:"portal_allowed_hostnames,omitempty"`
 	// list of CIDRs
@@ -143,10 +143,10 @@ type InlineResponse200113 struct {
 	// N.B portal_template will be forked out of wlan objects soon. To fetch portal_template, please query portal_template_url. To update portal_template, use Wlan Portal Template.
 	PortalTemplateUrl string `json:"portal_template_url,omitempty"`
 	Qos *WlanQos `json:"qos,omitempty"`
-	Radsec *Object `json:"radsec,omitempty"`
+	Radsec *any `json:"radsec,omitempty"`
 	Rateset map[string]WlanDatarates `json:"rateset,omitempty"`
-	RoamMode *Object `json:"roam_mode,omitempty"`
-	Schedule *Object `json:"schedule,omitempty"`
+	RoamMode *any `json:"roam_mode,omitempty"`
+	Schedule *any `json:"schedule,omitempty"`
 	SiteId string `json:"site_id,omitempty"`
 	// whether to exclude this WLAN from SLE metrics
 	SleExcluded bool `json:"sle_excluded,omitempty"`
@@ -159,7 +159,7 @@ type InlineResponse200113 struct {
 	UseEapolV1 bool `json:"use_eapol_v1,omitempty"`
 	// if vlan tagging is enabled
 	VlanEnabled bool `json:"vlan_enabled,omitempty"`
-	VlanId *Object `json:"vlan_id,omitempty"`
+	VlanId *any `json:"vlan_id,omitempty"`
 	// vlan_ids to use when there’s no match from RA
 	VlanIds []VlanIdWithVariable `json:"vlan_ids,omitempty"`
 	// vlan pooling allows AP to place client on different VLAN using a deterministic algorithm

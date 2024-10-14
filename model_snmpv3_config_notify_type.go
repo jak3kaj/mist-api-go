@@ -12,7 +12,3 @@ package swagger
 type Snmpv3ConfigNotifyType string
 
 // List of snmpv3_config_notify_type
-const (
-	INFORM_Snmpv3ConfigNotifyType Snmpv3ConfigNotifyType = "inform"
-	TRAP_Snmpv3ConfigNotifyType Snmpv3ConfigNotifyType = "trap"
-)

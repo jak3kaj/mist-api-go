@@ -12,7 +12,3 @@ package swagger
 type WlanPortalSsoNameidFormat string
 
 // List of wlan_portal_sso_nameid_format
-const (
-	EMAIL_WlanPortalSsoNameidFormat WlanPortalSsoNameidFormat = "email"
-	UNSPECIFIED_WlanPortalSsoNameidFormat WlanPortalSsoNameidFormat = "unspecified"
-)

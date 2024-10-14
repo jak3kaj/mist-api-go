@@ -12,10 +12,3 @@ package swagger
 type SiteWanClientEventsDistinct string
 
 // List of site_wan_client_events_distinct
-const (
-	HOSTNAME_SiteWanClientEventsDistinct SiteWanClientEventsDistinct = "hostname"
-	IP_SiteWanClientEventsDistinct SiteWanClientEventsDistinct = "ip"
-	MAC_SiteWanClientEventsDistinct SiteWanClientEventsDistinct = "mac"
-	MFG_SiteWanClientEventsDistinct SiteWanClientEventsDistinct = "mfg"
-	TYPE__SiteWanClientEventsDistinct SiteWanClientEventsDistinct = "type"
-)

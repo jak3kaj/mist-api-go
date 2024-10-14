@@ -12,14 +12,3 @@ package swagger
 type OrgClientsCountDistinct string
 
 // List of org_clients_count_distinct
-const (
-	AP_OrgClientsCountDistinct OrgClientsCountDistinct = "ap"
-	DEVICE_OrgClientsCountDistinct OrgClientsCountDistinct = "device"
-	HOSTNAME_OrgClientsCountDistinct OrgClientsCountDistinct = "hostname"
-	IP_OrgClientsCountDistinct OrgClientsCountDistinct = "ip"
-	MAC_OrgClientsCountDistinct OrgClientsCountDistinct = "mac"
-	MODEL_OrgClientsCountDistinct OrgClientsCountDistinct = "model"
-	OS_OrgClientsCountDistinct OrgClientsCountDistinct = "os"
-	SSID_OrgClientsCountDistinct OrgClientsCountDistinct = "ssid"
-	VLAN_OrgClientsCountDistinct OrgClientsCountDistinct = "vlan"
-)

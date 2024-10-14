@@ -12,15 +12,3 @@ package swagger
 type TunnelConfigsDhGroup string
 
 // List of tunnel_configs_dh_group
-const (
-	1__TunnelConfigsDhGroup TunnelConfigsDhGroup = "1"
-	14__TunnelConfigsDhGroup TunnelConfigsDhGroup = "14"
-	15__TunnelConfigsDhGroup TunnelConfigsDhGroup = "15"
-	16__TunnelConfigsDhGroup TunnelConfigsDhGroup = "16"
-	19__TunnelConfigsDhGroup TunnelConfigsDhGroup = "19"
-	2__TunnelConfigsDhGroup TunnelConfigsDhGroup = "2"
-	20__TunnelConfigsDhGroup TunnelConfigsDhGroup = "20"
-	21__TunnelConfigsDhGroup TunnelConfigsDhGroup = "21"
-	24__TunnelConfigsDhGroup TunnelConfigsDhGroup = "24"
-	5__TunnelConfigsDhGroup TunnelConfigsDhGroup = "5"
-)

@@ -12,8 +12,3 @@ package swagger
 type ClaimType string
 
 // List of claim_type
-const (
-	ALL_ClaimType ClaimType = "all"
-	INVENTORY_ClaimType ClaimType = "inventory"
-	LICENSE_ClaimType ClaimType = "license"
-)

@@ -10,17 +10,17 @@
 package swagger
 
 type InlineResponse20073 struct {
-	AccessType *Object `json:"access_type,omitempty"`
+	AccessType *any `json:"access_type,omitempty"`
 	// background image
 	BgImageUrl string `json:"bg_image_url,omitempty"`
 	// in days
 	CertExpireTime int32 `json:"cert_expire_time,omitempty"`
-	EapType *Object `json:"eap_type,omitempty"`
+	EapType *any `json:"eap_type,omitempty"`
 	// model, version, fingering, events (connecting, disconnect, roaming), which ap
 	EnableTelemetry bool `json:"enable_telemetry,omitempty"`
 	// in days
 	ExpiryNotificationTime int32 `json:"expiry_notification_time,omitempty"`
-	GuestPortalConfig *Object `json:"guest_portal_config,omitempty"`
+	GuestPortalConfig *any `json:"guest_portal_config,omitempty"`
 	Name string `json:"name,omitempty"`
 	// phase 2
 	NotifyExpiry bool `json:"notify_expiry,omitempty"`
@@ -29,5 +29,5 @@ type InlineResponse20073 struct {
 	TemplateUrl string `json:"template_url,omitempty"`
 	ThumbnailUrl string `json:"thumbnail_url,omitempty"`
 	Tos string `json:"tos,omitempty"`
-	Type_ *Object `json:"type,omitempty"`
+	Type_ *any `json:"type,omitempty"`
 }

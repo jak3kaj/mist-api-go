@@ -11,7 +11,7 @@ package swagger
 
 type InlineResponse20062 struct {
 	Error_ []string `json:"error"`
-	Op *Object `json:"op"`
+	Op *any `json:"op"`
 	Reason []string `json:"reason"`
 	Success []string `json:"success"`
 }

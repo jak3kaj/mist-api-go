@@ -15,7 +15,7 @@ type InlineResponse200194 struct {
 	// whether to force upgrade when requested version is same as running version
 	Force bool `json:"force,omitempty"`
 	Id string `json:"id,omitempty"`
-	Strategy *Object `json:"strategy,omitempty"`
+	Strategy *any `json:"strategy,omitempty"`
 	// version to upgrade to
 	TargetVersion string `json:"target_version,omitempty"`
 	Upgrades []ResponseUpgradeOrgDevice `json:"upgrades,omitempty"`

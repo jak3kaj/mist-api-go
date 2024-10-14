@@ -12,8 +12,3 @@ package swagger
 type RrmStatus string
 
 // List of rrm_status
-const (
-	READY_RrmStatus RrmStatus = "ready"
-	UNKNOWN_RrmStatus RrmStatus = "unknown"
-	UPDATING_RrmStatus RrmStatus = "updating"
-)

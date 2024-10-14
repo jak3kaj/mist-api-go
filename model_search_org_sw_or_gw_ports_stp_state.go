@@ -12,10 +12,3 @@ package swagger
 type SearchOrgSwOrGwPortsStpState string
 
 // List of search_org_sw_or_gw_ports_stp_state
-const (
-	BLOCKING_SearchOrgSwOrGwPortsStpState SearchOrgSwOrGwPortsStpState = "blocking"
-	DISABLED_SearchOrgSwOrGwPortsStpState SearchOrgSwOrGwPortsStpState = "disabled"
-	FORWARDING_SearchOrgSwOrGwPortsStpState SearchOrgSwOrGwPortsStpState = "forwarding"
-	LEARNING_SearchOrgSwOrGwPortsStpState SearchOrgSwOrGwPortsStpState = "learning"
-	LISTENING_SearchOrgSwOrGwPortsStpState SearchOrgSwOrGwPortsStpState = "listening"
-)
